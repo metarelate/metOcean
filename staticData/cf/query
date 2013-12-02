@@ -1,0 +1,35 @@
+
+ 
+PREFIX owl: <http://www.w3.org/TR/2004/REC-owl-semantics-20040210/#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX cfsn: <http://def.cfconventions.org/standard_name/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dc: <http://purl.org/dc/terms/>
+
+CONSTRUCT{
+?uri rdf:type skos:Concept ;
+     dc:source ?nercID ;
+     skos:prefLabel ?name ;
+     skos:notation ?sname ;
+     skos:definition ?def ;
+     skos:note ?canon .
+}
+WHERE
+{
+?nercID skos:prefLabel ?name ;
+        skos:definition ?def .
+
+BIND(str(?name) as ?sname)   
+BIND(ENCODE_FOR_URI(?name) as ?uriname)        
+BIND(URI(CONCAT("http://def.cfconventions.org/standard_names/", ?uriname)) as ?uri)
+FILTER(regex(str(?nercID), "http://vocab.nerc.ac.uk/collection/P07/current/"))
+FILTER(?name NOT IN ("Climate and Forecast Standard Names"))
+
+OPTIONAL{?nercID skos:related ?cunit.
+         ?cunit skos:altLabel ?cunitstr.
+	 FILTER(regex(str(?cunit), "http://vocab.nerc.ac.uk/collection/P06/current"))
+	 }
+BIND(CONCAT("'canonical_units': ", "'", str(?cunitstr), "'") as ?canon)
+
+}
+ORDER BY ?name

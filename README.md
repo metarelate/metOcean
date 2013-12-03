@@ -11,3 +11,8 @@ Dependencies
 ------------
 * metarelate - https://github.com/metarelate/metarelate
 
+To use this repository with metarelate, set your local environment variables:
+
+* METARELATE_STATIC_DIR='/path/to/your/working/copy/of/metOcean/staticData/'
+* METARELATE_TDB_DIR='/a/path/to/a/writeable/folder/for/a/local/triplestore'
+* METARELATE_DATA_PROJECT='metOcean' 

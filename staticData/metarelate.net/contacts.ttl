@@ -55,6 +55,11 @@ skos:prefLabel "scitools" ;
 skos:definition github:scitools ;
 dc:valid  "2012-10-08T08:30:13.498404"^^xsd:dateTime .
 
+<http://www.metarelate.net/metOcean/people/nhsavage> a skos:Concept ;
+skos:inScheme metoc:people ;
+skos:prefLabel "nhsavage" ;
+skos:definition github:nhsavage ;
+dc:valid  "2013-12-11T08:30:13.498404"^^xsd:dateTime .
 
 
 

@@ -8034,3 +8034,12 @@ map:cb9accf17e079ad479e9c8d3a2b9d9da9ef4f278
       mr:target     <http://www.metarelate.net/metOcean/component/053524a1baa02ae3ab1f95d5e4a9e73c4f3ceedb> ;
       skos:note     "migrated from Iris 1.5" .
 
+<http://www.metarelate.net/metOcean/mapping/26929aafeacb27f720f18c7aa7b6a37d44c5334a>
+      rdf:type      mr:Mapping ;
+      dc:creator    <http://www.metarelate.net/metOcean/people/bblay> ;
+      dc:date       "2014-01-10T11:14:06.118027"^^xsd:dateTime ;
+      mr:invertible  "True" ;
+      mr:reason     "new mapping" ;
+      mr:source     <http://www.metarelate.net/metOcean/component/df38bcfeccc6426b93acab8e3b861efb18079951> ;
+      mr:status     "Draft" ;
+      mr:target     <http://www.metarelate.net/metOcean/component/27b1d03077d55286c3db93d91535cf899b4525be> .

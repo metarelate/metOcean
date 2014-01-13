@@ -14359,3 +14359,24 @@
 
 
 
+<http://www.metarelate.net/metOcean/component/27b1d03077d55286c3db93d91535cf899b4525be>
+      rdf:type      mr:Component ;
+      mr:hasFormat  metocFormat:cf ;
+      mr:hasProperty  <http://www.metarelate.net/metOcean/property/0fb179b3d1c94d8b3e63d4a07fb395ef2083a205> ;
+      mr:hasProperty  <http://www.metarelate.net/metOcean/property/ab5ac235a3c2ddd084326ea3737a251eb3000f6e> ;
+      mr:hasProperty  <http://www.metarelate.net/metOcean/property/0b19ca499f5d5dd891f38c67a2c3a805ecf0e67a> ;
+	.
+<http://www.metarelate.net/metOcean/component/df38bcfeccc6426b93acab8e3b861efb18079951>
+      rdf:type      mr:Component ;
+      mr:hasFormat  metocFormat:grib ;
+      mr:hasProperty  <http://www.metarelate.net/metOcean/property/6fd321e0ab482c69967e31f7b1feb84966104d4c> ;
+      mr:hasProperty  <http://www.metarelate.net/metOcean/property/560019a9108cea943c64fe160d0f14c598ee81be> ;
+      mr:hasProperty  <http://www.metarelate.net/metOcean/property/4c66eaba8ce2e571c5dbbfe5eb6da56ec28731a2> ;
+      mr:hasProperty  <http://www.metarelate.net/metOcean/property/f4a22d9c33344633e57a3fe840546013e68532e4> ;
+	.
+<http://www.metarelate.net/metOcean/property/0b19ca499f5d5dd891f38c67a2c3a805ecf0e67a>
+      rdf:type      mr:Property ;
+      rdf:value     cfsn:wind_from_direction ;
+      mr:name       cfm:standard_name ;
+      mr:operator   openmathr1:eq ;
+	.

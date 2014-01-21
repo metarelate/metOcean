@@ -914,6 +914,14 @@
 	skos:member mofc:1138 ;
 	skos:member mofc:1139 ;
 	skos:member mofc:1140 ;
+	skos:member mofc:1141 ;
+	skos:member mofc:1142 ;
+	skos:member mofc:1143 ;
+	skos:member mofc:1144 ;
+	skos:member mofc:1145 ;
+	skos:member mofc:1146 ;
+	skos:member mofc:1147 ;
+	skos:member mofc:1148 ;
 	skos:member mofc:1149 ;
 	skos:member mofc:1150 ;
 	skos:member mofc:1151 ;
@@ -1247,6 +1255,34 @@
 	skos:member mofc:1650 ;
 	skos:member mofc:1651 ;
 	skos:member mofc:1652 ;
+	skos:member mofc:1653 ;
+	skos:member mofc:1654 ;
+	skos:member mofc:1655 ;
+	skos:member mofc:1656 ;
+	skos:member mofc:1657 ;
+	skos:member mofc:1658 ;
+	skos:member mofc:1659 ;
+	skos:member mofc:1660 ;
+	skos:member mofc:1661 ;
+	skos:member mofc:1662 ;
+	skos:member mofc:1663 ;
+	skos:member mofc:1664 ;
+	skos:member mofc:1665 ;
+	skos:member mofc:1666 ;
+	skos:member mofc:1667 ;
+	skos:member mofc:1668 ;
+	skos:member mofc:1669 ;
+	skos:member mofc:1670 ;
+	skos:member mofc:1671 ;
+	skos:member mofc:1672 ;
+	skos:member mofc:1673 ;
+	skos:member mofc:1674 ;
+	skos:member mofc:1675 ;
+	skos:member mofc:1676 ;
+	skos:member mofc:1677 ;
+	skos:member mofc:1678 ;
+	skos:member mofc:1679 ;
+	skos:member mofc:1680 ;
 	skos:member mofc:1681 ;
 	skos:member mofc:1682 ;
 	skos:member mofc:1683 ;
@@ -1474,14 +1510,48 @@
 	skos:member mofc:1905 ;
 	skos:member mofc:1906 ;
 	skos:member mofc:1907 ;
+	skos:member mofc:1908 ;
+	skos:member mofc:1909 ;
+	skos:member mofc:1910 ;
+	skos:member mofc:1911 ;
+	skos:member mofc:1912 ;
+	skos:member mofc:1913 ;
+	skos:member mofc:1914 ;
+	skos:member mofc:1915 ;
+	skos:member mofc:1916 ;
+	skos:member mofc:1917 ;
+	skos:member mofc:1918 ;
+	skos:member mofc:1919 ;
+	skos:member mofc:1920 ;
 	skos:member mofc:1921 ;
 	skos:member mofc:1922 ;
+	skos:member mofc:1923 ;
+	skos:member mofc:1924 ;
+	skos:member mofc:1925 ;
+	skos:member mofc:1926 ;
+	skos:member mofc:1927 ;
+	skos:member mofc:1928 ;
 	skos:member mofc:1929 ;
 	skos:member mofc:1930 ;
 	skos:member mofc:1931 ;
 	skos:member mofc:1932 ;
 	skos:member mofc:1933 ;
 	skos:member mofc:1934 ;
+	skos:member mofc:1935 ;
+	skos:member mofc:1936 ;
+	skos:member mofc:1937 ;
+	skos:member mofc:1938 ;
+	skos:member mofc:1939 ;
+	skos:member mofc:1940 ;
+	skos:member mofc:1941 ;
+	skos:member mofc:1942 ;
+	skos:member mofc:1943 ;
+	skos:member mofc:1944 ;
+	skos:member mofc:1945 ;
+	skos:member mofc:1946 ;
+	skos:member mofc:1947 ;
+	skos:member mofc:1948 ;
+	skos:member mofc:1949 ;
 	skos:member mofc:1950 ;
 	skos:member mofc:1951 ;
 	skos:member mofc:1952 ;
@@ -1509,6 +1579,10 @@
 	skos:member mofc:1974 ;
 	skos:member mofc:1975 ;
 	skos:member mofc:1976 ;
+	skos:member mofc:1977 ;
+	skos:member mofc:1978 ;
+	skos:member mofc:1979 ;
+	skos:member mofc:1980 ;
 	skos:member mofc:1981 ;
 	skos:member mofc:1982 ;
 	skos:member mofc:1983 ;
@@ -1526,6 +1600,14 @@
 	skos:member mofc:1995 ;
 	skos:member mofc:2001 ;
 	skos:member mofc:2002 ;
+	skos:member mofc:2003 ;
+	skos:member mofc:2004 ;
+	skos:member mofc:2005 ;
+	skos:member mofc:2006 ;
+	skos:member mofc:2007 ;
+	skos:member mofc:2008 ;
+	skos:member mofc:2009 ;
+	skos:member mofc:2010 ;
 	skos:member mofc:2011 ;
 	skos:member mofc:2020 ;
 	skos:member mofc:2021 ;
@@ -7658,9 +7740,65 @@ mofc:1139 a skos:Concept ;
 
 mofc:1140 a skos:Concept ;
 	skos:notation "1140" ;
-	skos:definition "- 1148  ......  Free for General use  ......" ;
-	skos:prefLabel "- 1148  ......  Free for General use  ......" ;
-	rdfs:label "- 1148  ......  Free for General use  ......" ;
+	skos:definition "......  Free for General use  ......" ;
+	skos:prefLabel "......  Free for General use  ......" ;
+	rdfs:label "......  Free for General use  ......" ;
+.
+
+mofc:1141 a skos:Concept ;
+	skos:notation "1141" ;
+	skos:definition "......  Free for General use  ......" ;
+	skos:prefLabel "......  Free for General use  ......" ;
+	rdfs:label "......  Free for General use  ......" ;
+.
+
+mofc:1142 a skos:Concept ;
+	skos:notation "1142" ;
+	skos:definition "......  Free for General use  ......" ;
+	skos:prefLabel "......  Free for General use  ......" ;
+	rdfs:label "......  Free for General use  ......" ;
+.
+
+mofc:1143 a skos:Concept ;
+	skos:notation "1143" ;
+	skos:definition "......  Free for General use  ......" ;
+	skos:prefLabel "......  Free for General use  ......" ;
+	rdfs:label "......  Free for General use  ......" ;
+.
+
+mofc:1144 a skos:Concept ;
+	skos:notation "1144" ;
+	skos:definition "......  Free for General use  ......" ;
+	skos:prefLabel "......  Free for General use  ......" ;
+	rdfs:label "......  Free for General use  ......" ;
+.
+
+mofc:1145 a skos:Concept ;
+	skos:notation "1145" ;
+	skos:definition "......  Free for General use  ......" ;
+	skos:prefLabel "......  Free for General use  ......" ;
+	rdfs:label "......  Free for General use  ......" ;
+.
+
+mofc:1146 a skos:Concept ;
+	skos:notation "1146" ;
+	skos:definition "......  Free for General use  ......" ;
+	skos:prefLabel "......  Free for General use  ......" ;
+	rdfs:label "......  Free for General use  ......" ;
+.
+
+mofc:1147 a skos:Concept ;
+	skos:notation "1147" ;
+	skos:definition "......  Free for General use  ......" ;
+	skos:prefLabel "......  Free for General use  ......" ;
+	rdfs:label "......  Free for General use  ......" ;
+.
+
+mofc:1148 a skos:Concept ;
+	skos:notation "1148" ;
+	skos:definition "......  Free for General use  ......" ;
+	skos:prefLabel "......  Free for General use  ......" ;
+	rdfs:label "......  Free for General use  ......" ;
 .
 
 mofc:1149 a skos:Concept ;
@@ -9835,9 +9973,9 @@ mofc:1629 a skos:Concept ;
 
 mofc:1630 a skos:Concept ;
 	skos:notation "1630" ;
-	skos:definition "-1680 Reserved Mineral Dust numbers for S Woodward" ;
-	skos:prefLabel "-1680 Reserved Mineral Dust numbers for S Woodward" ;
-	rdfs:label "-1680 Reserved Mineral Dust numbers for S Woodward" ;
+	skos:definition "Soil clay fraction (ancil)" ;
+	skos:prefLabel "Soil clay fraction (ancil)" ;
+	rdfs:label "Soil clay fraction (ancil)" ;
 .
 
 mofc:1631 a skos:Concept ;
@@ -9992,6 +10130,202 @@ mofc:1652 a skos:Concept ;
 	skos:definition "MW surface emissivity (stdev)" ;
 	skos:prefLabel "MW surface emissivity (stdev)" ;
 	rdfs:label "MW surface emissivity (stdev)" ;
+.
+
+mofc:1653 a skos:Concept ;
+	skos:notation "1653" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1654 a skos:Concept ;
+	skos:notation "1654" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1655 a skos:Concept ;
+	skos:notation "1655" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1656 a skos:Concept ;
+	skos:notation "1656" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1657 a skos:Concept ;
+	skos:notation "1657" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1658 a skos:Concept ;
+	skos:notation "1658" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1659 a skos:Concept ;
+	skos:notation "1659" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1660 a skos:Concept ;
+	skos:notation "1660" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1661 a skos:Concept ;
+	skos:notation "1661" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1662 a skos:Concept ;
+	skos:notation "1662" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1663 a skos:Concept ;
+	skos:notation "1663" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1664 a skos:Concept ;
+	skos:notation "1664" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1665 a skos:Concept ;
+	skos:notation "1665" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1666 a skos:Concept ;
+	skos:notation "1666" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1667 a skos:Concept ;
+	skos:notation "1667" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1668 a skos:Concept ;
+	skos:notation "1668" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1669 a skos:Concept ;
+	skos:notation "1669" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1670 a skos:Concept ;
+	skos:notation "1670" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1671 a skos:Concept ;
+	skos:notation "1671" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1672 a skos:Concept ;
+	skos:notation "1672" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1673 a skos:Concept ;
+	skos:notation "1673" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1674 a skos:Concept ;
+	skos:notation "1674" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1675 a skos:Concept ;
+	skos:notation "1675" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1676 a skos:Concept ;
+	skos:notation "1676" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1677 a skos:Concept ;
+	skos:notation "1677" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1678 a skos:Concept ;
+	skos:notation "1678" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1679 a skos:Concept ;
+	skos:notation "1679" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
+.
+
+mofc:1680 a skos:Concept ;
+	skos:notation "1680" ;
+	skos:definition "Reserved Mineral Dust numbers for S Woodward" ;
+	skos:prefLabel "Reserved Mineral Dust numbers for S Woodward" ;
+	rdfs:label "Reserved Mineral Dust numbers for S Woodward" ;
 .
 
 mofc:1681 a skos:Concept ;
@@ -11234,23 +11568,114 @@ mofc:1904 a skos:Concept ;
 
 mofc:1905 a skos:Concept ;
 	skos:notation "1905" ;
-	skos:definition "- 1920 Reserved River Routing for Cyndy Bunton. W Roseblade " ;
-	skos:prefLabel "- 1920 Reserved River Routing for Cyndy Bunton. W Roseblade " ;
-	rdfs:label "- 1920 Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	skos:definition "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	skos:prefLabel "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	rdfs:label "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
 .
 
 mofc:1906 a skos:Concept ;
 	skos:notation "1906" ;
-	skos:definition "- INLAND BASIN OUTFLOW ON TRIP RIVER ROUTING GRID    KG/M2/S" ;
-	skos:prefLabel "- INLAND BASIN OUTFLOW ON TRIP RIVER ROUTING GRID    KG/M2/S" ;
-	rdfs:label "- INLAND BASIN OUTFLOW ON TRIP RIVER ROUTING GRID    KG/M2/S" ;
+	skos:definition "INLAND BASIN OUTFLOW ON TRIP RIVER ROUTING GRID    KG/M2/S" ;
+	skos:prefLabel "INLAND BASIN OUTFLOW ON TRIP RIVER ROUTING GRID    KG/M2/S" ;
+	rdfs:label "INLAND BASIN OUTFLOW ON TRIP RIVER ROUTING GRID    KG/M2/S" ;
 .
 
 mofc:1907 a skos:Concept ;
 	skos:notation "1907" ;
-	skos:definition "- INLAND BASIN OUTFLOW ON ATMOSPHERE GRID    KG/M2/S" ;
-	skos:prefLabel "- INLAND BASIN OUTFLOW ON ATMOSPHERE GRID    KG/M2/S" ;
-	rdfs:label "- INLAND BASIN OUTFLOW ON ATMOSPHERE GRID    KG/M2/S" ;
+	skos:definition "INLAND BASIN OUTFLOW ON ATMOSPHERE GRID    KG/M2/S" ;
+	skos:prefLabel "INLAND BASIN OUTFLOW ON ATMOSPHERE GRID    KG/M2/S" ;
+	rdfs:label "INLAND BASIN OUTFLOW ON ATMOSPHERE GRID    KG/M2/S" ;
+.
+
+mofc:1908 a skos:Concept ;
+	skos:notation "1908" ;
+	skos:definition "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	skos:prefLabel "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	rdfs:label "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+.
+
+mofc:1909 a skos:Concept ;
+	skos:notation "1909" ;
+	skos:definition "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	skos:prefLabel "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	rdfs:label "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+.
+
+mofc:1910 a skos:Concept ;
+	skos:notation "1910" ;
+	skos:definition "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	skos:prefLabel "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	rdfs:label "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+.
+
+mofc:1911 a skos:Concept ;
+	skos:notation "1911" ;
+	skos:definition "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	skos:prefLabel "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	rdfs:label "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+.
+
+mofc:1912 a skos:Concept ;
+	skos:notation "1912" ;
+	skos:definition "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	skos:prefLabel "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	rdfs:label "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+.
+
+mofc:1913 a skos:Concept ;
+	skos:notation "1913" ;
+	skos:definition "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	skos:prefLabel "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	rdfs:label "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+.
+
+mofc:1914 a skos:Concept ;
+	skos:notation "1914" ;
+	skos:definition "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	skos:prefLabel "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	rdfs:label "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+.
+
+mofc:1915 a skos:Concept ;
+	skos:notation "1915" ;
+	skos:definition "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	skos:prefLabel "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	rdfs:label "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+.
+
+mofc:1916 a skos:Concept ;
+	skos:notation "1916" ;
+	skos:definition "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	skos:prefLabel "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	rdfs:label "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+.
+
+mofc:1917 a skos:Concept ;
+	skos:notation "1917" ;
+	skos:definition "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	skos:prefLabel "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	rdfs:label "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+.
+
+mofc:1918 a skos:Concept ;
+	skos:notation "1918" ;
+	skos:definition "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	skos:prefLabel "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	rdfs:label "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+.
+
+mofc:1919 a skos:Concept ;
+	skos:notation "1919" ;
+	skos:definition "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	skos:prefLabel "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	rdfs:label "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+.
+
+mofc:1920 a skos:Concept ;
+	skos:notation "1920" ;
+	skos:definition "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	skos:prefLabel "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
+	rdfs:label "Reserved River Routing for Cyndy Bunton. W Roseblade " ;
 .
 
 mofc:1921 a skos:Concept ;
@@ -11262,9 +11687,51 @@ mofc:1921 a skos:Concept ;
 
 mofc:1922 a skos:Concept ;
 	skos:notation "1922" ;
-	skos:definition "- 1928 General Atmos Codes" ;
-	skos:prefLabel "- 1928 General Atmos Codes" ;
-	rdfs:label "- 1928 General Atmos Codes" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1923 a skos:Concept ;
+	skos:notation "1923" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1924 a skos:Concept ;
+	skos:notation "1924" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1925 a skos:Concept ;
+	skos:notation "1925" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1926 a skos:Concept ;
+	skos:notation "1926" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1927 a skos:Concept ;
+	skos:notation "1927" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1928 a skos:Concept ;
+	skos:notation "1928" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
 .
 
 mofc:1929 a skos:Concept ;
@@ -11304,9 +11771,114 @@ mofc:1933 a skos:Concept ;
 
 mofc:1934 a skos:Concept ;
 	skos:notation "1934" ;
-	skos:definition "- 1950 General Atmos Codes" ;
-	skos:prefLabel "- 1950 General Atmos Codes" ;
-	rdfs:label "- 1950 General Atmos Codes" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1935 a skos:Concept ;
+	skos:notation "1935" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1936 a skos:Concept ;
+	skos:notation "1936" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1937 a skos:Concept ;
+	skos:notation "1937" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1938 a skos:Concept ;
+	skos:notation "1938" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1939 a skos:Concept ;
+	skos:notation "1939" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1940 a skos:Concept ;
+	skos:notation "1940" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1941 a skos:Concept ;
+	skos:notation "1941" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1942 a skos:Concept ;
+	skos:notation "1942" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1943 a skos:Concept ;
+	skos:notation "1943" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1944 a skos:Concept ;
+	skos:notation "1944" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1945 a skos:Concept ;
+	skos:notation "1945" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1946 a skos:Concept ;
+	skos:notation "1946" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1947 a skos:Concept ;
+	skos:notation "1947" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1948 a skos:Concept ;
+	skos:notation "1948" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
+.
+
+mofc:1949 a skos:Concept ;
+	skos:notation "1949" ;
+	skos:definition "General Atmos Codes" ;
+	skos:prefLabel "General Atmos Codes" ;
+	rdfs:label "General Atmos Codes" ;
 .
 
 mofc:1950 a skos:Concept ;
@@ -11493,9 +12065,37 @@ mofc:1975 a skos:Concept ;
 
 mofc:1976 a skos:Concept ;
 	skos:notation "1976" ;
-	skos:definition "- 1980 reserved for any further Wave " ;
-	skos:prefLabel "- 1980 reserved for any further Wave " ;
-	rdfs:label "- 1980 reserved for any further Wave " ;
+	skos:definition "reserved for any further Wave " ;
+	skos:prefLabel "reserved for any further Wave " ;
+	rdfs:label "reserved for any further Wave " ;
+.
+
+mofc:1977 a skos:Concept ;
+	skos:notation "1977" ;
+	skos:definition "reserved for any further Wave " ;
+	skos:prefLabel "reserved for any further Wave " ;
+	rdfs:label "reserved for any further Wave " ;
+.
+
+mofc:1978 a skos:Concept ;
+	skos:notation "1978" ;
+	skos:definition "reserved for any further Wave " ;
+	skos:prefLabel "reserved for any further Wave " ;
+	rdfs:label "reserved for any further Wave " ;
+.
+
+mofc:1979 a skos:Concept ;
+	skos:notation "1979" ;
+	skos:definition "reserved for any further Wave " ;
+	skos:prefLabel "reserved for any further Wave " ;
+	rdfs:label "reserved for any further Wave " ;
+.
+
+mofc:1980 a skos:Concept ;
+	skos:notation "1980" ;
+	skos:definition "reserved for any further Wave " ;
+	skos:prefLabel "reserved for any further Wave " ;
+	rdfs:label "reserved for any further Wave " ;
 .
 
 mofc:1981 a skos:Concept ;
@@ -11605,16 +12205,72 @@ mofc:1995 a skos:Concept ;
 
 mofc:2001 a skos:Concept ;
 	skos:notation "2001" ;
-	skos:definition "-2010 : PP Vertical Codes (LBVC)" ;
-	skos:prefLabel "-2010 : PP Vertical Codes (LBVC)" ;
-	rdfs:label "-2010 : PP Vertical Codes (LBVC)" ;
+	skos:definition "-70 deg.C level" ;
+	skos:prefLabel "-70 deg.C level" ;
+	rdfs:label "-70 deg.C level" ;
 .
 
 mofc:2002 a skos:Concept ;
 	skos:notation "2002" ;
-	skos:definition "-2010  Reserved" ;
-	skos:prefLabel "-2010  Reserved" ;
-	rdfs:label "-2010  Reserved" ;
+	skos:definition "Reserved" ;
+	skos:prefLabel "Reserved" ;
+	rdfs:label "Reserved" ;
+.
+
+mofc:2003 a skos:Concept ;
+	skos:notation "2003" ;
+	skos:definition "Reserved" ;
+	skos:prefLabel "Reserved" ;
+	rdfs:label "Reserved" ;
+.
+
+mofc:2004 a skos:Concept ;
+	skos:notation "2004" ;
+	skos:definition "Reserved" ;
+	skos:prefLabel "Reserved" ;
+	rdfs:label "Reserved" ;
+.
+
+mofc:2005 a skos:Concept ;
+	skos:notation "2005" ;
+	skos:definition "Reserved" ;
+	skos:prefLabel "Reserved" ;
+	rdfs:label "Reserved" ;
+.
+
+mofc:2006 a skos:Concept ;
+	skos:notation "2006" ;
+	skos:definition "Reserved" ;
+	skos:prefLabel "Reserved" ;
+	rdfs:label "Reserved" ;
+.
+
+mofc:2007 a skos:Concept ;
+	skos:notation "2007" ;
+	skos:definition "Reserved" ;
+	skos:prefLabel "Reserved" ;
+	rdfs:label "Reserved" ;
+.
+
+mofc:2008 a skos:Concept ;
+	skos:notation "2008" ;
+	skos:definition "Reserved" ;
+	skos:prefLabel "Reserved" ;
+	rdfs:label "Reserved" ;
+.
+
+mofc:2009 a skos:Concept ;
+	skos:notation "2009" ;
+	skos:definition "Reserved" ;
+	skos:prefLabel "Reserved" ;
+	rdfs:label "Reserved" ;
+.
+
+mofc:2010 a skos:Concept ;
+	skos:notation "2010" ;
+	skos:definition "Reserved" ;
+	skos:prefLabel "Reserved" ;
+	rdfs:label "Reserved" ;
 .
 
 mofc:2011 a skos:Concept ;

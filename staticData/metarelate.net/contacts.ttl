@@ -68,3 +68,12 @@ skos:prefLabel "bblay" ;
 skos:definition github:bblay ;
 dc:valid  "2014-01-10T10:55:00.000000"^^xsd:dateTime .
 
+
+<http://www.metarelate.net/metOcean/people/a75ae01de2cd1665f62bc38db76016d5b9b184e1>
+      rdf:type      skos:Concept ;
+      dc:valid      "2014-01-22T12:11:05.973077"^^xsd:dateTime ;
+      skos:definition  github:pp-mo ;
+      skos:inScheme  metoc:people ;
+      skos:prefLabel  "ppeglar" .
+
+

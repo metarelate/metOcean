@@ -8043,3 +8043,76 @@ map:cb9accf17e079ad479e9c8d3a2b9d9da9ef4f278
       mr:source     <http://www.metarelate.net/metOcean/component/df38bcfeccc6426b93acab8e3b861efb18079951> ;
       mr:status     "Draft" ;
       mr:target     <http://www.metarelate.net/metOcean/component/27b1d03077d55286c3db93d91535cf899b4525be> .
+
+<http://www.metarelate.net/metOcean/mapping/649d2f2d205e792741f96f54921223a400efd336>
+      rdf:type      mr:Mapping ;
+      dc:creator    <http://www.metarelate.net/metOcean/people/a75ae01de2cd1665f62bc38db76016d5b9b184e1> ;
+      dc:date       "2014-01-22T12:11:38.635735"^^xsd:dateTime ;
+      mr:invertible  "True" ;
+      mr:reason     "new mapping" ;
+      mr:source     <http://www.metarelate.net/metOcean/component/0e9466869578ed37ce1033b354ffbc1c8da06936> ;
+      mr:status     "Draft" ;
+      mr:target     <http://www.metarelate.net/metOcean/component/ac75d2989e8aa01aac08d751154bee81a434c5ca> .
+
+<http://www.metarelate.net/metOcean/mapping/29942f9b0581e635af0f64b72a25f27c27b6d5f5>
+      rdf:type      mr:Mapping ;
+      dc:creator    <http://www.metarelate.net/metOcean/people/a75ae01de2cd1665f62bc38db76016d5b9b184e1> ;
+      dc:date       "2014-01-22T12:12:01.468599"^^xsd:dateTime ;
+      dc:replaces   <http://www.metarelate.net/metOcean/mapping/649d2f2d205e792741f96f54921223a400efd336> ;
+      mr:invertible  "False" ;
+      mr:reason     "new mapping" ;
+      mr:source     <http://www.metarelate.net/metOcean/component/0e9466869578ed37ce1033b354ffbc1c8da06936> ;
+      mr:status     "Draft" ;
+      mr:target     <http://www.metarelate.net/metOcean/component/ac75d2989e8aa01aac08d751154bee81a434c5ca> .
+
+<http://www.metarelate.net/metOcean/mapping/746cf74957b4cb3947d29986583ba63b94ecb665>
+      rdf:type      mr:Mapping ;
+      dc:creator    <http://www.metarelate.net/metOcean/people/a75ae01de2cd1665f62bc38db76016d5b9b184e1> ;
+      dc:date       "2014-01-22T12:14:20.742797"^^xsd:dateTime ;
+      mr:invertible  "False" ;
+      mr:reason     "new mapping" ;
+      mr:source     <http://www.metarelate.net/metOcean/component/fe08c216e0578e6953d94d271bee6febe5787bc8> ;
+      mr:status     "Draft" ;
+      mr:target     <http://www.metarelate.net/metOcean/component/7c5478fddf2873851674bd8e794982c2a032299c> .
+
+map:ea13e25d33fb00b70fc82334ae13a2022443f9cb
+      rdf:type      mr:Mapping ;
+      dc:creator    <http://www.metarelate.net/metOcean/people/a75ae01de2cd1665f62bc38db76016d5b9b184e1> ;
+      dc:date       "2014-01-22T12:28:10.466387"^^xsd:dateTime ;
+      mr:invertible  "False" ;
+      mr:reason     "new mapping" ;
+      mr:source     <http://www.metarelate.net/metOcean/component/a207a5cb38ff70be5ff6d934bf15f060021c1680> ;
+      mr:status     "Draft" ;
+      mr:target     <http://www.metarelate.net/metOcean/component/a4200289326a40477d2ebee44097a7e34bdab51a> .
+
+map:c414fa435aa529f5173b2e2dbb449f4c6a4e2fb1
+      rdf:type      mr:Mapping ;
+      dc:creator    <http://www.metarelate.net/metOcean/people/a75ae01de2cd1665f62bc38db76016d5b9b184e1> ;
+      dc:date       "2014-01-22T12:17:56.141677"^^xsd:dateTime ;
+      mr:invertible  "False" ;
+      mr:reason     "new mapping" ;
+      mr:source     <http://www.metarelate.net/metOcean/component/77a7519404c4818af819ad0b3f5cbeedaeeab038> ;
+      mr:status     "Draft" ;
+      mr:target     <http://www.metarelate.net/metOcean/component/e7150e42d8d3a670802ab18f07ec1a14c242f03e> .
+
+map:e21141df9736450ee4d6469ec93c8b497c7a5c80
+      rdf:type      mr:Mapping ;
+      dc:creator    <http://www.metarelate.net/metOcean/people/a75ae01de2cd1665f62bc38db76016d5b9b184e1> ;
+      dc:date       "2014-01-22T12:22:32.177735"^^xsd:dateTime ;
+      mr:invertible  "False" ;
+      mr:reason     "new mapping" ;
+      mr:source     <http://www.metarelate.net/metOcean/component/07e6f1648e21d3cc2c9d0f71035a6ad08c41d1b3> ;
+      mr:status     "Draft" ;
+      mr:target     <http://www.metarelate.net/metOcean/component/9f2eaf3d27f7ab9651ad7874ff78aa9efae6f697> .
+
+map:eb64da9f0a5cf64899acfe7b31167d1342f4ae46
+      rdf:type      mr:Mapping ;
+      dc:creator    <http://www.metarelate.net/metOcean/people/a75ae01de2cd1665f62bc38db76016d5b9b184e1> ;
+      dc:date       "2014-01-22T12:30:01.780335"^^xsd:dateTime ;
+      mr:invertible  "False" ;
+      mr:reason     "new mapping" ;
+      mr:source     <http://www.metarelate.net/metOcean/component/56fbee8e6fcd26e4dd162f4d298b132af12f8ce8> ;
+      mr:status     "Draft" ;
+      mr:target     <http://www.metarelate.net/metOcean/component/eb0cff0dde71ca22661af266a36e12ebd6fbfe5d> .
+
+

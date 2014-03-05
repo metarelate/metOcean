@@ -1,10 +1,19 @@
-#(C) British Crown Copyright 2011 - 2012, Met Office This file is part of metOcean.
-#metOcean is free software: you can redistribute it and/or modify it under the terms of the
-#GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License,
-#or (at your option) any later version. metOcean is distributed in the hope that it will be useful,
-#but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-#See the GNU Lesser General Public License for more details. You should have received a copy of the
-#GNU Lesser General Public License along with metOcean. If not, see http://www.gnu.org/licenses/."
+#(C) British Crown Copyright 2012 - 2014 , Met Office 
+#
+# This file is part of metOcean.
+#
+# metOcean is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Lesser General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# metOcean distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with metOcean.  If not, see <http://www.gnu.org/licenses/>.
 
 @prefix cfm: <http://def.cfconventions.org/datamodel/> .
 @prefix cfsn: <http://def.cfconventions.org/standard_names/> .
@@ -12,19 +21,14 @@
 @prefix github: <https://github.com/> .
 @prefix gribapi: <http://def.ecmwf.int/api/grib/keys/> .
 @prefix map: <http://www.metarelate.net/metOcean/mapping/> .
-@prefix meta: <http://reference.metoffice.gov.uk/data/wmo/def/met#> .
-@prefix metamap: <http://reference.metoffice.gov.uk/data/wmo/meta/mapping#> .
 @prefix metoc: <http://www.metarelate.net/metOcean/> .
 @prefix metocFormat: <http://www.metarelate.net/metOcean/format/> .
 @prefix metocMed: <http://www.metarelate.net/metOcean/mediator/> .
-@prefix moStCon: <http://reference.metoffice.gov.uk/def/um/stash/concept/> .
-@prefix moStEG: <http://reference.metoffice.gov.uk/def/um/stash/endgame/> .
-@prefix moStND: <http://reference.metoffice.gov.uk/def/um/stash/new_dynamics/> .
-@prefix mofc: <http://reference.metoffice.gov.uk/def/um/fieldcode/> .
-@prefix momet08: <http://reference.metoffice.gov.uk/def/um/met08/> .
-@prefix moumdpC4: <http://reference.metoffice.gov.uk/def/um/umdp/c4/> .
-@prefix moumdpC4Pseud: <http://reference.metoffice.gov.uk/def/um/umdp/c4/pseudo/> .
-@prefix moumdpF3: <http://reference.metoffice.gov.uk/def/um/umdp/F3/> .
+@prefix moStCon: <http://reference.metoffice.gov.uk/um/stash/> .
+@prefix mofc: <http://reference.metoffice.gov.uk/um/fieldcode/> .
+@prefix moumdpC4: <http://reference.metoffice.gov.uk/um/c4/> .
+@prefix moumdpC4Pseud: <http://reference.metoffice.gov.uk/um/c4/pseudo/> .
+@prefix moumdpF3: <http://reference.metoffice.gov.uk/um/f3/> .
 @prefix mr: <http://www.metarelate.net/vocabulary/index.html#> .
 @prefix openmatha1: <http://www.openmath.org/cd/arith1.xhtml#> .
 @prefix openmathr1: <http://www.openmath.org/cd/relation1.xhtml#> .
@@ -98,14 +102,14 @@
 
 <http://www.metarelate.net/metOcean/property/a20ca64aae26752139fbdec046068f565272afc8>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/336> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/336> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
 
 <http://www.metarelate.net/metOcean/property/43e2afc330050cb9cd88d8777884e34008c9c98b>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1392> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1392> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -363,7 +367,7 @@
 
 <http://www.metarelate.net/metOcean/property/0704d9a64a8e0fc656be3cacb962cc58cb1c14dc>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/108> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/108> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -438,7 +442,7 @@
 
 <http://www.metarelate.net/metOcean/property/99900f7db7a6ca0ca13496b28c99e52d92196719>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/328> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/328> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -499,7 +503,7 @@
 
 <http://www.metarelate.net/metOcean/property/eecc2f82bf8cc2038ed3aa057cd0541bf625a1d0>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1395> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1395> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -528,7 +532,7 @@
 
 <http://www.metarelate.net/metOcean/property/e34fded368afac8c9bac6a3018fe9154c813badd>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/42> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/42> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -652,7 +656,7 @@
 
 <http://www.metarelate.net/metOcean/property/b468cd47f3e6488c7d6f66db3ae103e91309dcb6>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/97> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/97> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -692,7 +696,7 @@
 
 <http://www.metarelate.net/metOcean/property/8df8112ed092c73f4455af45d00c1d9b93057a66>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/335> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/335> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -792,7 +796,7 @@
 
 <http://www.metarelate.net/metOcean/property/82ec11cfc722e8c0871a54eb0aa2c3b910557597>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/30> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/30> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -1000,7 +1004,7 @@
 
 <http://www.metarelate.net/metOcean/property/03fa9c5c905ae9f290b982dadf7632ccc206d094>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/329> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/329> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -1084,7 +1088,7 @@
 
 <http://www.metarelate.net/metOcean/property/6898d2801f7af4ffca454ea88435fd51c5322b11>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/99> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/99> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -1234,7 +1238,7 @@
 
 <http://www.metarelate.net/metOcean/property/a051cef7ea86b28988e46c2cf53f557e1f43db6e>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/16> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/16> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -1361,7 +1365,7 @@
 
 <http://www.metarelate.net/metOcean/property/ffc16cd016a6fdde4dcb60fa5c7e7a2056ff48d2>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/182> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/182> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -1422,7 +1426,7 @@
 
 <http://www.metarelate.net/metOcean/property/d0f737a5a80530f659983b5ce7236914d0b6de8e>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/36> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/36> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -1547,7 +1551,7 @@
 
 <http://www.metarelate.net/metOcean/property/d94eccd005a4e846d86a63a89769a7c7eab81a89>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/207> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/207> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -1569,7 +1573,7 @@
 
 <http://www.metarelate.net/metOcean/property/7e71d43f31ef9d36ea3935795249691e2dce1099>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/261> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/261> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -1687,7 +1691,7 @@
 
 <http://www.metarelate.net/metOcean/property/ea5cf7b2488eba529f1fdb248e1762fa1621ff78>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/122> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/122> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -1889,7 +1893,7 @@
 
 <http://www.metarelate.net/metOcean/property/e75e905a1ea3d14075b9baa6d9b4a3505a96fbe6>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/982> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/982> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -1993,14 +1997,14 @@
 
 <http://www.metarelate.net/metOcean/property/e8aa9d80720e12aa8b6dd8d018d16f0622adc115>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/702> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/702> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
 
 <http://www.metarelate.net/metOcean/property/0c1415671b0831dbeff2ab8a5da5ae9a884cfeeb>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/60> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/60> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -2316,14 +2320,14 @@
 
 <http://www.metarelate.net/metOcean/property/ef4c82a955494c49a51793ba69b475870424a4c4>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/981> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/981> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
 
 <http://www.metarelate.net/metOcean/property/66c9c810b1e2d8d9f106376cd010e059db2c9c92>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1532> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1532> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -2443,7 +2447,7 @@
 
 <http://www.metarelate.net/metOcean/property/83f6510d02bf2954a3fae2f6d683dcffe830decf>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/111> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/111> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -2649,7 +2653,7 @@
 
 <http://www.metarelate.net/metOcean/property/c8e35d5ee917dfcaab2d2df2a356d2379d06afe1>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/40> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/40> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -2676,7 +2680,7 @@
 
 <http://www.metarelate.net/metOcean/property/7277df0dd1899e0baea7ec342153d9a7585cbf76>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1373> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1373> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -2923,7 +2927,7 @@
 
 <http://www.metarelate.net/metOcean/property/54a589e9ec849058b0710d54fac14f93de7fafec>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/82> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/82> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -2968,7 +2972,7 @@
 
 <http://www.metarelate.net/metOcean/property/9b27c1f585546a9a5112eafea8c1a620f8bc7348>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/62> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/62> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -3128,14 +3132,14 @@
 
 <http://www.metarelate.net/metOcean/property/fa14e8dd336bac0914bef3c675aaa619ef4f4dae>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/453> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/453> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
 
 <http://www.metarelate.net/metOcean/property/cb06bf6fd6b3c1e609a1cfcbcaf16a839924de2f>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/201> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/201> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -3149,7 +3153,7 @@
 
 <http://www.metarelate.net/metOcean/property/6b006ea4565de14a28ba7ca5a6fa92828fb3b011>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1374> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1374> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -3292,7 +3296,7 @@
 
 <http://www.metarelate.net/metOcean/property/4afc13f6776003aeb543a5a3cc9dfe5aec103799>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/73> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/73> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -3403,7 +3407,7 @@
 
 <http://www.metarelate.net/metOcean/property/3f2ca1d55652a258d2e3aac08f81334f9b1ee2ca>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1397> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1397> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -3647,7 +3651,7 @@
 
 <http://www.metarelate.net/metOcean/property/f8b7f1caa9d494a8f67a9641d0dc777e04c879cb>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/63> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/63> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -3816,7 +3820,7 @@
 
 <http://www.metarelate.net/metOcean/property/1418bfacd65f341dd0de0e33e1db5cf9eaa3098a>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/984> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/984> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -3909,7 +3913,7 @@
 
 <http://www.metarelate.net/metOcean/property/c08d80f552de4b282d6ff55440c5f518471cd36d>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/178> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/178> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -3923,7 +3927,7 @@
 
 <http://www.metarelate.net/metOcean/property/708994bd15fbaa3621e681bcc725ce0f0a12c66d>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/210> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/210> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -4040,7 +4044,7 @@
 
 <http://www.metarelate.net/metOcean/property/a87ad215c2a892a1e55c3c0c9dc416d8f3a474df>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/203> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/203> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -4291,7 +4295,7 @@
 
 <http://www.metarelate.net/metOcean/property/50b08903c54411ada122a1a58222f08d8762959b>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/187> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/187> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -4421,7 +4425,7 @@
 
 <http://www.metarelate.net/metOcean/property/d28d71420d7974f830106346b701cf7ee3a51f29>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/50> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/50> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -4569,7 +4573,7 @@
 
 <http://www.metarelate.net/metOcean/property/1d07d45c846d8a0f5e70a5ce0827a68ea696ae80>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/186> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/186> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -4611,7 +4615,7 @@
 
 <http://www.metarelate.net/metOcean/property/ad54834c057c542f08c0764dd7555bddb52fa1fe>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1720> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1720> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -4708,7 +4712,7 @@
 
 <http://www.metarelate.net/metOcean/property/217ae33c495692ae16c0989e8d9eb95c752dc8c3>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -4837,7 +4841,7 @@
 
 <http://www.metarelate.net/metOcean/property/5b0f74a12b26b20f2ab73a90c01c7a0bf3999124>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/117> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/117> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -5064,7 +5068,7 @@
 
 <http://www.metarelate.net/metOcean/property/5dd0fc86fd67549bb1127a2494703312a812c4cf>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/78> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/78> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -5098,7 +5102,7 @@
 
 <http://www.metarelate.net/metOcean/property/5f83e0058dfb92691341a6264e9d46d3adf76329>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/95> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/95> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -5185,14 +5189,14 @@
 
 <http://www.metarelate.net/metOcean/property/c13e8a7e6a8fe55a345f18f57b34248eb398df59>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/118> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/118> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
 
 <http://www.metarelate.net/metOcean/property/b15d73b843d24542ea8583c8aa83fec7f536b15d>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/206> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/206> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -5332,14 +5336,14 @@
 
 <http://www.metarelate.net/metOcean/property/2d8a5f09b7e2ea6eddff76c0e2bc7377dbeece1b>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/5> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/5> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
 
 <http://www.metarelate.net/metOcean/property/b1734c47512bf4d5a5bf501281bad33a1182450d>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/183> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/183> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -5498,7 +5502,7 @@
 
 <http://www.metarelate.net/metOcean/property/bad27981df6f8df3b1155c5ee7ef55eb51bcb760>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/79> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/79> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -5550,7 +5554,7 @@
 
 <http://www.metarelate.net/metOcean/property/1826238bec7370921f94028e7d9ce82c270edf2b>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/253> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/253> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -5695,7 +5699,7 @@
 
 <http://www.metarelate.net/metOcean/property/d27289f0c08cfcf9807bcd69bad5c03b89a7437c>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1385> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1385> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -5723,7 +5727,7 @@
 
 <http://www.metarelate.net/metOcean/property/ba78f088c7ab4f138f4c614a61d524c2a809d349>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/116> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/116> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -5899,7 +5903,7 @@
 
 <http://www.metarelate.net/metOcean/property/8b228c85788c2c59e9d1f3096151bb9a4f6884c2>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1533> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1533> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -5957,7 +5961,7 @@
 
 <http://www.metarelate.net/metOcean/property/a9c4ad6ca167395655bb697024984ab79516ca74>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/7> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/7> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -6112,7 +6116,7 @@
 
 <http://www.metarelate.net/metOcean/property/1b19f6c965abb3d91afc307fe611c45f067f7d52>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1559> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1559> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -6141,7 +6145,7 @@
 
 <http://www.metarelate.net/metOcean/property/307cb118039f5d9b8c56e4790afba79b8d4daada>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/395> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/395> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -6161,7 +6165,7 @@
 
 <http://www.metarelate.net/metOcean/property/e6697471c4e68d6d15f4dd5724e8f09e574fb962>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/330> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/330> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -6272,7 +6276,7 @@
 
 <http://www.metarelate.net/metOcean/property/9025594a6dfb01855626e3a46f39b947ab143896>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/333> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/333> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -6304,14 +6308,14 @@
 
 <http://www.metarelate.net/metOcean/property/b3f1bb9b4f63c5d97040a4f4be4f123af196020d>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1383> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1383> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
 
 <http://www.metarelate.net/metOcean/property/9ed46882a10f8e547aebb976ba6df4b06729a3e1>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/27> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/27> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -6352,7 +6356,7 @@
 
 <http://www.metarelate.net/metOcean/property/4f27fd3d4c48f16327690bbf279da4c07759759a>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1382> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1382> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -6380,7 +6384,7 @@
 
 <http://www.metarelate.net/metOcean/property/aabb729c1ec14f822459d84109f6302bb1a9e4a5>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1507> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1507> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -6419,7 +6423,7 @@
 
 <http://www.metarelate.net/metOcean/property/81ca155d96de303d74600192c62465fc61cae7b9>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/112> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/112> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -6500,7 +6504,7 @@
 
 <http://www.metarelate.net/metOcean/property/63987d508077685720ae346377143abb43fb3826>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/184> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/184> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -6592,7 +6596,7 @@
 
 <http://www.metarelate.net/metOcean/property/170b93b24825468a7bf191e0c34dc25869c24e44>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/209> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/209> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -7230,7 +7234,7 @@
 
 <http://www.metarelate.net/metOcean/property/718d34bc945ecde2abc8854dd939a55730ad00bd>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/102> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/102> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -7307,14 +7311,14 @@
 
 <http://www.metarelate.net/metOcean/property/cf4324eeacc12e799b7fc1e5fe47559d22452bd1>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/56> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/56> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
 
 <http://www.metarelate.net/metOcean/property/355b7b25ccb43fcde7100642e562beb024d204c6>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/326> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/326> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -7569,7 +7573,7 @@
 
 <http://www.metarelate.net/metOcean/property/f13928c670cc28d483c7fb35029b662201b7ac50>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/8> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/8> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -7608,7 +7612,7 @@
 
 <http://www.metarelate.net/metOcean/property/dcf6f5639ba896a4c3d370902c806863b55285ae>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1564> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1564> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -7669,7 +7673,7 @@
 
 <http://www.metarelate.net/metOcean/property/8d21159e1840a13baa5b44848494fc3a38ec67e8>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/220> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/220> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -7712,7 +7716,7 @@
 
 <http://www.metarelate.net/metOcean/property/f9dd54362cf5b8cbbbc58e172b9433e8973f316c>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/88> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/88> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -7890,7 +7894,7 @@
 
 <http://www.metarelate.net/metOcean/property/e9ee657a0f7cb7eddd0a93610c0760694cf8dda0>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/701> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/701> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -7942,14 +7946,14 @@
 
 <http://www.metarelate.net/metOcean/property/1c39c44149e6fea3ebeafbbbb3b982905bbfbb86>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/324> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/324> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
 
 <http://www.metarelate.net/metOcean/property/58114706d8814af1c7cd28036d0e796dfb4b4259>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/34> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/34> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -7996,7 +8000,7 @@
 
 <http://www.metarelate.net/metOcean/property/a9123829df226c373a8b225f643eb243d7fc0bf7>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/93> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/93> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -8051,7 +8055,7 @@
 
 <http://www.metarelate.net/metOcean/property/b63b0d5f1d40327e25c642656304c9f8ef1ab547>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/23> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/23> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -8284,7 +8288,7 @@
 
 <http://www.metarelate.net/metOcean/property/fa4f407e044740e6d35145f5d390f5eb75417cc4>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/19> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/19> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -8355,7 +8359,7 @@
 
 <http://www.metarelate.net/metOcean/property/0c2335f52ba1ffda2248d06a13558764e435ef4b>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/200> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/200> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -8599,7 +8603,7 @@
 
 <http://www.metarelate.net/metOcean/property/daf7546d41c68850d797188ba7f593d2b2f36264>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/61> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/61> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -8613,7 +8617,7 @@
 
 <http://www.metarelate.net/metOcean/property/2909b9188988a16f315b54397bfee2f1c240522a>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/115> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/115> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -8661,7 +8665,7 @@
 
 <http://www.metarelate.net/metOcean/property/e8dbaa722bdf0e5bdb17b6751d0c9825df896275>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1025> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1025> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -9207,7 +9211,7 @@
 
 <http://www.metarelate.net/metOcean/property/c35c7d32767d83524697b7ea679502e703d8ec21>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/501> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/501> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -9293,7 +9297,7 @@
 
 <http://www.metarelate.net/metOcean/property/c58c16356a565d529cd66e29996528d78169d2d2>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/342> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/342> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -9456,7 +9460,7 @@
 
 <http://www.metarelate.net/metOcean/property/1c06a57da6f6f4998c5ca7064670606668450e27>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/322> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/322> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -9762,7 +9766,7 @@
 
 <http://www.metarelate.net/metOcean/property/8fedd8efec30551571235e19f2acccd2faa891be>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/208> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/208> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -9846,7 +9850,7 @@
 
 <http://www.metarelate.net/metOcean/property/da0ca984631849a4c9060d8b2fea997ebe7e36c9>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1026> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1026> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -9942,7 +9946,7 @@
 
 <http://www.metarelate.net/metOcean/property/fe6b3dd851d603c00e2815e64187eb90b07032ac>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/83> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/83> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -9955,7 +9959,7 @@
 
 <http://www.metarelate.net/metOcean/property/5a29fe902f718601dd75db7117755e7933f6d1d9>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/321> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/321> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -10300,7 +10304,7 @@
 
 <http://www.metarelate.net/metOcean/property/b9c5cb70c4aebdd6ecbb6ca302315c898b971ec7>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1386> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1386> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -10383,7 +10387,7 @@
 
 <http://www.metarelate.net/metOcean/property/2b57958e68b8a0deb56205dc422264169d141d9d>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/57> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/57> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -10488,14 +10492,14 @@
 
 <http://www.metarelate.net/metOcean/property/86b9e70f006e68cc1ad7c63e1550cbaf038b513b>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/687> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/687> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
 
 <http://www.metarelate.net/metOcean/property/a26f0f27711b135c28a059333858dc0a5de0c97b>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/332> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/332> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -10568,7 +10572,7 @@
 
 <http://www.metarelate.net/metOcean/property/f376f662fae488506a454df677b0b35e3b88431a>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/37> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/37> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -10596,7 +10600,7 @@
 
 <http://www.metarelate.net/metOcean/property/0dc984c33d34c3204e5dc73c52109080cb636a61>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/74> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/74> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -10649,7 +10653,7 @@
 
 <http://www.metarelate.net/metOcean/property/18ea65e612efc7fda7b952142eb828fed7d87a7e>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/94> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/94> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -10721,7 +10725,7 @@
 
 <http://www.metarelate.net/metOcean/property/af9c69b466d65d001dd889031bbf31d938e273be>
       rdf:type      mr:Property ;
-      rdf:value     <http://reference.metoffice.gov.uk/def/um/fieldcode/1393> ;
+      rdf:value     <http://reference.metoffice.gov.uk/um/fieldcode/1393> ;
       mr:name       moumdpF3:lbfc ;
       mr:operator   openmathr1:eq ;
 	.
@@ -12678,7 +12682,7 @@
 
 <http://www.metarelate.net/metOcean/property/9c36ad6efa9868c28cd29b68cda229995082b91f>
       rdf:type      mr:Property ;
-      mr:name       <http://reference.metoffice.gov.uk/def/grib/computed_value#_y_points> ;
+      mr:name       <http://reference.metoffice.gov.uk/grib/computed_value#_y_points> ;
 	.
 
 <http://www.metarelate.net/metOcean/property/5a110f2a75de5a835bc192407e9f2a5e1c64c694>
@@ -12797,7 +12801,7 @@
 
 <http://www.metarelate.net/metOcean/property/f3febebdd6fb865fa905f4437bd42daa964f191e>
       rdf:type      mr:Property ;
-      mr:name       <http://reference.metoffice.gov.uk/def/grib/computed_value#_x_circular> ;
+      mr:name       <http://reference.metoffice.gov.uk/grib/computed_value#_x_circular> ;
 	.
 
 <http://www.metarelate.net/metOcean/value/68255131172738c4f4721a774a6baf19e6c38c81>
@@ -13071,7 +13075,7 @@
 
 <http://www.metarelate.net/metOcean/property/89c30e5ee703da82d4628b5895005efaccc42dcb>
       rdf:type      mr:Property ;
-      mr:name       <http://reference.metoffice.gov.uk/def/grib/computed_value#_x_points> ;
+      mr:name       <http://reference.metoffice.gov.uk/grib/computed_value#_x_points> ;
 	.
 
 <http://www.metarelate.net/metOcean/scopedProperty/2fb6671d4a0b5f9d0b8103e796ddae3fb2a26772>

@@ -1,10 +1,19 @@
-#(C) British Crown Copyright 2011 - 2012, Met Office This file is part of metOcean.
-#metOcean is free software: you can redistribute it and/or modify it under the terms of the
-#GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License,
-#or (at your option) any later version. metOcean is distributed in the hope that it will be useful,
-#but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-#See the GNU Lesser General Public License for more details. You should have received a copy of the
-#GNU Lesser General Public License along with metOcean. If not, see http://www.gnu.org/licenses/."
+#(C) British Crown Copyright 2012 - 2014 , Met Office 
+#
+# This file is part of metOcean.
+#
+# metOcean is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Lesser General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# metOcean distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with metOcean.  If not, see <http://www.gnu.org/licenses/>.
 
 @prefix cfm: <http://def.cfconventions.org/datamodel/> .
 @prefix cfsn: <http://def.cfconventions.org/standard_names/> .
@@ -12,19 +21,14 @@
 @prefix github: <https://github.com/> .
 @prefix gribapi: <http://def.ecmwf.int/api/grib/keys/> .
 @prefix map: <http://www.metarelate.net/metOcean/mapping/> .
-@prefix meta: <http://reference.metoffice.gov.uk/data/wmo/def/met#> .
-@prefix metamap: <http://reference.metoffice.gov.uk/data/wmo/meta/mapping#> .
 @prefix metoc: <http://www.metarelate.net/metOcean/> .
 @prefix metocFormat: <http://www.metarelate.net/metOcean/format/> .
 @prefix metocMed: <http://www.metarelate.net/metOcean/mediator/> .
-@prefix moStCon: <http://reference.metoffice.gov.uk/def/um/stash/concept/> .
-@prefix moStEG: <http://reference.metoffice.gov.uk/def/um/stash/endgame/> .
-@prefix moStND: <http://reference.metoffice.gov.uk/def/um/stash/new_dynamics/> .
-@prefix mofc: <http://reference.metoffice.gov.uk/def/um/fieldcode/> .
-@prefix momet08: <http://reference.metoffice.gov.uk/def/um/met08/> .
-@prefix moumdpC4: <http://reference.metoffice.gov.uk/def/um/umdp/c4/> .
-@prefix moumdpC4Pseud: <http://reference.metoffice.gov.uk/def/um/umdp/c4/pseudo/> .
-@prefix moumdpF3: <http://reference.metoffice.gov.uk/def/um/umdp/F3/> .
+@prefix moStCon: <http://reference.metoffice.gov.uk/um/stash/> .
+@prefix mofc: <http://reference.metoffice.gov.uk/um/fieldcode/> .
+@prefix moumdpC4: <http://reference.metoffice.gov.uk/um/c4/> .
+@prefix moumdpC4Pseud: <http://reference.metoffice.gov.uk/um/c4/pseudo/> .
+@prefix moumdpF3: <http://reference.metoffice.gov.uk/um/f3/> .
 @prefix mr: <http://www.metarelate.net/vocabulary/index.html#> .
 @prefix openmatha1: <http://www.openmath.org/cd/arith1.xhtml#> .
 @prefix openmathr1: <http://www.openmath.org/cd/relation1.xhtml#> .
@@ -32,7 +36,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
 
 map:f1109f6ed65e9a41bfb332acd1e0faf924945619
       rdf:type      mr:Mapping ;

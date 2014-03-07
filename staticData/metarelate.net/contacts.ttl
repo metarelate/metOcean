@@ -15,76 +15,59 @@
 # You should have received a copy of the GNU Lesser General Public License
 # along with metOcean.  If not, see <http://www.gnu.org/licenses/>.
 
-@prefix cfm: <http://def.cfconventions.org/datamodel/> .
-@prefix cfsn: <http://def.cfconventions.org/standard_names/> .
-@prefix dc: <http://purl.org/dc/terms/> .
-@prefix github: <https://github.com/> .
-@prefix gribapi: <http://def.ecmwf.int/api/grib/keys/> .
-@prefix map: <http://www.metarelate.net/metOcean/mapping/> .
-@prefix metoc: <http://www.metarelate.net/metOcean/> .
-@prefix metocFormat: <http://www.metarelate.net/metOcean/format/> .
-@prefix metocMed: <http://www.metarelate.net/metOcean/mediator/> .
-@prefix moStCon: <http://reference.metoffice.gov.uk/um/stash/> .
-@prefix mofc: <http://reference.metoffice.gov.uk/um/fieldcode/> .
-@prefix moumdpC4: <http://reference.metoffice.gov.uk/um/c4/> .
-@prefix moumdpC4Pseud: <http://reference.metoffice.gov.uk/um/c4/pseudo/> .
-@prefix moumdpF3: <http://reference.metoffice.gov.uk/um/f3/> .
-@prefix mr: <http://www.metarelate.net/vocabulary/index.html#> .
-@prefix openmatha1: <http://www.openmath.org/cd/arith1.xhtml#> .
-@prefix openmathr1: <http://www.openmath.org/cd/relation1.xhtml#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+<http://www.metarelate.net/metOcean/organisations>
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "Registered MetaRelate Managing Organisation" ;
+	.
 
-metoc:people a skos:ConceptScheme ;
-skos:prefLabel "Registered MetaRelate Contributors"@en .
+<http://www.metarelate.net/metOcean/organisations/scitools>
+	<http://purl.org/dc/terms/valid> "2012-10-08T08:30:13.498404" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+	<http://www.w3.org/2004/02/skos/core#definition> <https://github.com/scitools> ;
+	<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.metarelate.net/metOcean/organisations> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "scitools" ;
+	.
 
-metoc:organisations a skos:ConceptScheme ;
-skos:prefLabel "Registered MetaRelate Managing Organisation"@en .
-
-
-<http://www.metarelate.net/metOcean/people/marqh> a skos:Concept ;
-skos:inScheme metoc:people ;
-skos:prefLabel "marqh" ;
-skos:definition github:marqh ;
-dc:valid  "2012-10-08T08:30:13.498404"^^xsd:dateTime .
-
-
-<http://www.metarelate.net/metOcean/people/esc24> a skos:Concept ;
-skos:inScheme metoc:people ;
-skos:prefLabel "esc24" ;
-skos:definition github:esc24 ;
-dc:valid  "2012-10-08T08:30:13.498404"^^xsd:dateTime .
-
-
-<http://www.metarelate.net/metOcean/organisations/scitools> a skos:Concept ;
-skos:inScheme metoc:organisations ;
-skos:prefLabel "scitools" ;
-skos:definition github:scitools ;
-dc:valid  "2012-10-08T08:30:13.498404"^^xsd:dateTime .
-
-<http://www.metarelate.net/metOcean/people/nhsavage> a skos:Concept ;
-skos:inScheme metoc:people ;
-skos:prefLabel "nhsavage" ;
-skos:definition github:nhsavage ;
-dc:valid  "2013-12-11T08:30:13.498404"^^xsd:dateTime .
-
-
-<http://www.metarelate.net/metOcean/people/bblay> a skos:Concept ;
-skos:inScheme metoc:people ;
-skos:prefLabel "bblay" ;
-skos:definition github:bblay ;
-dc:valid  "2014-01-10T10:55:00.000000"^^xsd:dateTime .
-
+<http://www.metarelate.net/metOcean/people>
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "Registered MetaRelate Contributors" ;
+	.
 
 <http://www.metarelate.net/metOcean/people/a75ae01de2cd1665f62bc38db76016d5b9b184e1>
-      rdf:type      skos:Concept ;
-      dc:valid      "2014-01-22T12:11:05.973077"^^xsd:dateTime ;
-      skos:definition  github:pp-mo ;
-      skos:inScheme  metoc:people ;
-      skos:prefLabel  "ppeglar" .
+	<http://purl.org/dc/terms/valid> "2014-01-22T12:11:05.973077" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+	<http://www.w3.org/2004/02/skos/core#definition> <https://github.com/pp-mo> ;
+	<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.metarelate.net/metOcean/people> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "ppeglar" ;
+	.
 
+<http://www.metarelate.net/metOcean/people/bblay>
+	<http://purl.org/dc/terms/valid> "2014-01-10T10:55:00" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+	<http://www.w3.org/2004/02/skos/core#definition> <https://github.com/bblay> ;
+	<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.metarelate.net/metOcean/people> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "bblay" ;
+	.
 
+<http://www.metarelate.net/metOcean/people/esc24>
+	<http://purl.org/dc/terms/valid> "2012-10-08T08:30:13.498404" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+	<http://www.w3.org/2004/02/skos/core#definition> <https://github.com/esc24> ;
+	<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.metarelate.net/metOcean/people> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "esc24" ;
+	.
 
+<http://www.metarelate.net/metOcean/people/marqh>
+	<http://purl.org/dc/terms/valid> "2012-10-08T08:30:13.498404" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+	<http://www.w3.org/2004/02/skos/core#definition> <https://github.com/marqh> ;
+	<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.metarelate.net/metOcean/people> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "marqh" ;
+	.
 
+<http://www.metarelate.net/metOcean/people/nhsavage>
+	<http://purl.org/dc/terms/valid> "2013-12-11T08:30:13.498404" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+	<http://www.w3.org/2004/02/skos/core#definition> <https://github.com/nhsavage> ;
+	<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.metarelate.net/metOcean/people> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "nhsavage" ;

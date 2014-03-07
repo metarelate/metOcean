@@ -1,3 +1,6 @@
+# third party static data
+staticData/um/fieldcode.ttl
+staticData/um/stashconcepts.ttl
 
 # Created by editors.
 *~

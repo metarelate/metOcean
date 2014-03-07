@@ -12315,7 +12315,7 @@
 	<http://www.metarelate.net/vocabulary/index.html#name> <http://reference.metoffice.gov.uk/um/f3/lbfc> ;
 	<http://www.metarelate.net/vocabulary/index.html#operator> <http://www.openmath.org/cd/relation1.xhtml#eq> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Property> ;
-	<http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <http://reference.metoffice.gov.uk/def/um/fieldcode/608> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <http://reference.metoffice.gov.uk/um/fieldcode/608> ;
 	.
 
 <http://www.metarelate.net/metOcean/property/ba0664f010286776f9c5bcb8523da215472444c9>

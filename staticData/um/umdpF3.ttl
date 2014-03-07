@@ -7,14 +7,11 @@
 @prefix gribapi: <http://def.ecmwf.int/api/grib/keys> .
 @prefix map: <http://www.metarelate.net/metOcean/mapping/> .
 @prefix metoc: <http://www.metarelate.net/metOcean/> .
-@prefix moStCon: <http://reference.metoffice.gov.uk/def/um/stash/concept/> .
-@prefix moStEG: <http://reference.metoffice.gov.uk/def/um/stash/endgame/> .
-@prefix moStND: <http://reference.metoffice.gov.uk/def/um/stash/new_dynamics/> .
-@prefix mofc: <http://reference.metoffice.gov.uk/def/um/fieldcode/> .
-@prefix momet08: <http://reference.metoffice.gov.uk/def/um/met08/> .
-@prefix moumdpC4: <http://reference.metoffice.gov.uk/def/um/umdp/c4/> .
-@prefix moumdpC4Pseud: <http://reference.metoffice.gov.uk/def/um/umdp/c4/pseudo/> .
-@prefix moumdpF3: <http://reference.metoffice.gov.uk/def/um/umdp/F3/> .
+@prefix moStCon: <http://reference.metoffice.gov.uk/um/stash//> .
+@prefix mofc: <http://reference.metoffice.gov.uk/um/fieldcode/> .
+@prefix moumdpC4: <http://reference.metoffice.gov.uk/um/c4/> .
+@prefix moumdpC4Pseud: <http://reference.metoffice.gov.uk/um/c4/pseudo/> .
+@prefix moumdpf3: <http://reference.metoffice.gov.uk/um/f3/> .
 @prefix mr: <http://www.metarelate.net/predicates/index.html#> .
 @prefix mrcf: <http://www.metarelate.net/predicates/CF.html#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -23,52 +20,52 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-<http://reference.metoffice.gov.uk/def/um/umdpF3> a skos:Collection .
+<http://reference.metoffice.gov.uk/def/um/umdpf3> a skos:Collection .
 
-moumdpF3:t1 a skos:Concept ;
+moumdpf3:t1 a skos:Concept ;
 skos:notation "t1" ;
-skos:member <http://reference.metoffice.gov.uk/def/um/umdpF3> .
+skos:member <http://reference.metoffice.gov.uk/def/um/umdpf3> .
 
-moumdpF3:t2 a skos:Concept ;
+moumdpf3:t2 a skos:Concept ;
 skos:notation "t2" ;
-skos:member <http://reference.metoffice.gov.uk/def/um/umdpF3> .
+skos:member <http://reference.metoffice.gov.uk/def/um/umdpf3> .
 
-moumdpF3:lbft a skos:Concept ;
+moumdpf3:lbft a skos:Concept ;
 skos:notation "lbft" ;
-skos:member <http://reference.metoffice.gov.uk/def/um/umdpF3> .
+skos:member <http://reference.metoffice.gov.uk/def/um/umdpf3> .
 
-moumdpF3:lbtim.ia a skos:Concept ;
+moumdpf3:lbtim.ia a skos:Concept ;
 skos:notation "lbtim.ia" ;
-skos:member <http://reference.metoffice.gov.uk/def/um/umdpF3> .
+skos:member <http://reference.metoffice.gov.uk/def/um/umdpf3> .
 
-moumdpF3:lbtim.ib a skos:Concept ;
+moumdpf3:lbtim.ib a skos:Concept ;
 skos:notation "lbtim.ic" ;
-skos:member <http://reference.metoffice.gov.uk/def/um/umdpF3> .
+skos:member <http://reference.metoffice.gov.uk/def/um/umdpf3> .
 
-moumdpF3:lbtim.ic a skos:Concept ;
+moumdpf3:lbtim.ic a skos:Concept ;
 skos:notation "lbtim.ic" ;
-skos:member <http://reference.metoffice.gov.uk/def/um/umdpF3> .
+skos:member <http://reference.metoffice.gov.uk/def/um/umdpf3> .
 
-moumdpF3:lbcode a skos:Concept ;
+moumdpf3:lbcode a skos:Concept ;
 skos:notation "lbcode" ;
-skos:member <http://reference.metoffice.gov.uk/def/um/umdpF3> .
+skos:member <http://reference.metoffice.gov.uk/def/um/umdpf3> .
 
-moumdpF3:lbcode.ix a skos:Concept ;
+moumdpf3:lbcode.ix a skos:Concept ;
 skos:notation "lbcode.ix" ;
-skos:member <http://reference.metoffice.gov.uk/def/um/umdpF3> .
+skos:member <http://reference.metoffice.gov.uk/def/um/umdpf3> .
 
-moumdpF3:lbcode.iy a skos:Concept ;
+moumdpf3:lbcode.iy a skos:Concept ;
 skos:notation "lbcode.iy" ;
-skos:member <http://reference.metoffice.gov.uk/def/um/umdpF3> .
+skos:member <http://reference.metoffice.gov.uk/def/um/umdpf3> .
 
 
-moumdpF3:stash a skos:Concept ;
+moumdpf3:stash a skos:Concept ;
 skos:notation "stash" ;
-skos:member <http://reference.metoffice.gov.uk/def/um/umdpF3> .
+skos:member <http://reference.metoffice.gov.uk/def/um/umdpf3> .
 
 
-moumdpF3:lbfc a skos:Concept ;
+moumdpf3:lbfc a skos:Concept ;
 skos:notation "lbfc" ;
-skos:member <http://reference.metoffice.gov.uk/def/um/umdpF3> .
+skos:member <http://reference.metoffice.gov.uk/def/um/umdpf3> .
 
 

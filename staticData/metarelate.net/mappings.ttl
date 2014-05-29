@@ -897,17 +897,6 @@
 	<http://www.w3.org/2004/02/skos/core#note> "Imported from external mapping resource: Iris 1.1" ;
 	.
 
-<http://www.metarelate.net/metOcean/mapping/1a743d803c26fd3b1d228f87b4552fdb8d66b2c9>
-	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/nhsavage> ;
-	<http://purl.org/dc/terms/date> "2014-02-27T11:15:45.109895" ;
-	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
-	<http://www.metarelate.net/vocabulary/index.html#reason> "new mapping" ;
-	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/a7312f1440187d1c7af22caeb6d7e5e0b9311dc7> ;
-	<http://www.metarelate.net/vocabulary/index.html#status> "Draft" ;
-	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/e003f05d7ae8cc16757f662a7ce6c383f04f2843> ;
-	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
-	.
-
 <http://www.metarelate.net/metOcean/mapping/1a9ebca495db8a658ce86a3069be1bac67f2158a>
 	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/marqh> ;
 	<http://purl.org/dc/terms/date> "2013-03-22T10:26:16.192660" ;
@@ -1608,19 +1597,6 @@
 	<http://www.w3.org/2004/02/skos/core#note> "Imported from external mapping resource: Iris 1.1" ;
 	.
 
-<http://www.metarelate.net/metOcean/mapping/2f5b5e6b04f3bfdfb57239155b7aa4220a5c4112>
-	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/nhsavage> ;
-	<http://purl.org/dc/terms/date> "2014-02-27T12:01:04.843252" ;
-	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/6cfccda3043ac2e9f9ebf20f8d52088334c12c36> ;
-	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
-	<http://www.metarelate.net/vocabulary/index.html#reason> "corrected metadata" ;
-	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/f0c9224bdc3e750ff315a73828d48d3fc2fc3919> ;
-	<http://www.metarelate.net/vocabulary/index.html#status> "Draft" ;
-	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/93e68b20a481a84c77b0d5f96af233e999ef848b> ;
-	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
-	<http://www.w3.org/2004/02/skos/core#note> "Update to correct mapping post UM6.6" ;
-	.
-
 <http://www.metarelate.net/metOcean/mapping/2f69c350dfd017dab1da255095c2cf2ee2029bf8>
 	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/marqh> ;
 	<http://purl.org/dc/terms/date> "2013-03-22T10:30:41.676114" ;
@@ -1753,19 +1729,6 @@
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/1144570d2352ce2c76c58b32428f9e876cd3a983> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	<http://www.w3.org/2004/02/skos/core#note> "Invalid standard name in replaced mapping moved to long name" ;
-	.
-
-<http://www.metarelate.net/metOcean/mapping/32dbd534339f9fc95367ce422ec2d0eb0e0da42e>
-	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/nhsavage> ;
-	<http://purl.org/dc/terms/date> "2014-02-27T12:24:24.022163" ;
-	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/459b8e25c6a10b44be2f57ce2ca8b5f9e68ea02e> ;
-	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
-	<http://www.metarelate.net/vocabulary/index.html#reason> "corrected metadata" ;
-	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/af51a563c2bafaf6911d70213123ae2c8686da52> ;
-	<http://www.metarelate.net/vocabulary/index.html#status> "Draft" ;
-	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/1d50f8d38615dcc853cc28e600ca57f558d67033> ;
-	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
-	<http://www.w3.org/2004/02/skos/core#note> "Correct long name and units to values post UM6.6" ;
 	.
 
 <http://www.metarelate.net/metOcean/mapping/32df641cd029897e8983f9bebb65bc5ae379a295>
@@ -4270,19 +4233,6 @@
 	<http://www.w3.org/2004/02/skos/core#note> "Imported from external mapping resource: Iris 1.1" ;
 	.
 
-<http://www.metarelate.net/metOcean/mapping/79eb2cd9f1e2fe5a50edf54ddcef315083e8580b>
-	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/nhsavage> ;
-	<http://purl.org/dc/terms/date> "2014-02-27T12:15:18.225057" ;
-	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/d17f75fe6fd7c5fb3838f01d31b9d9c2d3121a43> ;
-	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
-	<http://www.metarelate.net/vocabulary/index.html#reason> "new mapping" ;
-	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/8218f71b5e32c529552eced4ca22fe95800f5fac> ;
-	<http://www.metarelate.net/vocabulary/index.html#status> "Draft" ;
-	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/574f2e2b8ac5cf5f604b1313c1dbbbc0de452a72> ;
-	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
-	<http://www.w3.org/2004/02/skos/core#note> "Create mapping for free tracer 3" ;
-	.
-
 <http://www.metarelate.net/metOcean/mapping/7a24419e76624bf9e5dca0d4abf911a926b681bc>
 	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/marqh> ;
 	<http://purl.org/dc/terms/date> "2013-03-22T10:26:16.192660" ;
@@ -6659,19 +6609,6 @@
 	<http://www.w3.org/2004/02/skos/core#note> "Imported for UKCA" ;
 	.
 
-<http://www.metarelate.net/metOcean/mapping/bc677f3c28bdbc0b3bc2ecec607e1db6959a29de>
-	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/nhsavage> ;
-	<http://purl.org/dc/terms/date> "2014-02-27T11:42:06.038703" ;
-	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/c21e262d4997a232225edf95b02df6dfa0d63c93> ;
-	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
-	<http://www.metarelate.net/vocabulary/index.html#reason> "new mapping" ;
-	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/8218f71b5e32c529552eced4ca22fe95800f5fac> ;
-	<http://www.metarelate.net/vocabulary/index.html#status> "Draft" ;
-	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/ecac8bf8ab677dd16d04c402fbbb2c1c2b599d81> ;
-	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
-	<http://www.w3.org/2004/02/skos/core#note> "Create mapping for free tracer 3" ;
-	.
-
 <http://www.metarelate.net/metOcean/mapping/bcca7436bc0ef3d7725939a60eceea8bdad5de64>
 	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/marqh> ;
 	<http://purl.org/dc/terms/date> "2013-03-22T10:26:16.192660" ;
@@ -6801,18 +6738,6 @@
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/341c6cdaccb6c2fc7000108314dddb4a1c614c00> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	<http://www.w3.org/2004/02/skos/core#note> "Imported from external mapping resource: Iris 1.1" ;
-	.
-
-<http://www.metarelate.net/metOcean/mapping/c21e262d4997a232225edf95b02df6dfa0d63c93>
-	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/nhsavage> ;
-	<http://purl.org/dc/terms/date> "2014-02-27T11:39:05.596007" ;
-	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
-	<http://www.metarelate.net/vocabulary/index.html#reason> "new mapping" ;
-	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/5fb2da33a25ff65da9c55de2173e8bdb55366b37> ;
-	<http://www.metarelate.net/vocabulary/index.html#status> "Draft" ;
-	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/ecac8bf8ab677dd16d04c402fbbb2c1c2b599d81> ;
-	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
-	<http://www.w3.org/2004/02/skos/core#note> "Create mapping for free tracer 3" ;
 	.
 
 <http://www.metarelate.net/metOcean/mapping/c37c81bc8025e57ca0ad5ad880d04fb968934bf2>
@@ -7211,19 +7136,6 @@
 	<http://www.w3.org/2004/02/skos/core#note> "Imported from external mapping resource: Iris 1.1" ;
 	.
 
-<http://www.metarelate.net/metOcean/mapping/d11928365fc696342f9bb740c13ce34695f5d234>
-	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/nhsavage> ;
-	<http://purl.org/dc/terms/date> "2014-01-09T14:35:32.689648" ;
-	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/06baa719bd93c7b1fff6eb0f0740f69e9d7dbfa7> ;
-	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
-	<http://www.metarelate.net/vocabulary/index.html#reason> "corrected links" ;
-	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/db65763adb61ce04765801de74f3d6e86a402a7f> ;
-	<http://www.metarelate.net/vocabulary/index.html#status> "Draft" ;
-	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/4cdcd1c69067e6c4948a1c25682b633db6752b22> ;
-	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
-	<http://www.w3.org/2004/02/skos/core#note> "Updated name mapping for UM post 6.6." ;
-	.
-
 <http://www.metarelate.net/metOcean/mapping/d12c20cab895a6c9d0daaa369f9af7cc9cc98273>
 	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/marqh> ;
 	<http://purl.org/dc/terms/date> "2013-03-22T10:30:55.589572" ;
@@ -7234,19 +7146,6 @@
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/0d778116f0dacd15793e082df111eb0d69d9f675> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	<http://www.w3.org/2004/02/skos/core#note> "Imported for UKCA" ;
-	.
-
-<http://www.metarelate.net/metOcean/mapping/d17f75fe6fd7c5fb3838f01d31b9d9c2d3121a43>
-	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/nhsavage> ;
-	<http://purl.org/dc/terms/date> "2014-02-27T11:42:17.051526" ;
-	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/bc677f3c28bdbc0b3bc2ecec607e1db6959a29de> ;
-	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
-	<http://www.metarelate.net/vocabulary/index.html#reason> "new mapping" ;
-	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/8218f71b5e32c529552eced4ca22fe95800f5fac> ;
-	<http://www.metarelate.net/vocabulary/index.html#status> "Draft" ;
-	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/ecac8bf8ab677dd16d04c402fbbb2c1c2b599d81> ;
-	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
-	<http://www.w3.org/2004/02/skos/core#note> "Create mapping for free tracer 3" ;
 	.
 
 <http://www.metarelate.net/metOcean/mapping/d18a419f5c3ff4b99213c26ebe06917a334b278a>

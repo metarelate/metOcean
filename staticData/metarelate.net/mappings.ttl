@@ -765,6 +765,19 @@
 	<http://www.w3.org/2004/02/skos/core#note> "Imported from external mapping resource: Iris 1.1" ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/140394d7b8c8182d73e1a262210fe6089f002699>
+	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/marqh> ;
+	<http://purl.org/dc/terms/date> "2014-06-02T09:30:44.952185" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/235961e240b8df34fa9e7a15048a7a70aeb64505> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#reason> "corrected links" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/60f6f3f4bc6cbb87eb0f41b4cfec865c3d8c82d6> ;
+	<http://www.metarelate.net/vocabulary/index.html#status> "Draft" ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/8dccf7fef02a45d0137a3696a3a531994deebbd0> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	<http://www.w3.org/2004/02/skos/core#note> "updated unit of measure" ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/1413271e408bf11416c3ef5a6d06a357bfdfc732>
 	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/marqh> ;
 	<http://purl.org/dc/terms/date> "2013-03-22T10:26:16.192660" ;
@@ -884,6 +897,19 @@
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/8117c3f321377106c3d228e0378a2eb1197d5759> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	<http://www.w3.org/2004/02/skos/core#note> "invalid um code" ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/178ba7f279b5365a24b7ca5f50dd75894e0a42d8>
+	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/marqh> ;
+	<http://purl.org/dc/terms/date> "2014-06-02T09:28:45.202484" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/1b031eefc11948ebed3e25923e748f7046401d6e> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#reason> "corrected links" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/608b3244656280ddd297f0510df4ec8e7fe23813> ;
+	<http://www.metarelate.net/vocabulary/index.html#status> "Draft" ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/05c04b8e9bccc6fd5f10b9f83e1c09818c1e0a64> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	<http://www.w3.org/2004/02/skos/core#note> "updated unit of measure" ;
 	.
 
 <http://www.metarelate.net/metOcean/mapping/17e526bb4b60d12bc89f1c2f23eff91e03f4c402>
@@ -2295,6 +2321,19 @@
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/b4f2a1f36bc266fe376bb051ee1bcfe4612fcaa3> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	<http://www.w3.org/2004/02/skos/core#note> "Imported from external mapping resource: Iris 1.1" ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/3c25dfa4dff6eb0cb4e73c0355c1a11001d02c27>
+	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/marqh> ;
+	<http://purl.org/dc/terms/date> "2014-06-02T09:30:07.139073" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/5c1738e19507ceceac74befffdfa4486ce4a73e2> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#reason> "corrected links" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/7f8cd01ac2f8151e4baa9bae0f7d7a9e0a468644> ;
+	<http://www.metarelate.net/vocabulary/index.html#status> "Draft" ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/c7220a744f22e9231f20a16f753f2a93d07846f0> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	<http://www.w3.org/2004/02/skos/core#note> "updated unit of measure" ;
 	.
 
 <http://www.metarelate.net/metOcean/mapping/3c82b2e58eaecd893c98530808ece3762a37aaa7>
@@ -4128,6 +4167,19 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/6cbd81a4a7a9b6919a32b52bd6c11b356b8c7be8>
+	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/marqh> ;
+	<http://purl.org/dc/terms/date> "2014-06-02T09:29:28.761405" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/e11a6e33570e16b731053dadd7adbcfe98568d6b> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#reason> "corrected links" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/d0895b6d58067dba1310321e53e507bd4bf18d02> ;
+	<http://www.metarelate.net/vocabulary/index.html#status> "Draft" ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/e217cf84afa04d6384747b4122f77cc29c67f98c> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	<http://www.w3.org/2004/02/skos/core#note> "updated unit of measure" ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/6cfccda3043ac2e9f9ebf20f8d52088334c12c36>
 	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/marqh> ;
 	<http://purl.org/dc/terms/date> "2013-03-22T10:26:16.192660" ;
@@ -4461,6 +4513,19 @@
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/008c66e4510fba4a55b1b730fb87d3bb466f08f9> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	<http://www.w3.org/2004/02/skos/core#note> "Imported from external mapping resource: Iris 1.1" ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/73f8bf123ac983b32ee1a80cd9a1fcd2f1b80954>
+	<http://purl.org/dc/terms/creator> <http://www.metarelate.net/metOcean/people/marqh> ;
+	<http://purl.org/dc/terms/date> "2014-06-02T09:26:53.539408" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/8aa8608b8c4d092454819a58d35a2bf7b3a62fdc> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#reason> "corrected links" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/baa602518766ed24f9103f59d14b200bbea1be95> ;
+	<http://www.metarelate.net/vocabulary/index.html#status> "Draft" ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/05c04b8e9bccc6fd5f10b9f83e1c09818c1e0a64> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	<http://www.w3.org/2004/02/skos/core#note> "updated unit of measure" ;
 	.
 
 <http://www.metarelate.net/metOcean/mapping/741b66cf9a432a25b24a435bd7e4ce5fcbe3e908>

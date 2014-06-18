@@ -12,118 +12,152 @@
 @prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
 @prefix og:      <http://ogp.me/ns#> .
 @prefix addthis:  <http://www.addthis.com/help/api-spec> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
 
-<http://def.cfconventions.org/datamodel/type> 
-      a      skos:Concept ;
-      skos:notation "type" .
+<http://def.cfconventions.org/datamodel>
+      a ldp:Container, owl:Ontology  ;
+      rdfs:label "CF Data Model" ;
+      dc:description "Climate and Forecasting data model for representing observations and measurements. " ;
+      rdfs:member <http://def.cfconventions.org/datamodel/Field>,
+      <http://def.cfconventions.org/datamodel/Field> ,
+      <http://def.cfconventions.org/datamodel/DimensionCoordinate> ,
+      <http://def.cfconventions.org/datamodel/AuxiliaryCoordinate> ,
+      <http://def.cfconventions.org/datamodel/CellMethod> ,
+      <http://def.cfconventions.org/datamodel/CellMeasure> ,
+      <http://def.cfconventions.org/datamodel/DomainAxis> ,
+      <http://def.cfconventions.org/datamodel/CoordinateReferenceSystem> 
+      . 
+ 
 
 <http://def.cfconventions.org/datamodel/Field> 
-      a      skos:Concept ;
+      a      owl:Class ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "Field" .
 
 <http://def.cfconventions.org/datamodel/DimensionCoordinate> 
-      a      skos:Concept ;
+      a      owl:Class ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "DimensionCoordinate" .
 
 <http://def.cfconventions.org/datamodel/AuxiliaryCoordinate> 
-      a      skos:Concept ;
+      a     owl:Class ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "AuxiliaryCoordinate" .
 
 <http://def.cfconventions.org/datamodel/CellMethod> 
-      a      skos:Concept ;
+      a     owl:Class ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "CellMethod" .
 
 <http://def.cfconventions.org/datamodel/CellMeasure> 
-      a      skos:Concept ;
+      a     owl:Class ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "CellMeasure" .
 
 <http://def.cfconventions.org/datamodel/DomainAxis> 
-      a      skos:Concept ;
+      a     owl:Class ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "DomainAxis" .
 
 <http://def.cfconventions.org/datamodel/CoordinateReferenceSystem> 
-      a      skos:Concept ;
+      a     owl:Class ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "CoordinateReferenceSystem" .
 
 
 <http://def.cfconventions.org/datamodel/axis_index> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "axis_index" .
 
 
 <http://def.cfconventions.org/datamodel/points> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "points" .
 
 <http://def.cfconventions.org/datamodel/points/dimensionality> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "points.dimensionality" .
 
 <http://def.cfconventions.org/datamodel/points/shape> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "points.shape" .
 
 <http://def.cfconventions.org/datamodel/bounds> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "bounds" .
 
 <http://def.cfconventions.org/datamodel/bounds/dimensionality> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "bounds.dimensionality" .
 
 <http://def.cfconventions.org/datamodel/bounds/shape> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "bounds.shape" .
 
 <http://def.cfconventions.org/datamodel/data> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "data" .
 
 <http://def.cfconventions.org/datamodel/data/dimensionality> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "data.dimensionality" .
 
 <http://def.cfconventions.org/datamodel/data/shape> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "data.shape" .
 
 <http://def.cfconventions.org/datamodel/units> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "units" .
 
 <http://def.cfconventions.org/datamodel/calendar> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "calendar" .
 
 <http://def.cfconventions.org/datamodel/standard_name> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "standard_name" .
 
 <http://def.cfconventions.org/datamodel/long_name> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "long_name" .
 
-<http://def.cfconventions.org/datamodel/attribute#> 
-      a      skos:Concept ;
-      skos:notation "#" .
-
 <http://def.cfconventions.org/datamodel/aux_coordinate> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "aux_coordinate" .
 
 <http://def.cfconventions.org/datamodel/dim_coordinate> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "dim_coordinate" .
 
 <http://def.cfconventions.org/datamodel/coordinate> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "coordinate" .
 
 <http://def.cfconventions.org/datamodel/coordinate_reference_system> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "coordinate_reference_system" .
 
 <http://def.cfconventions.org/datamodel/crs_name> 
-      a      skos:Concept ;
+      a      owl:ObjectProperty ;
+      rdfs:subClassOf skos:Concept ;
       skos:notation "crs_name" .
 

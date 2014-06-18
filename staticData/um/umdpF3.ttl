@@ -1,4 +1,4 @@
-
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix cflink: <http://www.metarelate.net/metOcean/cflink/> .
 @prefix cfm: <http://def.cfconventions.org/datamodel/> .
 @prefix cfsn: <http://def.cfconventions.org/standard_names/> .
@@ -18,9 +18,21 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
 
-
-<http://reference.metoffice.gov.uk/def/um/umdpf3> a skos:Collection .
+<http://reference.metoffice.gov.uk/def/um/umdpf3> a ldp:Container, owl:Ontology ;
+      rdfs:member moumdpf3:t1,
+      		  moumdpf3:t2,
+		  moumdpf3:lbft,
+		  moumdpf3:lbtim.ia,
+		  moumdpf3:lbtim.ib,
+		  moumdpf3:lbtim.ic,
+		  moumdpf3:lbcode,
+		  moumdpf3:lbcode.ix,
+		  moumdpf3:lbcode.iy,
+		  moumdpf3:stash,
+		  moumdpf3:lbfc
+      .
 
 moumdpf3:t1 a skos:Concept ;
 skos:notation "t1" ;

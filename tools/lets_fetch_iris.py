@@ -12,6 +12,8 @@ cff = 'http://def.scitools.org.uk/cfmodel/Field'
 cfsn = 'http://def.scitools.org.uk/cfmodel/standard_name'
 cfln = 'http://def.scitools.org.uk/cfmodel/long_name'
 cfun = 'http://def.scitools.org.uk/cfmodel/units'
+cfpoints = 'http://def.scitools.org.uk/cfmodel/points'
+cfdimcoord = 'http://def.scitools.org.uk/cfmodel/dim_coord'
 
 marqh = '<http://www.metarelate.net/metOcean/people/marqh>'
 
@@ -48,9 +50,48 @@ def _cfname(fu_p, cfname):
         acfcomp = metarelate.Component(None, cff, [acfnprop, acfuprop])
     else:
         acfcomp = metarelate.Component(None, cff, [acfuprop])
-    acfcomp.create_rdf(fu_p)
     return acfcomp
 
+def get_grib1_mo(fu_p):
+    for g1l, cfname in grib_cf_map.GRIB1_LOCAL_TO_CF.iteritems():
+        pass
+
+def dimcoord(fu_p, name, units, value):
+    sname = '{p}{c}'.format(p=pre['cfnames'], c=name)
+    acfnprop = metarelate.StatementProperty(metarelate.Item(cfsn),
+                                            metarelate.Item(sname))
+    acfuprop = metarelate.StatementProperty(metarelate.Item(cfun),
+                                            metarelate.Item(units))
+    acfvprop = metarelate.StatementProperty(metarelate.Item(cfpoints),
+                                            metarelate.Item(value))
+    acfcomp = metarelate.Component(None, cff, [acfnprop, acfuprop, acfvprop])
+    acfcomp.create_rdf(fu_p)
+    stp = metarelate.StatementProperty(metarelate.Item(cfdimcoord),
+                                       acfcomp)
+    return stp
+
+def get_grib1_mo_constrained(fu_p):
+    for g1l, cfname_h in grib_cf_map.GRIB1_LOCAL_TO_CF_CONSTRAINED.iteritems():
+        gribtemp = 'http://reference.metoffice.gov.uk/grib/grib1/parameter/{v}-{c}-{i}'
+        griburi = gribtemp.format(v=g1l.t2version,
+                                  c=g1l.centre,
+                                  i=g1l.iParam)
+        gpd = 'http://codes.wmo.int/def/grib1/parameter'
+        agribprop = metarelate.StatementProperty(metarelate.Item(gpd),
+                                                  metarelate.Item(griburi, g1l.iParam))
+        gribmsg = 'http://codes.wmo.int/def/codeform/GRIB-message'
+        agribcomp = metarelate.Component(None, gribmsg, [agribprop])
+        agribcomp.create_rdf(fu_p)
+        acfcomp = _cfname(fu_p, cfname_h[0])
+        hn = dimcoord(fu_p, cfname_h[1].standard_name,
+                      cfname_h[1].units, '{}'.format(cfname_h[1].points))
+        acfcomp.properties.append(hn)
+        acfcomp.create_rdf(fu_p)
+        amap = metarelate.Mapping(None, agribcomp, acfcomp, editor=marqh,
+                                  reason='"new mapping"',
+                                  status='"Draft"', invertible='"True"')
+        amap.create_rdf(fu_p)
+        
 
 def get_grib2(fu_p):
     for gparam, cfname in grib_cf_map.GRIB2_TO_CF.iteritems():
@@ -65,9 +106,10 @@ def get_grib2(fu_p):
         agribcomp = metarelate.Component(None, gribmsg, [agribprop])
         agribcomp.create_rdf(fu_p)
         acfcomp = _cfname(fu_p, cfname)
+        acfcomp.create_rdf(fu_p)
         amap = metarelate.Mapping(None, agribcomp, acfcomp, editor=marqh,
                                   reason='"new mapping"',
-                                  status='"Draft"')
+                                  status='"Draft"', invertible='"True"')
         amap.create_rdf(fu_p)
 
 def get_stash(fu_p):
@@ -81,6 +123,8 @@ def get_stash(fu_p):
         astashcomp.create_rdf(fu_p)
 
         acfcomp = _cfname(fu_p, cfname)
+        acfcomp.create_rdf(fu_p)
+
         amap = metarelate.Mapping(None, astashcomp, acfcomp, editor=marqh,
                                   reason='"new mapping"',
                                   status='"Draft"')
@@ -93,6 +137,7 @@ with FusekiServer() as fu_p:
     if True:
         get_stash(fu_p)
         get_grib2(fu_p)
+        get_grib1_mo_constrained(fu_p)
     # except Exception, e:
     #     print e.message
     #     import pdb; pdb.set_trace()

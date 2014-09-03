@@ -53,9 +53,23 @@ def _cfname(fu_p, cfname):
         acfcomp = metarelate.Component(None, cff, [acfuprop])
     return acfcomp
 
-def get_grib1_mo(fu_p):
+def get_grib1_ec(fu_p):
     for g1l, cfname in grib_cf_map.GRIB1_LOCAL_TO_CF.iteritems():
-        pass
+        gribtemp = 'http://reference.metoffice.gov.uk/grib/grib1/parameter/{c}/{t}-{i}'
+        #gribtemp = 'http://reference.metoffice.gov.uk/grib/grib1/parameter/{c}-{t}-{i}'
+        griburi = gribtemp.format(i=g1l.iParam, t=g1l.t2version, c=g1l.centre)
+        gpd = 'http://codes.wmo.int/def/grib1/parameter'
+        agribprop = metarelate.StatementProperty(metarelate.Item(gpd),
+                                                  metarelate.Item(griburi, g1l.iParam))
+        gribmsg = 'http://codes.wmo.int/def/codeform/GRIB-message'
+        agribcomp = metarelate.Component(None, gribmsg, [agribprop])
+        agribcomp.create_rdf(fu_p)
+        acfcomp = _cfname(fu_p, cfname)
+        acfcomp.create_rdf(fu_p)
+        amap = metarelate.Mapping(None, agribcomp, acfcomp, editor=marqh,
+                                  reason='"new mapping"',
+                                  status='"Draft"', invertible='"True"')
+        amap.create_rdf(fu_p)
 
 def dimcoord(fu_p, name, units, value):
     sname = '{p}{c}'.format(p=pre['cfnames'], c=name)
@@ -71,12 +85,17 @@ def dimcoord(fu_p, name, units, value):
                                        acfcomp)
     return stp
 
-def get_grib1_mo_constrained(fu_p):
+def get_grib1_ec_constrained(fu_p):
     for g1l, cfname_h in grib_cf_map.GRIB1_LOCAL_TO_CF_CONSTRAINED.iteritems():
-        gribtemp = 'http://reference.metoffice.gov.uk/grib/grib1/parameter/{v}-{c}-{i}'
-        griburi = gribtemp.format(v=g1l.t2version,
-                                  c=g1l.centre,
-                                  i=g1l.iParam)
+        gribtemp = 'http://reference.metoffice.gov.uk/grib/grib1/parameter/ecmwf--98/{t}-{i}'
+        #gribtemp = 'http://reference.metoffice.gov.uk/grib/grib1/parameter/{c}-{t}-{i}'
+        griburi = gribtemp.format(i=g1l.iParam, t=g1l.t2version)#, c=g1l.centre)
+        # gribtemp = 'http://reference.metoffice.gov.uk/grib/grib1/ecmwf/parameter/{i}'
+        # griburi = gribtemp.format(i=g1l.iParam)
+        # gribtemp = 'http://reference.metoffice.gov.uk/grib/ecmwf/grib1/parameter/{v}-{c}-{i}'
+        # griburi = gribtemp.format(v=g1l.t2version,
+        #                           c=g1l.centre,
+        #                           i=g1l.iParam)
         gpd = 'http://codes.wmo.int/def/grib1/parameter'
         agribprop = metarelate.StatementProperty(metarelate.Item(gpd),
                                                   metarelate.Item(griburi, g1l.iParam))
@@ -203,10 +222,11 @@ with FusekiServer() as fu_p:
         get_stash(fu_p)
         get_fc(fu_p)
         get_grib2(fu_p)
-        get_grib1_mo_constrained(fu_p)
+        get_grib1_ec(fu_p)
+        get_grib1_ec_constrained(fu_p)
     # except Exception, e:
     #     print e.message
     #     import pdb; pdb.set_trace()
 
-    #fu_p.save()
+    fu_p.save()
 

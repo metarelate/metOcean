@@ -9,12 +9,12 @@ ppff = 'http://reference.metoffice.gov.uk/um/f3/UMField'
 Stash = 'http://reference.metoffice.gov.uk/um/c4/stash/Stash'
 fci = 'http://reference.metoffice.gov.uk/um/f3/lbfc'
 
-cff = 'http://def.scitools.org.uk/cfmodel/Field'
-cfsn = 'http://def.scitools.org.uk/cfmodel/standard_name'
-cfln = 'http://def.scitools.org.uk/cfmodel/long_name'
-cfun = 'http://def.scitools.org.uk/cfmodel/units'
-cfpoints = 'http://def.scitools.org.uk/cfmodel/points'
-cfdimcoord = 'http://def.scitools.org.uk/cfmodel/dim_coord'
+cff = 'http://def.scitools.org.uk/cfdatamodel/Field'
+cfsn = 'http://def.scitools.org.uk/cfdatamodel/standard_name'
+cfln = 'http://def.scitools.org.uk/cfdatamodel/long_name'
+cfun = 'http://def.scitools.org.uk/cfdatamodel/units'
+cfpoints = 'http://def.scitools.org.uk/cfdatamodel/points'
+cfdimcoord = 'http://def.scitools.org.uk/cfdatamodel/dim_coord'
 
 marqh = '<http://www.metarelate.net/metOcean/people/marqh>'
 

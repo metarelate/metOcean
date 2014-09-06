@@ -1,8 +1,0 @@
-
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix gribapi: <http://def.ecmwf.int/api/grib/keys> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-
-<http://reference.metoffice.gov.uk/def/um/computed_value#> a skos:concept ;
-            skos:notation "#" ;
-            .

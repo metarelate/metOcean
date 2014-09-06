@@ -14,7 +14,8 @@ cfsn = 'http://def.scitools.org.uk/cfdatamodel/standard_name'
 cfln = 'http://def.scitools.org.uk/cfdatamodel/long_name'
 cfun = 'http://def.scitools.org.uk/cfdatamodel/units'
 cfpoints = 'http://def.scitools.org.uk/cfdatamodel/points'
-cfdimcoord = 'http://def.scitools.org.uk/cfdatamodel/dim_coord'
+cfdim_coord = 'http://def.scitools.org.uk/cfdatamodel/dim_coord'
+cfDimCoord = 'http://def.scitools.org.uk/cfdatamodel/DimCoord'
 
 marqh = '<http://www.metarelate.net/metOcean/people/marqh>'
 
@@ -79,11 +80,11 @@ def dimcoord(fu_p, name, units, value):
                                             metarelate.Item(units))
     acfvprop = metarelate.StatementProperty(metarelate.Item(cfpoints),
                                             metarelate.Item(value))
-    acfcomp = metarelate.Component(None, cff, [acfnprop, acfuprop, acfvprop])
+    acfcomp = metarelate.Component(None, cfDimCoord, [acfnprop, acfuprop, acfvprop])
     acfcomp.create_rdf(fu_p)
     # stp = metarelate.StatementProperty(metarelate.Item(cfdimcoord),
     #                                    acfcomp)
-    stp = metarelate.ComponentProperty(metarelate.Item(cfdimcoord),
+    stp = metarelate.ComponentProperty(metarelate.Item(cfdim_coord),
                                        acfcomp)
     return stp
 
@@ -221,11 +222,11 @@ with FusekiServer() as fu_p:
     fu_p.load()
     # try:
     if True:
+        get_grib1_ec_constrained(fu_p)
         get_stash(fu_p)
         get_fc(fu_p)
         get_grib2(fu_p)
         get_grib1_ec(fu_p)
-        get_grib1_ec_constrained(fu_p)
     # except Exception, e:
     #     print e.message
     #     import pdb; pdb.set_trace()

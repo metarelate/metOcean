@@ -81,7 +81,9 @@ def dimcoord(fu_p, name, units, value):
                                             metarelate.Item(value))
     acfcomp = metarelate.Component(None, cff, [acfnprop, acfuprop, acfvprop])
     acfcomp.create_rdf(fu_p)
-    stp = metarelate.StatementProperty(metarelate.Item(cfdimcoord),
+    # stp = metarelate.StatementProperty(metarelate.Item(cfdimcoord),
+    #                                    acfcomp)
+    stp = metarelate.ComponentProperty(metarelate.Item(cfdimcoord),
                                        acfcomp)
     return stp
 

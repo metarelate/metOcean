@@ -21,6 +21,7 @@ marqh = '<http://www.metarelate.net/metOcean/people/marqh>'
 
 pre = Prefixes()
 
+gribtemp = 'http://reference.metoffice.gov.uk/grib/grib1/ecmwf--98/{t}-{i}'
 
 def _cfname(fu_p, cfname):
     standard_name = None
@@ -29,15 +30,14 @@ def _cfname(fu_p, cfname):
         standard_name = '{p}{c}'.format(p=pre['cfnames'],
                                         c=cfname.standard_name)
         if cfname.long_name:
-            raise ValueError('standard name and long name defined for'
-                             ' {}'.format(stash))
-    elif cfname.long_name:
+            raise ValueError('standard name and long name defined')
+    elif cfname.long_name is not None:
         long_name = cfname.long_name
     if cfname.units is not None:
         units = cfname.units
     else:
         raise ValueError('no units')
-    name = False
+    name = None
     if standard_name is not None:
         name = standard_name
         pred = cfsn
@@ -46,7 +46,7 @@ def _cfname(fu_p, cfname):
         pred = cfln
     acfuprop = metarelate.StatementProperty(metarelate.Item(cfun, 'units'),
                                             metarelate.Item(units))
-    if name:
+    if name is not None:
         acfnprop = metarelate.StatementProperty(metarelate.Item(pred, pred.split('/')[-1]),
                                                 metarelate.Item(name, name.split('/')[-1]))
         acfcomp = metarelate.Component(None, cff, [acfnprop, acfuprop])
@@ -56,8 +56,6 @@ def _cfname(fu_p, cfname):
 
 def get_grib1_ec(fu_p):
     for g1l, cfname in grib_cf_map.GRIB1_LOCAL_TO_CF.iteritems():
-        gribtemp = 'http://reference.metoffice.gov.uk/grib/grib1/parameter/{c}/{t}-{i}'
-        #gribtemp = 'http://reference.metoffice.gov.uk/grib/grib1/parameter/{c}-{t}-{i}'
         griburi = gribtemp.format(i=g1l.iParam, t=g1l.t2version, c=g1l.centre)
         gpd = 'http://codes.wmo.int/def/grib1/parameter'
         agribprop = metarelate.StatementProperty(metarelate.Item(gpd),
@@ -82,23 +80,13 @@ def dimcoord(fu_p, name, units, value):
                                             metarelate.Item(value))
     acfcomp = metarelate.Component(None, cfDimCoord, [acfnprop, acfuprop, acfvprop])
     acfcomp.create_rdf(fu_p)
-    # stp = metarelate.StatementProperty(metarelate.Item(cfdimcoord),
-    #                                    acfcomp)
     stp = metarelate.ComponentProperty(metarelate.Item(cfdim_coord),
                                        acfcomp)
     return stp
 
 def get_grib1_ec_constrained(fu_p):
     for g1l, cfname_h in grib_cf_map.GRIB1_LOCAL_TO_CF_CONSTRAINED.iteritems():
-        gribtemp = 'http://reference.metoffice.gov.uk/grib/grib1/parameter/ecmwf--98/{t}-{i}'
-        #gribtemp = 'http://reference.metoffice.gov.uk/grib/grib1/parameter/{c}-{t}-{i}'
-        griburi = gribtemp.format(i=g1l.iParam, t=g1l.t2version)#, c=g1l.centre)
-        # gribtemp = 'http://reference.metoffice.gov.uk/grib/grib1/ecmwf/parameter/{i}'
-        # griburi = gribtemp.format(i=g1l.iParam)
-        # gribtemp = 'http://reference.metoffice.gov.uk/grib/ecmwf/grib1/parameter/{v}-{c}-{i}'
-        # griburi = gribtemp.format(v=g1l.t2version,
-        #                           c=g1l.centre,
-        #                           i=g1l.iParam)
+        griburi = gribtemp.format(i=g1l.iParam, t=g1l.t2version)
         gpd = 'http://codes.wmo.int/def/grib1/parameter'
         agribprop = metarelate.StatementProperty(metarelate.Item(gpd),
                                                   metarelate.Item(griburi, g1l.iParam))
@@ -169,7 +157,6 @@ def get_stash(fu_p):
                                                   metarelate.Item(stashuri, stashmsi))
         astashcomp = metarelate.Component(None, ppff, [astashprop])
         astashcomp.create_rdf(fu_p)
-
         acfcomp = _cfname(fu_p, cfname)
         acfcomp.create_rdf(fu_p)
 
@@ -200,7 +187,7 @@ def get_fc(fu_p):
                                   status='"Draft"', invertible=inv)
         amap.create_rdf(fu_p)
     for cfname, fc in um_cf_map.CF_TO_LBFC.iteritems():
-        if fc not in um_cf_map.LBFC_TO_CF:
+        if cfname not in [a[1] for a in list(um_cf_map.LBFC_TO_CF.iteritems())]:
             fcuri = 'http://reference.metoffice.gov.uk/um/fieldcode/{}'.format(fc)
             afc = metarelate.StatementProperty(metarelate.Item(fci),
                                                       metarelate.Item(fcuri))

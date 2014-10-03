@@ -7274,12 +7274,6 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
-<http://www.metarelate.net/metOcean/component/f11cf60b0d8469b94696bae5146404ed65dbd519>
-	<http://codes.wmo.int/def/grib2/parameter> <http://codes.wmo.int/grib2/codeflag/4.2/2-0-0> ;
-	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://codes.wmo.int/def/codeform/GRIB-message> ;
-	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
-	.
-
 <http://www.metarelate.net/metOcean/component/f1406f19f279538b333b594ebb962fab932984be>
 	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/northward_wind> ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "m s-1" ;

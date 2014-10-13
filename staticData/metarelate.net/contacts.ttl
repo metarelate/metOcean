@@ -71,3 +71,14 @@
 	<http://www.w3.org/2004/02/skos/core#definition> <https://github.com/nhsavage> ;
 	<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.metarelate.net/metOcean/people> ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "nhsavage" ;
+        .
+
+<http://www.metarelate.net/metOcean/people/malcolmbrooks>
+	<http://purl.org/dc/terms/valid> "2014-10-13T11:26:02.422003" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> ;
+	<http://www.w3.org/2004/02/skos/core#definition> <https://github.com/malcolmbrooks> ;
+	<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.metarelate.net/metOcean/people> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "malcolmbrooks" ;
+        .
+
+

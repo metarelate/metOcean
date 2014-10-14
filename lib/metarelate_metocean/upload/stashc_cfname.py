@@ -34,7 +34,8 @@ def parse_file(fuseki_process, afile, userid):
                 raise ValueError('unexpected line splitting; expected:\n'
                                  '{}\ngot:\n{}'.format(expected, line))
             else:
-                arecord = record(lsplit[0], lsplit[1], lsplit[2], lsplit[3])
+                arecord = record(lsplit[0].strip(), lsplit[1].strip(),
+                                 lsplit[2].strip(), lsplit[3].strip())
             if arecord.complex == 'n' or arecord.complex.lower() == 'false':
                 make_stash_mapping(fuseki_process, arecord.stash, arecord.cfname,
                                    arecord.units, userid)
@@ -95,10 +96,6 @@ def make_stash_mapping(fu_p, stashmsi, name, units, userid):
             replaced.source = astashcomp
             replaced.target = acfcomp
             replaced.create_rdf(fu_p)
-            
-            # msg = ('{} uses the same source with a different '
-            #        'target\nSource:\n{}\nTarget:\n{}')
-            # raise ValueError(msg.format(target_differs, astashcomp, acfcomp))
         else:
             amap = metarelate.Mapping(None, astashcomp, acfcomp,
                                       creator=userid, invertible='"False"')

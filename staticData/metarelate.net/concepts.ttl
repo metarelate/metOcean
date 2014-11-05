@@ -203,6 +203,13 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/0572f26551116303d25832361b004f6cc1eb5f2a>
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/canopy_throughfall_flux> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "kg/m^2/s" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/057561b3bccfaf079959181840da76f18ccf8a43>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s15i219> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
@@ -3223,6 +3230,13 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/6238737dc133aabbd78c543a89757419fff225c5>
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/sea_ice_surface_temperature> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "K" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/6247aeb5e2f0aff85bf551041fcaaf7ce2a33b26>
 	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/mass_fraction_of_ethane_in_air> ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "kg kg-1" ;
@@ -3386,6 +3400,13 @@
 <http://www.metarelate.net/metOcean/component/669aee3fdcf8b18d4b6f7f5206662e1341c8c1d0>
 	<http://codes.wmo.int/def/grib2/parameterId> <http://codes.wmo.int/grib2/codeflag/4.2/0-1-3> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://codes.wmo.int/def/codeform/GRIB-message> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/66b3bbcfa10e291f6bf10732803e6877ad16eeb0>
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/soil_respiration_carbon_flux> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "kg/m^2/s" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
@@ -5495,6 +5516,13 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/a8e7e587b6f6c725f9e7dd8fed12b0d42252e5b0>
+	<http://def.scitools.org.uk/cfdatamodel/long_name> "water_sublimation_flux_in_timestep" ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "kg m-2" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/a97c6720caa7515a8f1b6406354e12220cdf2636>
 	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/tendency_of_northward_wind_due_to_convection> ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "m s-2" ;
@@ -6621,6 +6649,13 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/d26c8bbf2be46fed8f15b57f14a4e4cea4f61177>
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/atmosphere_absorption_optical_thickness_due_to_sulfate_ambient_aerosol> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> 1 ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/d2d61da0def6ec9388a1971a45cf6761294f0447>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s04i231> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
@@ -6852,6 +6887,13 @@
 <http://www.metarelate.net/metOcean/component/d7328e55eab02bf5408423f71cf0959afc1e38b0>
 	<http://reference.metoffice.gov.uk/um/f3/lbfc> <http://reference.metoffice.gov.uk/um/fieldcode/112> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/d735e5b9a07c77e91fe2008577b5a801bce34bd0>
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/plant_respiration_carbon_flux> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "kg/m^2/s" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
@@ -7629,6 +7671,13 @@
 <http://www.metarelate.net/metOcean/component/ec4ed8051d10c08c3416f6116ac19777b3b7b497>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s30i313> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/ec86201aebd42d53484f3bd794e2307c634cf3e0>
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/atmosphere_absorption_optical_thickness_due_to_seasalt_ambient_aerosol> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> 1 ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 

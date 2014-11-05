@@ -69,7 +69,7 @@ def make_stash_mapping(fu_p, stashmsi, name, units, userid):
     req = requests.get(stashuri)
     if req.status_code != 200:
         raise ValueError('unrecognised stash code: {}'.format(stash))
-    pred = metarelate.Item('{}stash/Stash'.format(pre['moumdpC4']),'stash')
+    pred = metarelate.Item('{}stash'.format(pre['moumdpF3']),'stash')
     robj = metarelate.Item(stashuri, stashmsi)
     astashprop = metarelate.StatementProperty(pred, robj)
     ppff = '{}UMField'.format(pre['moumdpF3'])

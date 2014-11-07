@@ -3,6 +3,7 @@ import copy
 from collections import namedtuple
 import requests
 import sys
+import warnings
 
 from iris.unit import Unit
 import metarelate
@@ -19,10 +20,10 @@ def parse_file(fuseki_process, afile, userid):
 
     """
     record = namedtuple('record', 'stash cfname units complex')
-    expected = 'STASH(msi)|CFName|units|further_complexity'
+    expected = '|STASH(msi)|CFName|units|further_complexity|'
     with open(afile, 'r') as inputs:
         lines = inputs.readlines()
-        exp = 'STASH(msi)|CFName|units|further_complexity'
+        exp = expected
         if lines[0].strip() == exp:
             lines = lines[1:]
         else:
@@ -30,17 +31,17 @@ def parse_file(fuseki_process, afile, userid):
         for line in lines:
             line = line.strip()
             lsplit = line.split('|')
-            if len(lsplit) != 4:
+            if len(lsplit) != 6:
                 raise ValueError('unexpected line splitting; expected:\n'
                                  '{}\ngot:\n{}'.format(expected, line))
             else:
-                arecord = record(lsplit[0].strip(), lsplit[1].strip(),
-                                 lsplit[2].strip(), lsplit[3].strip())
-            if arecord.complex == 'n' or arecord.complex.lower() == 'false':
+                arecord = record(lsplit[1].strip(), lsplit[2].strip(),
+                                 lsplit[3].strip(), lsplit[4].strip())
+            if arecord.cfname and arecord.complex == 'n' or arecord.complex.lower() == 'false':
                 make_stash_mapping(fuseki_process, arecord.stash, arecord.cfname,
                                    arecord.units, userid)
             else:
-                print('skipping complex line\n{}'.format(line))
+               print('skipping unprocess complex line\n{}'.format(line))
 
                 
 def cfname(fu_p, name, units):
@@ -56,7 +57,7 @@ def cfname(fu_p, name, units):
         pred = '{}long_name'.format(pre['cfmodel'])
     cfun = '{}units'.format(pre['cfmodel'])
     acfuprop = metarelate.StatementProperty(metarelate.Item(cfun,'units'),
-                                            metarelate.Item(units))
+                                            metarelate.Item(units, units))
     acfnprop = metarelate.StatementProperty(metarelate.Item(pred, pred.split('/')[-1]),
                                             metarelate.Item(name, name.split('/')[-1]))
     cff = '{}Field'.format(pre['cfmodel'])
@@ -90,16 +91,36 @@ def make_stash_mapping(fu_p, stashmsi, name, units, userid):
         if target_differs:
             replaced = metarelate.Mapping(target_differs.get('mapping'))
             replaced.populate_from_uri(fu_p)
+            mr = _report(replaced) 
             replaced.replaces = replaced.uri
             replaced.uri = None
             replaced.contributors = replaced.contributors + [userid]
             replaced.source = astashcomp
             replaced.target = acfcomp
+            nr = _report(replaced)
+            warnings.warn('Replacing Mapping \n{m} \nwith \n{n}\n'.format(m=mr, n=nr))
             replaced.create_rdf(fu_p)
         else:
             amap = metarelate.Mapping(None, astashcomp, acfcomp,
                                       creator=userid, invertible='"False"')
             amap.create_rdf(fu_p)
+
+def _report(mapping):
+    mr = mapping.source.stash.notation
+    mr += '\n'
+    try:
+        mr += mapping.target.standard_name.notation
+    except Exception:
+        pass
+    try:
+        mr += mapping.target.long_name.notation
+    except Exception:
+        pass
+    mr += '\n'
+    mr += mapping.target.units.notation
+    return mr
+    
+
 
 def get_args():
     parser = argparse.ArgumentParser()

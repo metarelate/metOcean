@@ -1,7 +1,6 @@
 import requests
 
-## i know :/
-from iris.unit import Unit
+
 def _comp_fails(fuseki_process, comp_fails):
     """
     find all valid mappings which use acomp as a source or target
@@ -34,11 +33,11 @@ def cfunits(fuseki_process):
             '}}\n')
     results = fuseki_process.run_query(qstr)
     ufails = []
-    for result in results:
-        try:
-            Unit(result.get('units').strip('"'))
-        except ValueError:
-            ufails.append(result)
+    # for result in results:
+    #     try:
+    #         Unit(result.get('units').strip('"'))
+    #     except ValueError:
+    #         ufails.append(result)
     val_errors = _comp_fails(fuseki_process, ufails)
     val_errors_response = {'CF units not parseable':val_errors}
     return val_errors_response

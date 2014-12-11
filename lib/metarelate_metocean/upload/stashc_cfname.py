@@ -5,7 +5,6 @@ import requests
 import sys
 import warnings
 
-from iris.unit import Unit
 import metarelate
 import metarelate.fuseki as fuseki
 from metarelate.prefixes import Prefixes
@@ -46,7 +45,7 @@ def parse_file(fuseki_process, afile, userid):
                 
 def cfname(fu_p, name, units):
     # fail if unit not udunits parseable
-    checkunit = Unit(units)
+    # checkunit = Unit(units)
     pre = Prefixes()
     standard_name = '{p}{c}'.format(p=pre['cfnames'], c=name)
     req = requests.get(standard_name)

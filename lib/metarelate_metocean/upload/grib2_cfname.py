@@ -14,10 +14,9 @@ record = namedtuple('record', 'disc pcat pnum cfname units')
 def parse_file(fuseki_process, afile, userid):
     """
     file lines must be of the form
-    STASH(msi)|CFName|units|further_complexity
+    Disc|pCat|pNum|CFName|units
     with this as the header(the first line is skipped on this basis)
 
-    this only runs a line if the complexity is set to 'n' or 'false'
 
     """
     expected = 'Disc|pCat|pNum|CFName|units'
@@ -36,7 +35,7 @@ def parse_file(fuseki_process, afile, userid):
             else:
                 arecord = record(lsplit[0], lsplit[1], lsplit[2], lsplit[3],
                                  lsplit[4])
-            make_stash_mapping(fuseki_process, arecord, userid)
+            make_grib2_mapping(fuseki_process, arecord, userid)
 
                 
 def cfname(fu_p, name, units):
@@ -63,7 +62,7 @@ def make_grib2_mapping(fu_p, arecord, userid):
     griburi = griburi.format(d=arecord.disc, c=arecord.pcat, i=arecord.pnum)
     req = requests.get(griburi)
     if req.status_code != 200:
-        raise ValueError('unrecognised stash code: {}'.format(griburi))
+        raise ValueError('unrecognised grib2 parameter code: {}'.format(griburi))
     gpd = 'http://codes.wmo.int/def/grib2/parameterId'
     agribprop = metarelate.StatementProperty(metarelate.Item(gpd),
                                             metarelate.Item(griburi))
@@ -113,16 +112,7 @@ def main():
     args = get_args()
     with fuseki.FusekiServer() as fuseki_process:
         fuseki_process.load()
-        # parse_file(fuseki_process, args.infile, args.user)
-        # record = namedtuple('record', 'disc pcat pnum cfname units')
-        arecord = record(0, 2, 22, 'wind_speed_of_gust', 'm s-1')
-        userid = args.user
-        make_grib2_mapping(fuseki_process, arecord, userid)
-        arecord = record(0, 0, 17, 'surface_temperature', 'K')
-        make_grib2_mapping(fuseki_process, arecord, userid)
-        arecord = record(0, 5, 5, 'toa_outgoing_longwave_flux', 'W m-2')
-        make_grib2_mapping(fuseki_process, arecord, userid)
-        
+        parse_file(fuseki_process, args.infile, args.user)
         fuseki_process.save()
 
 

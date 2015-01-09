@@ -113,16 +113,7 @@ def main():
     args = get_args()
     with fuseki.FusekiServer() as fuseki_process:
         fuseki_process.load()
-        # parse_file(fuseki_process, args.infile, args.user)
-        # record = namedtuple('record', 'disc pcat pnum cfname units')
-        arecord = record(0, 2, 22, 'wind_speed_of_gust', 'm s-1')
-        userid = args.user
-        make_grib2_mapping(fuseki_process, arecord, userid)
-        arecord = record(0, 0, 17, 'surface_temperature', 'K')
-        make_grib2_mapping(fuseki_process, arecord, userid)
-        arecord = record(0, 5, 5, 'toa_outgoing_longwave_flux', 'W m-2')
-        make_grib2_mapping(fuseki_process, arecord, userid)
-        
+        parse_file(fuseki_process, args.infile, args.user)
         fuseki_process.save()
 
 

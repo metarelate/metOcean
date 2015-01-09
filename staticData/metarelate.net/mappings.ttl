@@ -1739,6 +1739,15 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/293841678567da161d00265316a1629d0e025c2e>
+	<http://purl.org/dc/terms/creator> <https://github.com/esc24> ;
+	<http://purl.org/dc/terms/date> "2015-01-09T13:21:43.750518" ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "True" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/82dd21073b4d840aa74488e246fecf745abf9e20> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/5613c526cd3db584e585fa576a6ef6d3582de23c> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/2959a1da2656099ef3d4083dbe5fcaa5a6148b86>
 	<http://purl.org/dc/terms/creator> <https://github.com/NSavage> ;
 	<http://purl.org/dc/terms/date> "2014-11-06T13:24:53.204810" ;

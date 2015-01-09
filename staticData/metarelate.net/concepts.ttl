@@ -5064,6 +5064,12 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/82dd21073b4d840aa74488e246fecf745abf9e20>
+	<http://codes.wmo.int/def/grib2/parameterId> <http://codes.wmo.int/grib2/codeflag/4.2/0-1-7> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://codes.wmo.int/def/codeform/GRIB-message> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/82dec5c57c023a74521df97ba3ebb0c4f3936abf>
 	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/product_of_omega_and_air_temperature> ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "unknown" ;

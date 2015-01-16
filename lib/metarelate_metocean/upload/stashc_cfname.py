@@ -9,17 +9,18 @@ import metarelate
 import metarelate.fuseki as fuseki
 from metarelate.prefixes import Prefixes
 
+record = namedtuple('record', 'stash cfname units force')
+expected = '|STASH(msi)|CFName|units|force_update(y/n)|'
+
 def parse_file(fuseki_process, file_handle, userid, branchid):
     """
     file lines must be of the form
-    STASH(msi)|CFName|units|further_complexity
+    |STASH(msi)|CFName|units|force_update(y/n)|
     with this as the header(the first line is skipped on this basis)
 
     this only runs a line if the complexity is set to 'n' or 'false'
 
     """
-    record = namedtuple('record', 'stash cfname units force')
-    expected = '|STASH(msi)|CFName|units|force_update(y/n)|'
     inputs = file_handle.read()
 
     lines = inputs.split('\n')
@@ -51,7 +52,7 @@ def parse_file(fuseki_process, file_handle, userid, branchid):
 
 
                 
-def cfname(fu_p, name, units):
+def cfname(name, units):
     # fail if unit not udunits parseable
     # checkunit = Unit(units)
     pre = Prefixes()
@@ -83,12 +84,12 @@ def make_stash_mapping(fu_p, stashmsi, name, units, userid, branchid, force):
     ppff = '{}UMField'.format(pre['moumdpF3'])
     astashcomp = metarelate.Component(None, ppff, [astashprop])
     astashcomp.create_rdf(fu_p, graph=branchid)
-    acfcomp = cfname(fu_p, name, units)
+    acfcomp = cfname(name, units)
     acfcomp.create_rdf(fu_p, graph=branchid)
     replaces = fu_p.find_valid_mapping(astashcomp, acfcomp, graph=branchid)
     if replaces:
         replaced = metarelate.Mapping(replaces.get('mapping'))
-        replaced.populate_from_uri(fu_p)
+        replaced.populate_from_uri(fu_p, branchid)
         replaced.replaces = replaced.uri
         replaced.uri = None
         replaced.contributors = replaced.contributors + [userid]
@@ -97,8 +98,8 @@ def make_stash_mapping(fu_p, stashmsi, name, units, userid, branchid, force):
         target_differs = fu_p.find_valid_mapping(astashcomp, None, graph=branchid)
         if target_differs:
             replaced = metarelate.Mapping(target_differs.get('mapping'))
-            replaced.populate_from_uri(fu_p)
-            mr = _report(replaced) 
+            replaced.populate_from_uri(fu_p, branchid)
+            mr = _report(replaced)
             replaced.replaces = replaced.uri
             replaced.uri = None
             replaced.contributors = replaced.contributors + [userid]
@@ -146,7 +147,6 @@ def main():
         branchid = fuseki_process.branch_graph(args.user)
         with open(args.infile, 'r') as inputs:
             parse_file(fuseki_process, inputs, args.user, branchid)
-        import pdb; pdb.set_trace()
         fuseki_process.save(branchid)
 
 

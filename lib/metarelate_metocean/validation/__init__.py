@@ -43,7 +43,7 @@ def cfunits(fuseki_process, graph=None):
     #         Unit(result.get('units').strip('"'))
     #     except ValueError:
     #         ufails.append(result)
-    val_errors = _comp_fails(fuseki_process, ufails)
+    val_errors = _comp_fails(fuseki_process, ufails, graph)
     val_errors_response = {'CF units not parseable':val_errors}
     return val_errors_response
 
@@ -90,6 +90,6 @@ def cflongnameisstd(fuseki_process, graph=None):
         resp = requests.get(std_url)
         if resp.status_code == 200:
             ufails.append(result)
-    val_errors = _comp_fails(fuseki_process, ufails)
+    val_errors = _comp_fails(fuseki_process, ufails, graph)
     val_errors_response = {'CF long name is a valid standard name':val_errors}
     return val_errors_response

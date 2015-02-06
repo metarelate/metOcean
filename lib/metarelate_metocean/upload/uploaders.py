@@ -23,3 +23,9 @@ def cfname(name, units):
     acfcomp = metarelate.Component(None, cff, [acfnprop, acfuprop])
     return acfcomp
 
+def update_mappingmeta(replaced, userid):
+    replaced.replaces = replaced.uri
+    replaced.uri = None
+    replaced.contributors = replaced.contributors + [replaced.creator]
+    replaced.creator = userid
+    return replaced

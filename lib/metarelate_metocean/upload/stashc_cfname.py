@@ -8,7 +8,7 @@ import sys
 import metarelate
 import metarelate.fuseki as fuseki
 from metarelate.prefixes import Prefixes
-from metarelate_metocean.upload.uploaders import cfname
+from metarelate_metocean.upload.uploaders import cfname, update_mappingmeta
 
 record = namedtuple('record', 'stash cfname units force')
 expected = '|STASH(msi)|CFName|units|force_update(y/n)|'
@@ -84,15 +84,11 @@ def make_stash_mapping(fu_p, stashmsi, name, units, userid, branchid, force):
     astashcomp = metarelate.Component(None, ppff, [astashprop])
     astashcomp.create_rdf(fu_p, graph=branchid)
     acfcomp = cfname(name, units)
-    #acfcomp.create_rdf(fu_p, graph=branchid)
     replaces = fu_p.find_valid_mapping(astashcomp, acfcomp, graph=branchid)
     if replaces:
         replaced = metarelate.Mapping(replaces.get('mapping'))
         replaced.populate_from_uri(fu_p, branchid)
-        replaced.replaces = replaced.uri
-        replaced.uri = None
-        replaced.contributors = replaced.contributors + [userid]
-        #replaced.create_rdf(fu_p, graph=branchid)
+        replaced = update_mappingmeta(replaced, userid)
         result = replaced
     else:
         target_differs = fu_p.find_valid_mapping(astashcomp, None, graph=branchid)
@@ -100,9 +96,7 @@ def make_stash_mapping(fu_p, stashmsi, name, units, userid, branchid, force):
             replaced = metarelate.Mapping(target_differs.get('mapping'))
             replaced.populate_from_uri(fu_p, branchid)
             mr = _report(replaced)
-            replaced.replaces = replaced.uri
-            replaced.uri = None
-            replaced.contributors = replaced.contributors + [userid]
+            replaced = update_mappingmeta(replaced, userid)
             replaced.source = astashcomp
             replaced.target = acfcomp
             nr = _report(replaced)
@@ -110,13 +104,11 @@ def make_stash_mapping(fu_p, stashmsi, name, units, userid, branchid, force):
                 errs.append('You need to force replacing mapping \n'
                             '{m} \nwith \n{n}\nin order to process'
                             'this request'.format(m=mr, n=nr))
-            #replaced.create_rdf(fu_p, graph=branchid)
             result = replaced
         else:
             amap = metarelate.Mapping(None, astashcomp, acfcomp,
                                       creator=userid, invertible='"False"')
             result = amap
-            #amap.create_rdf(fu_p, graph=branchid)
     return result, errs
 
 def _report(mapping):

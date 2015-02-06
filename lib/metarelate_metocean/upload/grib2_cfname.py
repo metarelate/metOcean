@@ -76,44 +76,31 @@ def make_grib2_mapping(fu_p, arecord, userid, branchid, force):
                                             metarelate.Item(griburi))
     gribmsg = 'http://codes.wmo.int/def/codeform/GRIB-message'
     agribcomp = metarelate.Component(None, gribmsg, [agribprop])
-    #agribcomp.create_rdf(fu_p, graph=branchid)
     acfcomp = cfname(arecord.cfname, arecord.units)
-    #acfcomp.create_rdf(fu_p, graph=branchid)
     inv = '"True"'
     replaces = fu_p.find_valid_mapping(agribcomp, acfcomp, graph=branchid)
     if replaces:
         replaced = metarelate.Mapping(replaces.get('mapping'))
         replaced.populate_from_uri(fu_p, branchid)
-        replaced.replaces = replaced.uri
-        replaced.uri = None
-        replaced.contributors = replaced.contributors + [userid]
-        #replaced.create_rdf(fu_p, graph=branchid)
+        replaced = update_mappingmeta(replaced, userid)
         result = replaced
     else:
         target_differs = fu_p.find_valid_mapping(agribcomp, None, graph=branchid)
         if target_differs:
-            # msg = ('{} uses the same source with a different '
-            #        'target\nSource:\n{}\nTarget:\n{}')
-            # warnings.warn(msg.format(target_differs, agribcomp, acfcomp))
-            #raise ValueError(msg.format(target_differs, agribcomp, acfcomp))
             replaced = metarelate.Mapping(target_differs.get('mapping'))
             replaced.populate_from_uri(fu_p, branchid)
+            replaced = update_mappingmeta(replaced, userid)
             mr = _report(replaced)
-            replaced.replaces = replaced.uri
-            replaced.uri = None
-            replaced.contributors = replaced.contributors + [userid]
             replaced.source = agribcomp
             replaced.target = acfcomp
             nr = _report(replaced)
             if not force:
                 errs.append('You need to force replacing mapping \n'
                             '{m} \nwith \n{n}\n'.format(m=mr, n=nr))
-            #replaced.create_rdf(fu_p, graph=branchid)
             result = replaced
         else:
             amap = metarelate.Mapping(None, agribcomp, acfcomp,
                                       creator=userid, invertible=inv)
-            #amap.create_rdf(fu_p, graph=branchid)
             result = amap
     return result, errs
 

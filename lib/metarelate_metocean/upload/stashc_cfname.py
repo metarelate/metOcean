@@ -65,9 +65,9 @@ def parse_file(fuseki_process, file_handle, userid, branchid):
         raise ValueError('\n'.join(errors))
     # now all inputs are validated, create the triples in the tdb
     for amap in new_mappings:
-        amap.source.create_rdf(fu_p, branchid)
-        amap.target.create_rdf(fu_p, branchid)
-        amap.create_rdf(fu_p, branchid)
+        amap.source.create_rdf(fuseki_process, branchid)
+        amap.target.create_rdf(fuseki_process, branchid)
+        amap.create_rdf(fuseki_process, branchid)
                                     
 
 def make_stash_mapping(fu_p, stashmsi, name, units, userid, branchid, force):

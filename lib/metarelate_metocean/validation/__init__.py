@@ -40,6 +40,7 @@ def cfunits(fuseki_process, graph=None):
     val_errors = []
     qstr = ('SELECT ?amap \n'
             '%s'
+            'WHERE {\n'
             'GRAPH ?g {\n'
             '{?amap rdf:type mr:Mapping ;'
             'mr:source ?acomp .}'
@@ -48,7 +49,6 @@ def cfunits(fuseki_process, graph=None):
             'mr:target ?acomp .}'
             'MINUS {?amap ^dc:replaces+ ?anothermap}\n'
             '}\n'
-            'WHERE {\n'
             'GRAPH <http://metarelate.net/concepts.ttl> {\n'
             '?acomp <http://def.scitools.org.uk/cfdatamodel/units> ?units'
             '}}\n')

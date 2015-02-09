@@ -51,7 +51,7 @@ def cfunits(fuseki_process, graph=None):
             '}\n'
             'GRAPH <http://metarelate.net/concepts.ttl> {\n'
             '?acomp <http://def.scitools.org.uk/cfdatamodel/units> ?units'
-            '}}\n')
+            '}}\n' % graphs)
     results = fuseki_process.run_query(qstr)
     ufails = []
     # for result in results:

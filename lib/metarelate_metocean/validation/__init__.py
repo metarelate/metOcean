@@ -82,7 +82,7 @@ def cflongnameisstd(fuseki_process, graph=None):
     resource_queue.join()
     for resource in resource_deque:
         if resource.exists:
-            ufails.append(resource.amap)
+            ufails.append({'amap': resource.amap})
     val_errors_response = {'CF long name is a valid standard name':ufails}
     return val_errors_response
 

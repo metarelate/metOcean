@@ -1,4 +1,9 @@
 import requests
+from Queue import Queue
+from collections import deque
+
+from metarelate.thread import WorkerThread, MAXTHREADS
+
 
 subformat_predicates = ['<http://codes.wmo.int/def/common/edition>']
 
@@ -65,12 +70,31 @@ def cflongnameisstd(fuseki_process, graph=None):
             '}}\n' % graphs)
     results = fuseki_process.run_query(qstr)
     ufails = []
+    resource_queue = Queue()
+    resource_deque = deque()
     for result in results:
         std_url = stdn.format(result.get('long_name').strip('"').strip())
-        resp = requests.get(std_url)
-        if resp.status_code == 200:
-            ufails.append(result)
-    val_errors = ufails
-    val_errors_response = {'CF long name is a valid standard name':val_errors}
+        resource_queue.put(TestUri(std_url, result.get('amap')))
+        # run worker threads
+    for i in range(MAXTHREADS):
+        ExistsWorkerThread(resource_queue, resource_deque).start()
+        # block progress until the queue is empty
+    resource_queue.join()
+    for resource in resource_deque:
+        if resource.exists:
+            ufails.append(resource.amap)
+    val_errors_response = {'CF long name is a valid standard name':ufails}
     return val_errors_response
+
+class TestUri(object):
+    def __init__(self, uri, amap):
+        self.uri = uri
+        self.amap = amap
+        self.exists = False
+
+class ExistsWorkerThread(WorkerThread):
+    def dowork(self, resource):
+        response = requests.get(resource.uri)
+        if response.status_code == 200:
+            resource.exists = True
 

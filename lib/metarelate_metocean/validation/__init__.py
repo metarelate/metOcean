@@ -52,7 +52,7 @@ def cflongnameisstd(fuseki_process, graph=None):
     qstr = ('SELECT ?amap \n'
             '%s'
             'WHERE {\n'
-            'GRAPH ?g {\n'
+            'GRAPH ?gm {\n'
             '{?amap rdf:type mr:Mapping ;'
             'mr:source ?acomp .}'
             'UNION'
@@ -60,7 +60,7 @@ def cflongnameisstd(fuseki_process, graph=None):
             'mr:target ?acomp .}'
             'MINUS {?amap ^dc:replaces+ ?anothermap}\n'
             '}\n'
-            'GRAPH ?g {\n'
+            'GRAPH ?gc {\n'
             '?acomp <http://def.scitools.org.uk/cfdatamodel/long_name> ?long_name'
             '}}\n' % graphs)
     results = fuseki_process.run_query(qstr)

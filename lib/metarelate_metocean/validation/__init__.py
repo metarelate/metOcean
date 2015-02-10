@@ -49,7 +49,7 @@ def cflongnameisstd(fuseki_process, graph=None):
         graphs += 'FROM NAMED <http://metarelate.net/{}mappings.ttl>\n'.format(graph)
     stdn = 'http://vocab.nerc.ac.uk/standard_name/{}/'
     val_errors = []
-    qstr = ('SELECT ?amap \n'
+    qstr = ('SELECT ?amap ?long_name \n'
             '%s'
             'WHERE {\n'
             'GRAPH ?gm {\n'

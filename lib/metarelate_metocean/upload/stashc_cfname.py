@@ -3,111 +3,117 @@ import copy
 from collections import namedtuple
 import requests
 import sys
-import warnings
 
-from iris.unit import Unit
+
 import metarelate
 import metarelate.fuseki as fuseki
 from metarelate.prefixes import Prefixes
+from metarelate_metocean.upload.uploaders import cfname, update_mappingmeta
 
-def parse_file(fuseki_process, afile, userid):
+record = namedtuple('record', 'stash cfname units force')
+expected = '|STASH(msi)|CFName|units|force_update(y/n)|'
+
+def parse_file(fuseki_process, file_handle, userid, branchid):
     """
     file lines must be of the form
-    STASH(msi)|CFName|units|further_complexity
+    |STASH(msi)|CFName|units|force_update(y/n)|
     with this as the header(the first line is skipped on this basis)
 
     this only runs a line if the complexity is set to 'n' or 'false'
 
     """
-    record = namedtuple('record', 'stash cfname units complex')
-    expected = '|STASH(msi)|CFName|units|further_complexity|'
-    with open(afile, 'r') as inputs:
-        lines = inputs.readlines()
-        exp = expected
-        if lines[0].strip() == exp:
-            lines = lines[1:]
-        else:
-            raise ValueError('File headers not as expected')
-        for line in lines:
-            line = line.strip()
-            lsplit = line.split('|')
-            if len(lsplit) != 6:
-                raise ValueError('unexpected line splitting; expected:\n'
-                                 '{}\ngot:\n{}'.format(expected, line))
-            else:
-                arecord = record(lsplit[1].strip(), lsplit[2].strip(),
-                                 lsplit[3].strip(), lsplit[4].strip())
-            if arecord.cfname and arecord.complex == 'n' or arecord.complex.lower() == 'false':
-                make_stash_mapping(fuseki_process, arecord.stash, arecord.cfname,
-                                   arecord.units, userid)
-            else:
-               print('skipping unprocess complex line\n{}'.format(line))
+    inputs = file_handle.read()
 
-                
-def cfname(fu_p, name, units):
-    # fail if unit not udunits parseable
-    checkunit = Unit(units)
-    pre = Prefixes()
-    standard_name = '{p}{c}'.format(p=pre['cfnames'], c=name)
-    req = requests.get(standard_name)
-    if req.status_code == 200:
-        name = standard_name
-        pred = '{}standard_name'.format(pre['cfmodel'])
+    lines = inputs.split('\n')
+    exp = expected
+    new_mappings = []
+    errors = []
+    if lines[0].strip() == exp:
+        lines = lines[1:]
     else:
-        pred = '{}long_name'.format(pre['cfmodel'])
-    cfun = '{}units'.format(pre['cfmodel'])
-    acfuprop = metarelate.StatementProperty(metarelate.Item(cfun,'units'),
-                                            metarelate.Item(units, units))
-    acfnprop = metarelate.StatementProperty(metarelate.Item(pred, pred.split('/')[-1]),
-                                            metarelate.Item(name, name.split('/')[-1]))
-    cff = '{}Field'.format(pre['cfmodel'])
-    acfcomp = metarelate.Component(None, cff, [acfnprop, acfuprop])
-    return acfcomp
+        errors.append('line0: File headers not as expected:\n{}\n!=\n{}'
+                      '\n'.format(expected, lines[0]))
+    for n, line in enumerate(lines):
+        i = n + 1
+        line = line.strip()
+        lsplit = line.split('|')
+        if line and not line.startswith('#') and len(lsplit) != 6:
+            errors.append('line{}: unexpected line splitting; expected:\n'
+                          '{}\ngot:\n{}\n'.format(i, expected, line))
+        elif line and not line.startswith('#'):
+            arecord = record(lsplit[1].strip(), lsplit[2].strip(),
+                             lsplit[3].strip(), lsplit[4].strip())
+            if arecord.force not in ['y', 'n']:
+                errors.append('line{}: force must be y or n, not {}'
+                              '\n'.format(i, arecord.force))
+            else:
+                force = False
+                if arecord.force == 'y':
+                    force = True
+            if arecord.cfname:
+                amap, errs = make_stash_mapping(fuseki_process, 
+                                                       arecord.stash, 
+                                                       arecord.cfname,
+                                                       arecord.units, 
+                                                       userid, branchid, force)
+                new_mappings.append(amap)
+                if errs:
+                    errors.append('line{}: {}'.format(i, '\n\t'.join(errs)))
+            else:
+                errors.append('line{}: no name provided'.format(i))
+    if errors:
+        raise ValueError('\n'.join(errors))
+    # now all inputs are validated, create the triples in the tdb
+    for amap in new_mappings:
+        amap.source.create_rdf(fuseki_process, branchid)
+        amap.target.create_rdf(fuseki_process, branchid)
+        amap.create_rdf(fuseki_process, branchid)
+                                    
 
-def make_stash_mapping(fu_p, stashmsi, name, units, userid):
+def make_stash_mapping(fu_p, stashmsi, name, units, userid, branchid, force):
+    errs = []
     pre = Prefixes()
     stashuri = '{p}{c}'.format(p=pre['moStCon'], c=stashmsi)
     req = requests.get(stashuri)
     if req.status_code != 200:
-        raise ValueError('unrecognised stash code: {}'.format(stash))
+        errs.append('unrecognised stash code: {}'.format(stash))
     pred = metarelate.Item('{}stash'.format(pre['moumdpF3']),'stash')
     robj = metarelate.Item(stashuri, stashmsi)
     astashprop = metarelate.StatementProperty(pred, robj)
     ppff = '{}UMField'.format(pre['moumdpF3'])
     astashcomp = metarelate.Component(None, ppff, [astashprop])
-    astashcomp.create_rdf(fu_p)
-    acfcomp = cfname(fu_p, name, units)
-    acfcomp.create_rdf(fu_p)
-    replaces = fu_p.find_valid_mapping(astashcomp, acfcomp)
+    astashcomp.create_rdf(fu_p, graph=branchid)
+    acfcomp = cfname(name, units)
+    replaces = fu_p.find_valid_mapping(astashcomp, acfcomp, graph=branchid)
     if replaces:
         replaced = metarelate.Mapping(replaces.get('mapping'))
-        replaced.populate_from_uri(fu_p)
-        replaced.replaces = replaced.uri
-        replaced.uri = None
-        replaced.contributors = replaced.contributors + [userid]
-        replaced.create_rdf(fu_p)
+        replaced.populate_from_uri(fu_p, branchid)
+        replaced = update_mappingmeta(replaced, userid)
+        result = replaced
     else:
-        target_differs = fu_p.find_valid_mapping(astashcomp, None)
+        target_differs = fu_p.find_valid_mapping(astashcomp, None, graph=branchid)
         if target_differs:
             replaced = metarelate.Mapping(target_differs.get('mapping'))
-            replaced.populate_from_uri(fu_p)
-            mr = _report(replaced) 
-            replaced.replaces = replaced.uri
-            replaced.uri = None
-            replaced.contributors = replaced.contributors + [userid]
+            replaced.populate_from_uri(fu_p, branchid)
+            mr = _report(replaced)
+            replaced = update_mappingmeta(replaced, userid)
             replaced.source = astashcomp
             replaced.target = acfcomp
             nr = _report(replaced)
-            warnings.warn('Replacing Mapping \n{m} \nwith \n{n}\n'.format(m=mr, n=nr))
-            replaced.create_rdf(fu_p)
+            if not force:
+                errs.append('You need to force replacing mapping \n'
+                            '{m} \nwith \n{n}\nin order to process'
+                            'this request'.format(m=mr, n=nr))
+            result = replaced
         else:
             amap = metarelate.Mapping(None, astashcomp, acfcomp,
                                       creator=userid, invertible='"False"')
-            amap.create_rdf(fu_p)
+            result = amap
+    return result, errs
 
 def _report(mapping):
     mr = mapping.source.stash.notation
-    mr += '\n'
+    mr += ' -> '
     try:
         mr += mapping.target.standard_name.notation
     except Exception:
@@ -116,8 +122,7 @@ def _report(mapping):
         mr += mapping.target.long_name.notation
     except Exception:
         pass
-    mr += '\n'
-    mr += mapping.target.units.notation
+    mr += '({})'.format(mapping.target.units.notation)
     return mr
     
 
@@ -133,9 +138,11 @@ def get_args():
 def main():
     args = get_args()
     with fuseki.FusekiServer() as fuseki_process:
-        fuseki_process.load()
-        parse_file(fuseki_process, args.infile, args.user)
-        fuseki_process.save()
+        # make a branch
+        branchid = fuseki_process.branch_graph(args.user)
+        with open(args.infile, 'r') as inputs:
+            parse_file(fuseki_process, inputs, args.user, branchid)
+        fuseki_process.save(branchid)
 
 
 if __name__ == '__main__':

@@ -12,27 +12,24 @@ def cfunits(fuseki_process, graph=None):
     Validate that cf units rdfobject literals are 
     able to be parsed by udunits
     """
-    graphs = ('FROM NAMED <http://metarelate.net/concepts.ttl>\n'
-              'FROM NAMED <http://metarelate.net/mappings.ttl>\n')
+    graphs = ('FROM <http://metarelate.net/concepts.ttl>\n'
+              'FROM <http://metarelate.net/mappings.ttl>\n')
     if graph:
-        graphs += 'FROM NAMED <http://metarelate.net/{}concepts.ttl>\n'.format(graph)
-        graphs += 'FROM NAMED <http://metarelate.net/{}mappings.ttl>\n'.format(graph)
+        graphs += 'FROM <http://metarelate.net/{}concepts.ttl>\n'.format(graph)
+        graphs += 'FROM <http://metarelate.net/{}mappings.ttl>\n'.format(graph)
     stdn = 'http://vocab.nerc.ac.uk/standard_name/{}/'
     val_errors = []
     qstr = ('SELECT ?amap \n'
             '%s'
             'WHERE {\n'
-            'GRAPH ?g {\n'
             '{?amap rdf:type mr:Mapping ;'
             'mr:source ?acomp .}'
             'UNION'
             '{?amap rdf:type mr:Mapping ;'
             'mr:target ?acomp .}'
             'MINUS {?amap ^dc:replaces+ ?anothermap}\n'
-            '}\n'
-            'GRAPH <http://metarelate.net/concepts.ttl> {\n'
             '?acomp <http://def.scitools.org.uk/cfdatamodel/units> ?units'
-            '}}\n' % graphs)
+            '}\n' % graphs)
     results = fuseki_process.run_query(qstr)
     ufails = []
     # for result in results:
@@ -47,27 +44,24 @@ def cflongnameisstd(fuseki_process, graph=None):
     # needs threading: slow
     """
     """
-    graphs = ('FROM NAMED <http://metarelate.net/concepts.ttl>\n'
-              'FROM NAMED <http://metarelate.net/mappings.ttl>\n')
+    graphs = ('FROM <http://metarelate.net/concepts.ttl>\n'
+              'FROM <http://metarelate.net/mappings.ttl>\n')
     if graph:
-        graphs += 'FROM NAMED <http://metarelate.net/{}concepts.ttl>\n'.format(graph)
-        graphs += 'FROM NAMED <http://metarelate.net/{}mappings.ttl>\n'.format(graph)
+        graphs += 'FROM <http://metarelate.net/{}concepts.ttl>\n'.format(graph)
+        graphs += 'FROM <http://metarelate.net/{}mappings.ttl>\n'.format(graph)
     stdn = 'http://vocab.nerc.ac.uk/standard_name/{}/'
     val_errors = []
     qstr = ('SELECT ?amap ?long_name \n'
             '%s'
             'WHERE {\n'
-            'GRAPH ?gm {\n'
             '{?amap rdf:type mr:Mapping ;'
             'mr:source ?acomp .}'
             'UNION'
             '{?amap rdf:type mr:Mapping ;'
             'mr:target ?acomp .}'
             'MINUS {?amap ^dc:replaces+ ?anothermap}\n'
-            '}\n'
-            'GRAPH ?gc {\n'
             '?acomp <http://def.scitools.org.uk/cfdatamodel/long_name> ?long_name'
-            '}}\n' % graphs)
+            '}\n' % graphs)
     results = fuseki_process.run_query(qstr)
     ufails = []
     resource_queue = Queue()

@@ -82,7 +82,6 @@ def make_stash_mapping(fu_p, stashmsi, name, units, userid, branchid, force):
     astashprop = metarelate.StatementProperty(pred, robj)
     ppff = '{}UMField'.format(pre['moumdpF3'])
     astashcomp = metarelate.Component(None, ppff, [astashprop])
-    astashcomp.create_rdf(fu_p, graph=branchid)
     acfcomp = cfname(name, units)
     replaces = fu_p.find_valid_mapping(astashcomp, acfcomp, graph=branchid)
     if replaces:

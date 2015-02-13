@@ -62,7 +62,7 @@ def parse_file(fuseki_process, file_handle, userid, branchid):
             else:
                 errors.append('line{}: no name provided'.format(i))
     if errors:
-        raise ValueError('\n'.join(errors))
+        raise ValueError('||\n'.join(errors))
     # now all inputs are validated, create the triples in the tdb
     for amap in new_mappings:
         amap.source.create_rdf(fuseki_process, branchid)
@@ -82,7 +82,6 @@ def make_stash_mapping(fu_p, stashmsi, name, units, userid, branchid, force):
     astashprop = metarelate.StatementProperty(pred, robj)
     ppff = '{}UMField'.format(pre['moumdpF3'])
     astashcomp = metarelate.Component(None, ppff, [astashprop])
-    astashcomp.create_rdf(fu_p, graph=branchid)
     acfcomp = cfname(name, units)
     replaces = fu_p.find_valid_mapping(astashcomp, acfcomp, graph=branchid)
     if replaces:
@@ -101,9 +100,8 @@ def make_stash_mapping(fu_p, stashmsi, name, units, userid, branchid, force):
             replaced.target = acfcomp
             nr = _report(replaced)
             if not force:
-                errs.append('You need to force replacing mapping \n'
-                            '{m} \nwith \n{n}\nin order to process'
-                            'this request'.format(m=mr, n=nr))
+                errs.append('forcing replacement of '
+                            '{m} with {n}'.format(m=mr, n=nr))
             result = replaced
         else:
             amap = metarelate.Mapping(None, astashcomp, acfcomp,

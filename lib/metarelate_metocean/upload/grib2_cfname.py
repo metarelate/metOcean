@@ -54,7 +54,7 @@ def parse_file(fuseki_process, file_handle, userid, branchid):
             if errs:
                 errors.append('line{}: {}'.format(i, '\n\t'.join(errs)))
     if errors:
-        raise ValueError('\n'.join(errors))
+        raise ValueError('||\n'.join(errors))
     # now all inputs are validated, create the triples in the tdb
     for amap in new_mappings:
         amap.source.create_rdf(fuseki_process, branchid)
@@ -95,8 +95,8 @@ def make_grib2_mapping(fu_p, arecord, userid, branchid, force):
             replaced.target = acfcomp
             nr = _report(replaced)
             if not force:
-                errs.append('You need to force replacing mapping \n'
-                            '{m} \nwith \n{n}\n'.format(m=mr, n=nr))
+                errs.append('forcing replacement of '
+                            '{m} with {n}'.format(m=mr, n=nr))
             result = replaced
         else:
             amap = metarelate.Mapping(None, agribcomp, acfcomp,

@@ -15,6 +15,8 @@ def cfname(name, units):
     else:
         pred = '{}long_name'.format(pre['cfmodel'])
     cfun = '{}units'.format(pre['cfmodel'])
+    if units == '1':
+        units = u'1'
     acfuprop = metarelate.StatementProperty(metarelate.Item(cfun,'units'),
                                             metarelate.Item(units, units))
     acfnprop = metarelate.StatementProperty(metarelate.Item(pred, pred.split('/')[-1]),

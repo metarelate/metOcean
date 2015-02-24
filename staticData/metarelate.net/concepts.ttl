@@ -3052,6 +3052,12 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/4b0bbb90434123cbab8f1257682b549ceaff9f5c>
+	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s03i281> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/4b1a49b5830d14de5ecca9d806f02c2eb28be63e>
 	<http://def.scitools.org.uk/cfdatamodel/long_name> "mass_fraction_of_ammonia_expressed_as_nitrogen_in_air" ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "kg/kg" ;
@@ -5002,6 +5008,13 @@
 <http://www.metarelate.net/metOcean/component/7fb4546e705b578b3fc412bfb85c14ff35381952>
 	<http://def.scitools.org.uk/cfdatamodel/long_name> "mass_fraction_of_peroxypropionyl_nitrate_in_air" ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "kg kg-1" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/806056fa11368715c48ac6dc112346a2efbca37f>
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/visibility_in_air> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "m" ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.

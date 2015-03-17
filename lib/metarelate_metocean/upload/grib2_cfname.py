@@ -8,7 +8,7 @@ import warnings
 import metarelate
 import metarelate.fuseki as fuseki
 from metarelate.prefixes import Prefixes
-from metarelate_metocean.upload.uploaders import cfname
+from metarelate_metocean.upload.uploaders import cfname, update_mappingmeta
 
 record = namedtuple('record', 'disc pcat pnum cfname units force')
 expected = '|Disc|pCat|pNum|CFName|units|force_update(y/n)|'

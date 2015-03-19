@@ -74,7 +74,8 @@ def make_stash_mapping(fu_p, stashmsi, name, units, userid, branchid, force):
     errs = []
     pre = Prefixes()
     stashuri = '{p}{c}'.format(p=pre['moStCon'], c=stashmsi)
-    req = requests.get(stashuri)
+    headers = {'content-type': 'application/ld+json', 'Accept': 'application/ld+json'}
+    req = requests.get(stashuri, headers=headers)
     if req.status_code != 200:
         errs.append('unrecognised stash code: {}'.format(stash))
     pred = metarelate.Item('{}stash'.format(pre['moumdpF3']),'stash')

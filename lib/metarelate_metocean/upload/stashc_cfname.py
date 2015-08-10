@@ -7,8 +7,8 @@ import sys
 
 import metarelate
 import metarelate.fuseki as fuseki
-from metarelate.prefixes import Prefixes
-from metarelate_metocean.upload.uploaders import cfname, update_mappingmeta
+from metarelate_metocean.upload.uploaders import (cfname, update_mappingmeta,
+                                                  stash_comp)
 
 record = namedtuple('record', 'stash cfname units force')
 expected = '|STASH(msi)|CFName|units|force_update(y/n)|'
@@ -72,17 +72,7 @@ def parse_file(fuseki_process, file_handle, userid, branchid):
 
 def make_stash_mapping(fu_p, stashmsi, name, units, userid, branchid, force):
     errs = []
-    pre = Prefixes()
-    stashuri = '{p}{c}'.format(p=pre['moStCon'], c=stashmsi)
-    headers = {'content-type': 'application/ld+json', 'Accept': 'application/ld+json'}
-    req = requests.get(stashuri, headers=headers)
-    if req.status_code != 200:
-        errs.append('unrecognised stash code: {}'.format(stashuri))
-    pred = metarelate.Item('{}stash'.format(pre['moumdpF3']),'stash')
-    robj = metarelate.Item(stashuri, stashmsi)
-    astashprop = metarelate.StatementProperty(pred, robj)
-    ppff = '{}UMField'.format(pre['moumdpF3'])
-    astashcomp = metarelate.Component(None, ppff, [astashprop])
+    astashcomp, errs = stash_comp(stashmsi, errs)
     acfcomp = cfname(name, units)
     replaces = fu_p.find_valid_mapping(astashcomp, acfcomp, graph=branchid)
     if replaces:

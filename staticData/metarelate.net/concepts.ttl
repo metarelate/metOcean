@@ -8856,6 +8856,13 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/c9476fba0ff097cebe1132766322ca5d938f902f>
+	<http://def.scitools.org.uk/cfdatamodel/long_name> "change_over_time_in_upward_air_velocity_due_to_advection" ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "m s-1" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/c96d1ed74d16ec9f8b60b5bc98b6e81012fe8dde>
 	<http://reference.metoffice.gov.uk/um/f3/lbfc> <http://reference.metoffice.gov.uk/um/fieldcode/1383> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;

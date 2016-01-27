@@ -7914,6 +7914,12 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/b35d91b90169a90ba5e0156662214f997df14bda>
+	<http://codes.wmo.int/def/grib2/parameterId> <http://codes.wmo.int/grib2/codeflag/4.2/0-1-49> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://codes.wmo.int/def/codeform/GRIB-message> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/b37bcaa3720328e326452862d17f7d7962666694>
 	<http://def.scitools.org.uk/cfdatamodel/long_name> "mass_fraction_of_nitrate_in_soluble_aitken_mode_dry_aerosol_in_air" ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "kg kg-1" ;

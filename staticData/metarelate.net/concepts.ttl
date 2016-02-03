@@ -10047,6 +10047,14 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/e283d04b319542567657305526758416a8e512f8>
+	<http://def.scitools.org.uk/cfdatamodel/dim_coord> <http://www.metarelate.net/metOcean/component/16e857f1047491b5eeb9c2c22b9240a2d0724651> ;
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/wind_speed> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "m s-1" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/e2a009fe598e2c273660dbae3894ef9b199232f2>
 	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/surface_downwelling_longwave_flux_in_air_assuming_clear_sky> ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "W m-2" ;

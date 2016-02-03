@@ -14,11 +14,11 @@ mrpref = '<http://www.metarelate.net/metOcean'
 
 def parse_file(fuseki_process, file_handle, userid, branchid):
     inputs = file_handle.read()
-    lines = inputs.split('\n')
-    if len(lines) != 1 and not(len(lines) == 2 and not lines[1]):
-        raise ValueError('file must be exactly one line long')
-    line = lines[0]
-    amapping = json.loads(line)
+    amapping = json.loads(inputs)
+    if not (isinstance(amapping, dict) and amapping.has_key('mr:source')
+            and amapping.has_key('mr:target') and amapping.has_key('dc:creator')):
+        raise ValueError('A single mapping, with a mr:source, mr:target'
+                         ' and dc:creator must be supplied as json-ld.')
     mapping = make_mapping(amapping, fuseki_process, branchid)
     mapping.source.create_rdf(fuseki_process, branchid)
     mapping.target.create_rdf(fuseki_process, branchid)
@@ -40,7 +40,7 @@ def make_mapping(amapping, fuseki_process, branchid):
                       valuemaps=amapping.get('mr:hasValueMap', None),
                       rightsHolders=amapping.get('dc:rightsHolder', None), 
                       rights=amapping.get('dc:rights', None),
-                      contributors=amapping.get('dc:contributors', None),
+                      contributors=amapping.get('dc:contributor', None),
                       dateAccepted=amapping.get('dc:dateAccepted', None))
     return mapping
 

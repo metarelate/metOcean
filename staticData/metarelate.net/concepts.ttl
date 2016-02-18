@@ -11041,6 +11041,13 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/f88a2f3bd7e8fcc8243fea0e18224e4fa4403abc>
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/atmosphere_mass_per_unit_area> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "kg m-2" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/f88b944e812c78273afd3decb778a06cf4aa5418>
 	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/soil_moisture_content_at_field_capacity> ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "kg m-2" ;

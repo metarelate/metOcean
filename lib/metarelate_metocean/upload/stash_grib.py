@@ -54,7 +54,7 @@ def parse_file(fuseki_process, file_handle, userid, branchid):
                 if arecord.force == 'y':
                     force = True
             amap, errs = make_mappings(fuseki_process, arecord, userid,
-                                            branchid, force)
+                                       branchid, arecord.force)
             new_mappings.append(amap)
             if errs:
                 errors.append('line{}: {}'.format(i, '\n\t'.join(errs)))

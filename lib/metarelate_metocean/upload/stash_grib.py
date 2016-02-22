@@ -10,7 +10,8 @@ import metarelate.fuseki as fuseki
 from metarelate.prefixes import Prefixes
 from metarelate_metocean.upload.uploaders import (cfname, update_mappingmeta,
                                                   stash_comp, grib2_comp)
-
+import metarelate_metocean.upload.stashc_cfname as stcf
+import metarelate_metocean.upload.grib2_cfname as g2cf
 
 record = namedtuple('record', 'stash cfname units disc pcat pnum force')
 expected = '|STASH(msi)|CFName|units|Disc|pCat|pNum|force_update(y/n)|'
@@ -37,7 +38,7 @@ def parse_file(fuseki_process, file_handle, userid, branchid):
         i = n + 1
         line = line.strip()
         lsplit = line.split('|')
-        if len(lsplit) != 8:
+        if len(lsplit) != 9:
             if line:
                 errors.append('line{}: unexpected line splitting; expected:\n'
                               '{}\ngot:\n{}'.format(i, expected, line))
@@ -53,11 +54,14 @@ def parse_file(fuseki_process, file_handle, userid, branchid):
                 force = False
                 if arecord.force == 'y':
                     force = True
-            amap, errs = make_mappings(fuseki_process, arecord, userid,
+            smap, serrs, gmap, gerrs = make_mappings(fuseki_process, arecord, userid,
                                        branchid, arecord.force)
-            new_mappings.append(amap)
-            if errs:
-                errors.append('line{}: {}'.format(i, '\n\t'.join(errs)))
+            new_mappings.append(smap)
+            new_mappings.append(gmap)
+            if serrs:
+                errors.append('line{}: {}'.format(i, '\n\t'.join(serrs)))
+            if gerrs:
+                errors.append('line{}: {}'.format(i, '\n\t'.join(gerrs)))
     if errors:
         raise ValueError('||\n'.join(errors))
     # now all inputs are validated, create the triples in the tdb
@@ -66,33 +70,33 @@ def parse_file(fuseki_process, file_handle, userid, branchid):
         amap.target.create_rdf(fuseki_process, branchid)
         amap.create_rdf(fuseki_process, branchid)
 
-def make_mappings(fuseki_process, arecord, userid, branchid, force):
+def make_mappings(fu_p, arecord, userid, branchid, force):
     serrs = []
     gerrs = []
-    astashcomp, serrs = stash_comp(record.stash, serrs)
+    astashcomp, serrs = stash_comp(arecord.stash, serrs)
     agribcomp, gerrs = grib2_comp(arecord, gerrs)
-    acfcomp = cfname(name, units)
+    acfcomp = cfname(arecord.cfname, arecord.units)
 
     replaces = fu_p.find_valid_mapping(astashcomp, acfcomp, graph=branchid)
     if replaces:
         replaced = metarelate.Mapping(replaces.get('mapping'))
         replaced.populate_from_uri(fu_p, branchid)
         replaced = update_mappingmeta(replaced, userid)
-        result = replaced
+        smap = replaced
     else:
         target_differs = fu_p.find_valid_mapping(astashcomp, None, graph=branchid)
         if target_differs:
             replaced = metarelate.Mapping(target_differs.get('mapping'))
             replaced.populate_from_uri(fu_p, branchid)
-            mr = _report(replaced)
+            mr = stcf._report(replaced)
             replaced = update_mappingmeta(replaced, userid)
             replaced.source = astashcomp
             replaced.target = acfcomp
-            nr = _report(replaced)
+            nr = stcf._report(replaced)
             if not force:
                 serrs.append('forcing replacement of '
                             '{m} with {n}'.format(m=mr, n=nr))
-            result = replaced
+            smap = replaced
         else:
             smap = metarelate.Mapping(None, astashcomp, acfcomp,
                                       creator=userid, invertible='"False"')
@@ -103,21 +107,21 @@ def make_mappings(fuseki_process, arecord, userid, branchid, force):
         replaced = metarelate.Mapping(replaces.get('mapping'))
         replaced.populate_from_uri(fu_p, branchid)
         replaced = update_mappingmeta(replaced, userid)
-        result = replaced
+        gmap = replaced
     else:
         target_differs = fu_p.find_valid_mapping(agribcomp, None, graph=branchid)
         if target_differs:
             replaced = metarelate.Mapping(target_differs.get('mapping'))
             replaced.populate_from_uri(fu_p, branchid)
             replaced = update_mappingmeta(replaced, userid)
-            mr = _report(replaced)
+            mr = g2cf._report(replaced)
             replaced.source = agribcomp
             replaced.target = acfcomp
-            nr = _report(replaced)
+            nr = g2cf._report(replaced)
             if not force:
                 gerrs.append('forcing replacement of '
                             '{m} with {n}'.format(m=mr, n=nr))
-            result = replaced
+            gmap = replaced
         else:
             gmap = metarelate.Mapping(None, agribcomp, acfcomp,
                                       creator=userid, invertible=inv)

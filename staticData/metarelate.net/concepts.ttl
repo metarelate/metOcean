@@ -3050,6 +3050,11 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/42fa1232993c950c32842aaaeb9a10b5011ea555>
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/nulltype> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/42fe39b1d100de9e9cef09225af2236bfe3d4247>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s30i314> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;

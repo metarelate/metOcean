@@ -2027,6 +2027,16 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/26f0eb94c0619527f80b121c6793487f74e6364e>
+	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/date> "2016-10-13T16:58:33.753507" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/5cba957a8e57cb15a44dbee7d5f26cc258629e29> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/42fa1232993c950c32842aaaeb9a10b5011ea555> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/42fa1232993c950c32842aaaeb9a10b5011ea555> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/26fd977b5dda96d9787c6b31f094b909298c0e0a>
 	<http://purl.org/dc/terms/creator> <https://github.com/scwhitehouse> ;
 	<http://purl.org/dc/terms/date> "2016-02-25T15:29:11.123728" ;
@@ -8187,6 +8197,16 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/d94d175c79a298df2be24e8820921c0cc368306d> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/23fd75742e464d6aed9bb6b4265e82f09f037e2b> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/8acafe3ad6b7f63dc96db6742f1da1a8ae1036dd>
+	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/date> "2016-10-13T17:01:21.295401" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/79cef6dae7b152a648db424caf04d057e0695431> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/42fa1232993c950c32842aaaeb9a10b5011ea555> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/42fa1232993c950c32842aaaeb9a10b5011ea555> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 

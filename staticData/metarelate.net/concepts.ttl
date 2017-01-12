@@ -955,6 +955,14 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/125b4952b40c9c859fae4f394536aa871b5512d2>
+	<http://def.scitools.org.uk/cfdatamodel/dim_coord> <http://www.metarelate.net/metOcean/component/fabc47fe635754929a6eba606f7ca39d1e76132d> ;
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/y_wind> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "m s-1" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/1268ddb931b639f5cad187a9498d8f7a76cf9ada>
 	<http://def.scitools.org.uk/cfdatamodel/long_name> "mass_fraction_of_fresh_biomass_burning_dry_aerosol_in_air" ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "kg/kg" ;
@@ -5461,6 +5469,12 @@
 
 <http://www.metarelate.net/metOcean/component/78a5a52b3359bc78fd07d46995fc0a9a0c7f2cb6>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s03i298> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/78cc11136185672fc568d5ffd7fff238dcd1c13d>
+	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s15i213> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
@@ -11258,6 +11272,14 @@
 	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/soil_thermal_conductivity> ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "W m-1 K-1" ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/fabc47fe635754929a6eba606f7ca39d1e76132d>
+	<http://def.scitools.org.uk/cfdatamodel/points> "(50.0,)" ;
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/height> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "m" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/DimCoord> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 

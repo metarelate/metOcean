@@ -8143,6 +8143,12 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/b591fa9c827ef2f7f8f3b482107b446be64a94b8>
+	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s15i212> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/b5acfc7f13d835f210f19699ffafad19df75ed6f>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s30i228> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
@@ -8904,6 +8910,14 @@
 <http://www.metarelate.net/metOcean/component/c665999b8c63b6b0be3367df90375898c009a1dc>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m02s32i215> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/c66c0274e70484a6ee714df05d9b30d27a2e275f>
+	<http://def.scitools.org.uk/cfdatamodel/dim_coord> <http://www.metarelate.net/metOcean/component/fabc47fe635754929a6eba606f7ca39d1e76132d> ;
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/x_wind> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "m s-1" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 

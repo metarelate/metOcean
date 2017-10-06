@@ -561,6 +561,13 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/0bc3cab57c10fc56cdeef95fde5d36e3b9dd2831>
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/canopy_water_amount> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "kg m-2" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/0c0651b92054f167d0767cf61f85c57ceeff9270>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s34i137> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
@@ -2918,6 +2925,13 @@
 <http://www.metarelate.net/metOcean/component/3f9ff16297c9bce2678a21e87f5975a664f60747>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s00i102> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/3faadfb5dca7029d7df7f9ae5440f95a4ac39679>
+	<http://def.scitools.org.uk/cfdatamodel/long_name> "relative_humidity_at_which_cloud_assumed_to_form" ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "%" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
@@ -5297,6 +5311,13 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/74fddced5f04c2e789b6e2573f5defc23807fb82>
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/mass_fraction_of_unfrozen_water_in_soil_moisture> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "kg kg-1" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/75475b1ea8af20c32c83219a3acc07419dc3249c>
 	<http://def.scitools.org.uk/cfdatamodel/long_name> "product_of_mass_absorption_coefficient_due_to_cloud_and_upwelling_longwave_flux_assuming_clear_sky_and_cloud_area_fraction_in_atmosphere_layer" ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "W kg-1" ;
@@ -6016,6 +6037,13 @@
 <http://www.metarelate.net/metOcean/component/86f6bd6a8be28425da7c699227d7475ec3e8e19e>
 	<http://reference.metoffice.gov.uk/um/f3/lbfc> <http://reference.metoffice.gov.uk/um/fieldcode/687> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/874967b2289e62476d30b2a24feb668b30792224>
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/tropopause_upwelling_shortwave_flux> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "W m-2" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
@@ -7120,6 +7148,13 @@
 <http://www.metarelate.net/metOcean/component/9def8e08f0815101786b4ee1481d4f1ae392ea5a>
 	<http://def.scitools.org.uk/cfdatamodel/long_name> "sea_ice_surface_temperature" ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "K" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/9def92dda0b6ba9fa76008fc926b22a8333d4181>
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/mass_fraction_of_frozen_water_in_soil_moisture> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "kg kg-1" ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
@@ -8785,6 +8820,13 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/c461dbd1c80e43915bf717c905af628620287a0f>
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/convective_cloud_area_fraction_in_atmosphere_layer> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> 1 ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/c4aeef4080aa8ee66aa4b1dd5a875a7e74633a4c>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s12i187> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
@@ -9409,6 +9451,13 @@
 <http://www.metarelate.net/metOcean/component/d33ad6aa46ca480c48c550bb12302b1b355fb93c>
 	<http://def.scitools.org.uk/cfdatamodel/long_name> "Dust wet deposition flux due to large scale precipitation division 6" ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "kg/m^2/s" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/d34f69fe8471e77f61cf2e52db4785606c95ef69>
+	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/soil_moisture_content> ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "kg m-2" ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.

@@ -4152,6 +4152,13 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/5ccbb7550d505e883db53eaa7bf061f097d13ea7>
+	<http://def.scitools.org.uk/cfdatamodel/long_name> "3D NATURAL SO2 EMISSIONS" ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "kg m-2 s-1" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/5cfe274b5b0eeba8987b00f28f185c3a97360a3e>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m02s00i180> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
@@ -7453,6 +7460,13 @@
 <http://www.metarelate.net/metOcean/component/a40822880b3548452deaea3c86d601af4df8db2a>
 	<http://def.scitools.org.uk/cfdatamodel/long_name> "mass_fraction_of_atomic_hydrogen_in_air" ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "kg kg-1" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/a4303bff16df565766c9729cb8608caa7e58b766>
+	<http://def.scitools.org.uk/cfdatamodel/long_name> "surface_snow_melt_flux_where_land" ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "W m-2" ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.

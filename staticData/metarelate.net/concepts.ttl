@@ -2057,6 +2057,12 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/2a0e375666919cc6de862189b424ce9d7d51fac8>
+	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s03i365> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/2a379d1685786f841b3760c0c2c5ab278f665c2e>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s34i030> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;

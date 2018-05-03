@@ -8547,6 +8547,12 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/bcd027df8d26c409beb1827fefcd203437150ce0>
+	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s03i366> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/bce232498b2dd19e5c0bf1c5868f082943a4bf93>
 	<http://def.scitools.org.uk/cfdatamodel/long_name> "mass_fraction_of_aged_organic_carbon_from_fossil_fuel_dry_aerosol_in_air" ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "kg/kg" ;

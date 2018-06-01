@@ -177,6 +177,30 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/0283e0f89a5cc6ee64bd1577984aef985b1ff9c5>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:00.992640" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/4e77df31358776b73226030792e01bdc3d7b0473> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/65fad53be5487c10e3cb0393f70cf208e6d88819> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/d05012a502d03b5fbed4104ff74351f7d248f661> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/02980368f308bd5466050744d577774c9bfa8f73>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:00.216004" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/5e16c510d0715d45d8e67dc8ba8147f059ff7900> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/53df238f794b4a06108190aeca93dd79809ce860> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/c05e36c0ed2bc310c99070f89fe04ad35a74efef> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/02a931e47c8e468fc20474db95e05d796a06b232>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-06T16:46:47.339524" ;
@@ -252,6 +276,17 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/e36a4be68339d0e9aa6b372f820e87eb1ef7fd46> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/69ed83707ab1004548d42ba8ea251140d6bce515> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/042cf3d1ab04f55fefe7bb7b8c0e7566657f8fbf>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:36.443078" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/3cdb1815eaaa57be111bb5d0a2237397fb81cccc> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/032f394793d435fb681c22be6a84061326185d05> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/43e3cdc2d577828c4160497d2c7bdaf94de03d0c> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -417,6 +452,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/0782957f6cd110a1d316c207445e2940bd099193>
+	<http://purl.org/dc/terms/contributor> <https://github.com/ehogan> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:37.289773" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/9bcc9cdfae49a91f1917b9ca2f4318c9abcc4675> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/a7afd7781a805a60adfeda53a2a6f4b754d16eed> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/a06b8af3bdde1162f1ddbf7efe2a463de8906d46> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/078b5599070649b41a69a0fd7d698352bd678f31>
 	<http://purl.org/dc/terms/creator> <https://github.com/ehogan> ;
 	<http://purl.org/dc/terms/date> "2015-03-20T14:14:49.166735" ;
@@ -443,6 +490,18 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/b1d7c56d32180e4d1d48f55629ae15296091caee> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/e1c9682b312999703f385e5aabb35345907af16a> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/07d5db9298d684b22970caf7db42d15cf2d35d97>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:48:59.196771" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/5e252e502b0dc4a57ead6689867df510edfcb2dd> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/2a08f0f666938bb4aaa1207953c16f43cf604712> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/92a958f2b983c1b6dfd2d83b49d7b9dc6d23f563> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -640,6 +699,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/0b58276986eb8acaaed2d6edf213730ceba4fdf3>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:48:59.388174" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/0d3a088622c9d0e6e24feb81658c417add3a580a> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/a8bcbd8f3c17a90e5f37115675922bb5badb7747> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/47e22f5b87c1d29338cfd2f39cf81ac741eaf5cd> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/0b5bc467729cecf338545d47033775d127ae6dcc>
 	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
@@ -700,6 +771,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/0c6a7d737c2630b2f6fc19f2c2876b7b3c7f8ca1>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:36.765081" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/fab9caa18ad92a576babf8def7209f159635e085> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/205da5489a0fd0c1533f468458806f3d2d28647a> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/59ea9384a8756bd3c5a966a0b2c0fcb5c0d6e1a9> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/0c8e250a6c8a9207ad4c62393931d8dd1daabf03>
 	<http://purl.org/dc/terms/creator> <https://github.com/jhemmings> ;
 	<http://purl.org/dc/terms/date> "2016-05-18T10:52:50.431566" ;
@@ -748,6 +830,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/0d3a088622c9d0e6e24feb81658c417add3a580a>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:36.548072" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/ec40c8e07d764a61a180d4f6276f0dd5af26d0d1> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/a8bcbd8f3c17a90e5f37115675922bb5badb7747> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/47e22f5b87c1d29338cfd2f39cf81ac741eaf5cd> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/0da50fa357d565df110ee1b92811fc5490dc69d1>
 	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/creator> <https://github.com/nhsavage> ;
@@ -783,6 +876,17 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/891e84aaf81cfde0916ae3a04554ad524d5b1148> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/c86e5723a4046e5bb2a9df276d186b06c7c4e1e7> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/0e1e0e8e6288e3ebb1af692375d3c9ddf08aee30>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:38.115068" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/e7e3410d9021bfb4f2c9c0c5be87ea6892d44c4e> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/0fa0bf5d1adba47f57e12eeda7f2776305854aa3> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/d34f69fe8471e77f61cf2e52db4785606c95ef69> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -907,6 +1011,18 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/3d0e02dd87e6f2e27195fa0b8e85be2e7482199a> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/3bda11a98200f9224be539bdef477c48139c0ccd> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/10d3a88b57602dd1edc78086e62259bf94316114>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:48:59.807702" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/458b5f868bd0c385e86d245c07e8b67e8a258326> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/17abd8d856ad3a61f2822f6863c086a9f5973181> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/9a68c2f4f1a536699673d8576b7cc2222c586026> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -1235,6 +1351,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/16791f286620829e773003ee3b2bd33c0850194a>
+	<http://purl.org/dc/terms/contributor> <https://github.com/ehogan> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:37.476723" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/7a0650a67983e814a43f3d32bb967c55cf13db77> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/7329d6f9216ed62a927c3ab934d85d3cda448995> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/138d9ce708b8c28a8351c23a9a2d8dc721ab5dab> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/16935e2ab0783b882c34ed47253f2738dc7a0993>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:13:19.114220" ;
@@ -1474,6 +1602,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/1ad4b31f45b7522aea50cd6dab9fc49fccab9b0b>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:37.662972" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/396a7debade488e8274a4f70e188b568559d39a7> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/29f87dfba3c468546969bff0c8d1fcf29941eeff> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/f5cd75ec88fba8e0d7c531d59c59acd0232a96d5> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/1afebc5af3ba57b7272426f452b33e5be4daea5c>
 	<http://purl.org/dc/terms/contributor> <https://github.com/NSavage> ;
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
@@ -1658,6 +1797,18 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "True" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/7db999782a98c930decf3bde4f6c2bf09547bffc> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/b62e29cd7bc81608ca5327d267a298825acbb159> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/1dbc100247b16aacafd0a434c295432912a4b422>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:01.624562" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/46a0bddce2c3ab27a0819eeabb8ac04704977bf7> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/97b49ee20315b6714753bfc1b7dac8413782f93d> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/194846c9694a0fd26d3a1b8e6078b9fdda75eba3> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -2132,6 +2283,18 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/032f394793d435fb681c22be6a84061326185d05> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/c0daafe67334f95194682283bb8551377ee228f7> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/275f4c8cef0292bcb24b5ffd0655ff3f291a9804>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:02.165788" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/7d8a739a8a6db42755b291add246fcaedd6419ff> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/b5acfc7f13d835f210f19699ffafad19df75ed6f> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/945a5e775f5d33cbf1dc07a12bd31f9cfd1a40ab> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -2640,6 +2803,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/2eb46794bcf7552a54c7bf36197659772337340d>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:01.478381" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/818ece4442773ab8b5146b29c4fa67e84a3c8c51> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/108e26a33f0f84101aa4fedf2309e2dcf6068f82> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/f158cc11ecfcfb59b290aa2618479eb8c4310b58> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/2ecc6a889b89d7d64bb558cadb0e17eb57eb98fb>
 	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
@@ -2707,6 +2882,18 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/4a5ec456ace79f0ddcd20be8637a57d18d100a66> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/9a68c2f4f1a536699673d8576b7cc2222c586026> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/3007537048d002ed0f31307fcc957916a4f537c3>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:01.137281" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/d2df646cb39cec3e8ac1c763d0c843f6bd8edb2a> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/06aa26b0842c0200ebe0cca5f2e273e16003e059> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/961d0b53771065dabee3a3444c5bb8e64b0d0804> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -2935,6 +3122,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/347855f84f34e9a8f936433e5adfeaa574e536c9>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:00.767200" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/b122fd56da7d15081a41f5e098e8596fe9678b80> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/057561b3bccfaf079959181840da76f18ccf8a43> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/0c746033a909d8318377661493594a658ee4b859> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/347c765c74296f3f8e5cb4462c96b1015bf91155>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:22:24.199015" ;
@@ -3021,6 +3220,17 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/f48843dc64c7d9929af1a2e9a9a67eb19da775ac> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/da32adff478073f3050af041baa5ca1ecab09b7d> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/35fcb0e228cab5cbf35424e677556529addc6637>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:36.378926" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/6c921c40575a37f476c1b44270b9a0ec2433a8e8> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/431fdff0b0114f591bbb52e701039b31cbb4ae05> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/92a958f2b983c1b6dfd2d83b49d7b9dc6d23f563> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -3424,6 +3634,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/3c4d08fa1f53601e642d408d65fb52195eb154b6>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:48:59.331893" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/042cf3d1ab04f55fefe7bb7b8c0e7566657f8fbf> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/032f394793d435fb681c22be6a84061326185d05> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/43e3cdc2d577828c4160497d2c7bdaf94de03d0c> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/3c6d7c164298f13e7fcf7f1be37112039d40c573>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-06T16:46:59.111308" ;
@@ -3560,6 +3782,18 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/a68d5ea820a5b1e9e6e1ec4c95ad9291f8a582ea> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/7337dc670c36d896a4fc4ae076062501951aee9c> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/3df9731b9dd47725c7663d1fb850b2d45934ae22>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:01.386196" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/4cea923d997967b75a45a749efa82f6e9af75c62> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/6c913d5aeef5f7ae8663787e560b3d33938c5989> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/fac2e605e0c8ec31d4948df5a376a63ab469264c> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -3809,6 +4043,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/4198b76efe2b7a0ff881f9ab7de7761f5da4362f>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:37.928222" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/16317f213ac7594e771a933f23bf5a9272e9592b> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/4f24aa3da4b71bf474fde712489b6f21bfdca51b> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/3d9ffa465054c29653f480389779864e58f9af36> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/41a4be71bf2aeb337f9ffbd199a0c938524921b2>
 	<http://purl.org/dc/terms/contributor> <https://github.com/NSavage> ;
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
@@ -3917,6 +4162,19 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/4aac1db5831eb594d7ad0f4576fe3e2a92481bbf> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/cdd1db7fb4c090c8244250e61b9df2d8d47a4861> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/43881b84b5dade2b071f3c264158b9ac98065ffa>
+	<http://purl.org/dc/terms/contributor> <https://github.com/ehogan> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:02.015955" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/94d9b8166061828be7f14446a1118e294d4680a5> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/1ee547f98a0d361c414d03c1c3e8cb7e9c8826ea> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/24f1564a6752e56121ecd8fafee43c38bcdcd02e> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -4084,6 +4342,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/458b5f868bd0c385e86d245c07e8b67e8a258326>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:37.130515" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/be2fa93c6b9190f463b34307c8416fac31532914> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/17abd8d856ad3a61f2822f6863c086a9f5973181> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/9a68c2f4f1a536699673d8576b7cc2222c586026> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/45a78f8010d346a88f8bff22a73324209f9ebc31>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:21:12.287696" ;
@@ -4162,6 +4431,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/46a0bddce2c3ab27a0819eeabb8ac04704977bf7>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:39.221277" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/d237cd2d9c6a6b856aba4d44401f05f2bd5ab94f> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/97b49ee20315b6714753bfc1b7dac8413782f93d> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/194846c9694a0fd26d3a1b8e6078b9fdda75eba3> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/46b03eaa51e5668d5bd79fe5d9960162e693382b>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-06T16:47:00.011025" ;
@@ -4209,12 +4489,35 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/4751ce3f59b7a58db44bdb9eba1f0aae171f3e47>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:01.288530" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/6affb7e12cb2ef000a9fea6d8995fc17a37eda46> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/4ef948ddfe454fcdbdd8d4ff0635927b0192b8aa> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/329a278eb6bd1f5c5f18040bee2c6c1c75506cc7> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/4752097042869f5ce1829993cac8974aff06d003>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:15:29.439180" ;
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/d6bbc938bb9fd98e87a62d92795b79f8feb90710> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/ec89965d70b68ad3d73b797b03d193408a5d1254> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/4787463b4d84b9bef3a16618a318a7b022f9e3b0>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:37.186985" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/c9858829a64734b16e0b29b199f6110c73678ef9> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/5643c88f1ba0fdc89ebae7ae389d695cf8ae45df> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/9f8e8bbc08e2e97470cb38c13456751443dbac60> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -4453,6 +4756,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/4acd98122ea31522ccf2b632b97a2aa385c20a08>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:01.717309" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/6ac95312d3198b1319494e0b7933c2e8f5ae13ea> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/5bb7d20382c6e0bbd9b2289ad90cb3aa8d5491d0> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/ee22c9d0a7671a130fabfe25e5f78360246bb8a0> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/4ad62bb9ba606613381004bbe3788aa66a461aa0>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:19:00.613215" ;
@@ -4589,6 +4904,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/4cea923d997967b75a45a749efa82f6e9af75c62>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:39.002923" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/615a9c098d033993bae505351638ed2d5e737846> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/6c913d5aeef5f7ae8663787e560b3d33938c5989> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/37f22b9172d8f43200d1c19a864d5e9ae097d280> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/4cec0df5325fb69e0846575f99a0f2e07991937d>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:21:03.609423" ;
@@ -4626,6 +4952,18 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/3c8ac1fcd6dd41bb0ab30ff7ef085d1445dcb352> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/c65de0da11a2c0806fc43b26829fc95c41d1c8f3> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/4d713d997e0f9d5250f19c9049d57eab024bc1f8>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:02.094585" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/b7457fefaec586a0cdb91aa2000c1bf850a23613> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/3f474412b15ef9a4b71704c0ee5b151f444fa112> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/961d0b53771065dabee3a3444c5bb8e64b0d0804> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -4684,6 +5022,17 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/39ad450beaa25816873339e7e2ddac9db66c2d3a> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/9cf2b34f10d642033c01dc47beeb646df694d72e> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/4e77df31358776b73226030792e01bdc3d7b0473>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:38.597978" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/16c6095158c948b3ae0e4a94f53877e3197ab1c6> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/65fad53be5487c10e3cb0393f70cf208e6d88819> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/f35be5dd5779abc29eacc46fa5a097360c9ab830> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -4812,12 +5161,36 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/5110039617fc1a587a42dc9e660d931de7681214>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:48:59.618535" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/d5edc5e7a4763f16093423e302f76ae28b3d1830> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/1dc2fb1b386ec5a6cf71e2738a02e91d0e04f71d> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/856774f403b5dccdf949dc4b1a121774066b12be> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/511469e2248aea4edf2b62c6fd7ea4ece3781735>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-06T16:45:29.319255" ;
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/8a3f4a35312fdbdf2a9f15623a63238a21a20ae9> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/ffcf6c163b5dabadf4d1e3c26bcd0158fa079f36> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/513d0629ed2a62ad28427ea0aaa46a0a94657dbb>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:48:59.261242" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/35fcb0e228cab5cbf35424e677556529addc6637> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/431fdff0b0114f591bbb52e701039b31cbb4ae05> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/92a958f2b983c1b6dfd2d83b49d7b9dc6d23f563> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -4923,6 +5296,17 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/bd53281fa6bb8f6342aa61258c827fde82a81dbb> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/5ef79ba4ea0b79d42f17c38719229862cb42baca> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/52949c878ce211cb4d2aab6122347b4424727e3e>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:38.872623" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/f917e16e53cc5b1a5e23926e9dd0fe273de24207> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/a37819461db17c989cae54839e5cbc81d278a7c0> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/52aeebaf1393819e635276b6117aaf16bcc0a6d3> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -5566,6 +5950,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/5c6183714a3ccd464f7fd7a4ac22fc4587978ca2>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:00.159250" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/7438b1d8a2dd2acc81412400793d119fdd12ecf7> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/d5d1a1922d75ad5a8d262c3049d26a95bfb6de9d> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/868c03ae28d4bb505be474568ca7982a6251d482> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/5ca9aacfdf6fc515cfe9433c4c2f8a6a7cfe8911>
 	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/creator> <https://github.com/nhsavage> ;
@@ -5647,6 +6043,28 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/16cc4673d3c170ffacc0b831a4b93a2abd7b298b> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/14bc5a82dd60c24e197fafc05c13c3e992fccc8e> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/5e16c510d0715d45d8e67dc8ba8147f059ff7900>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:37.838581" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/290fed46713b6ece02fa144f9ab73c210f4be770> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/53df238f794b4a06108190aeca93dd79809ce860> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/c05e36c0ed2bc310c99070f89fe04ad35a74efef> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/5e252e502b0dc4a57ead6689867df510edfcb2dd>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:36.315246" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/c61be4d6c5ba5ba8f10c1e129f26b44a54534194> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/2a08f0f666938bb4aaa1207953c16f43cf604712> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/92a958f2b983c1b6dfd2d83b49d7b9dc6d23f563> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -5826,6 +6244,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/6159cbf171ef3a02927fdc05ab0c54fb5b84310b>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:00.577573" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/d144bcb696a2c48d04fd674dc9c1f8e23ce88b8b> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/6e97fa39958455525eeae4606b5114410ad26930> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/335cfaa5b08c320e933b75233712ea23ccf0ab29> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/615a9c098d033993bae505351638ed2d5e737846>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:12:11.997793" ;
@@ -5879,6 +6309,17 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/c57023aa3deaf854e4d11dacf7c37da8d73beff7> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/5d4265a90cce90429bb98944baef45b946132bf3> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/620b99dd386e7c9fbba1f5de52ca58a78cfafa59>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:36.845511" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/70b8ce543076ebcbe4d3d2c62a6862cbba545e48> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/653b7edd5bf47ad02f66121eb5932e0426405be4> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/874967b2289e62476d30b2a24feb668b30792224> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -6138,6 +6579,18 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/081ad0198a8934695d30db448217bac32722f92a> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/2665b87f3bf12d3cfea0dd0c69e30d5f1fdca114> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/66f331cb8920029886dd75a3568faba5a1d55b76>
+	<http://purl.org/dc/terms/contributor> <https://github.com/ehogan> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:39.420237" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/8cca213de13445cf2728a2b51e852f89da03ca2c> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/c1d87788bca32bd57315866f07eb347dc3b92371> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/24f1564a6752e56121ecd8fafee43c38bcdcd02e> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -6438,6 +6891,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/6ac95312d3198b1319494e0b7933c2e8f5ae13ea>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:39.284920" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/a4d342c989d31bd51bc8e5f68941ffe395594171> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/5bb7d20382c6e0bbd9b2289ad90cb3aa8d5491d0> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/c0ac499c87f4fb0c1f0472ac8f908dc0211f8be0> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/6acb887361ee974736570e2f0f0980507e1d0834>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:23:22.260982" ;
@@ -6455,6 +6919,17 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/69a59bed66e9be8361d5887a50475cfae5f61732> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/51fe0f774afbf731e1e14470663d3f0322a82392> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/6affb7e12cb2ef000a9fea6d8995fc17a37eda46>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:38.940394" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/4960601c24267c36a5caba19b26e7778af986d68> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/4ef948ddfe454fcdbdd8d4ff0635927b0192b8aa> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/329a278eb6bd1f5c5f18040bee2c6c1c75506cc7> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -6606,6 +7081,17 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/8a4210b7e07689f18ee93f2b93f3efab09cfad81> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/d2e39972e010690f30ee7b30ee20fe8b812ec2f3> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/6cf8b18d3dd8051acd40dca50b8bfc1982d4ccb8>
+	<http://purl.org/dc/terms/contributor> <https://github.com/ehogan> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:37.069384" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/c5327cea3ba3d18adb5a3eb09bda4fb3b5907060> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/795906858d641d2ade5d2c2b308da255f355a35e> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/8f6c0f92fa3a3f29c5134233ac193ef71f74a786> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -6921,6 +7407,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/7224675fc9dc8576eff501c5e3b51460980a6565>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:48:59.435578" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/7c49401cd176c76133447c478d1bc3781a840a6e> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/f63f57a02f305f98f849abadf3d97c2162e0e4bd> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/ba7675b3f7a88b16148eb73c48985656921e6aaf> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/723a71957a62c40534dec8bebafa3dcd1abda5e1>
 	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/creator> <https://github.com/ehogan> ;
@@ -6992,6 +7490,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/72f540465980a70fce2ff6faf1d180d89c60fde6>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:38.306009" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/12a8318c4314e906e2016aa558d30608118cfc21> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/f5d092c1e51f7f2397f4d7a40d0b487d6ca1509b> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/ad6b1f9719b2c53c86a4dec5e3a1eb0b3751635d> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/73139dbf8f4b896e37b4504acc4721ab51d0ec47>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-06T16:46:18.198032" ;
@@ -7057,6 +7566,17 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/b6c4cc427da07f05e5acff8759019775c13751cd> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/760f6af4e4c0b5a4bd4db62e02425124f59dff94> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/7438b1d8a2dd2acc81412400793d119fdd12ecf7>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:37.748444" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/e0707606305072e8861fbde9f56bd95b2cc12aa9> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/d5d1a1922d75ad5a8d262c3049d26a95bfb6de9d> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/868c03ae28d4bb505be474568ca7982a6251d482> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -7265,6 +7785,17 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/4711731fbc3fd4eef851cb2b826bc8ddb22da51e> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/82e9ddfe63da763418520905d72f5b406664ab9d> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/774b731710c73dd7421eb7d706b14887e4d4d062>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:37.551635" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/fb6ede32544b9a2413d4ad8d34d4f4f025504c71> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/94a7e36be08184b56f59c1d954b0a930143fb45b> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/24f1564a6752e56121ecd8fafee43c38bcdcd02e> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -7652,6 +8183,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/7c49401cd176c76133447c478d1bc3781a840a6e>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:36.646777" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/fac2bade3b5d08d9adde553ff9cf2f270736a451> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/f63f57a02f305f98f849abadf3d97c2162e0e4bd> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/ba7675b3f7a88b16148eb73c48985656921e6aaf> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/7c537de77a3bf629cdf1ace3765996062a3944ac>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:20:54.787567" ;
@@ -7729,6 +8271,17 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/f9e8df41ef377aeb10ee8ad64848bb69106cb394> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/7deadb772078270d552b2ac24e083baeb530ace5> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/7d8a739a8a6db42755b291add246fcaedd6419ff>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:39.671253" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/ff0fd9047a6f6db6576cba36e208783c13da92ac> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/b5acfc7f13d835f210f19699ffafad19df75ed6f> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/52aeebaf1393819e635276b6117aaf16bcc0a6d3> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -7846,6 +8399,19 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/7f9f9a0f3a87c85b9fdab69086f04623a6318dbe>
+	<http://purl.org/dc/terms/contributor> <https://github.com/ehogan> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:48:59.922113" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/0782957f6cd110a1d316c207445e2940bd099193> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/a7afd7781a805a60adfeda53a2a6f4b754d16eed> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/a06b8af3bdde1162f1ddbf7efe2a463de8906d46> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/7faf7a2c54a0593505578b8dd72a60cac4eae919>
 	<http://purl.org/dc/terms/creator> <https://github.com/NSavage> ;
 	<http://purl.org/dc/terms/date> "2014-11-06T13:24:52.208870" ;
@@ -7931,6 +8497,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/81326833ebf7d2ba6f9bf4a85a69550bf744634d>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:38.527910" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/b8b41d0af993593c35d188b085020a8d92f138b3> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/ae5cf5b88ba8afaf59ab38016726160d0b35c185> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/addc8fb52fca886be3c0da0a5c6b8ea2f3d8b296> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/813b11058c77946ef97ff7fb5a7d19490364e91d>
 	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/creator> <https://github.com/ehogan> ;
@@ -7957,6 +8534,17 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/7ae2f36c688d7354cdcdecf437df877411a63c2f> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/614c8731598e2b40ed97a3d9823cdc6dde38487d> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/818ece4442773ab8b5146b29c4fa67e84a3c8c51>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:39.059171" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/0b18af4a903e02c331018d2ee57c2b32809e3a5b> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/108e26a33f0f84101aa4fedf2309e2dcf6068f82> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/77bed6b07919ab2feb36e64ea2e61fc6ea9cc617> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -8226,6 +8814,19 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/86e84b2dda28604bfd020e9f4fd9f262ce6ba76d>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/scwhitehouse> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:01.943015" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/d0002c4cc70641badbd16a65f758c60df89fdce4> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/e8a0ab8baf6c9e4cd78f365b2ccd97a632f8af29> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/24f1564a6752e56121ecd8fafee43c38bcdcd02e> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/8702a23614c6045e3a59d86bf8a5b87a4493f053>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:11:30.991033" ;
@@ -8277,6 +8878,19 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/877792ac028d02b986f84e82b43f0a9e2e500b14>
+	<http://purl.org/dc/terms/contributor> <https://github.com/ehogan> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:48:59.980892" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/16791f286620829e773003ee3b2bd33c0850194a> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/7329d6f9216ed62a927c3ab934d85d3cda448995> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/138d9ce708b8c28a8351c23a9a2d8dc721ab5dab> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/8787508e617e228dd3853dcfb18a7089bd214340>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:21:48.012639" ;
@@ -8312,6 +8926,18 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/553a17b08b925ca6b5633a43aa4f1b6647d68bf3> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/bb50c77454d22e508798aa7dc6b362246307968c> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/881f4b8f9531a67d06daa66957aa51420bb4ca67>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:00.701285" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/c7e4d484a26902cb8fd513c5d71a952db3faa475> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/097089c3c5a1e436a94f659bf3e6c750684f1349> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/e9f67472b62e68e409e5f5d58be562a49b5b5ba1> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -8693,6 +9319,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/8f2ad392235874d13f9735af9233ea18e6198fcc>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:48:59.863341" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/4787463b4d84b9bef3a16618a318a7b022f9e3b0> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/5643c88f1ba0fdc89ebae7ae389d695cf8ae45df> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/9f8e8bbc08e2e97470cb38c13456751443dbac60> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/8f62f52dbfe20d5f39730773307524060f48f243>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:16:25.244758" ;
@@ -8849,6 +9487,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/91fd61de91f2e5e9e2dfcea6dff70006ec2eb28b>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:00.102531" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/1ad4b31f45b7522aea50cd6dab9fc49fccab9b0b> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/29f87dfba3c468546969bff0c8d1fcf29941eeff> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/f5cd75ec88fba8e0d7c531d59c59acd0232a96d5> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/9214002ba5dc25787a7b4b683dbfafbe410ec09b>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:16:08.593875" ;
@@ -8990,6 +9640,18 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/fdec533029ea7f6431a4df55ca2db80e7fe96800> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/f88b944e812c78273afd3decb778a06cf4aa5418> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/94d9b8166061828be7f14446a1118e294d4680a5>
+	<http://purl.org/dc/terms/contributor> <https://github.com/ehogan> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:39.544376" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/b9f71913a92ad87891c914b91e1dada96b065afa> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/1ee547f98a0d361c414d03c1c3e8cb7e9c8826ea> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/24f1564a6752e56121ecd8fafee43c38bcdcd02e> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -9234,6 +9896,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/97edb5fc6acc598defcf53cd47832e389974e02b>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:38.172685" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/a0af9ef732c6fdba17c9773b2c67ae3f452123cf> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/e40f7f9c911632aa644c83c0fa6f53e633a405d5> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/0bc3cab57c10fc56cdeef95fde5d36e3b9dd2831> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/981a0c8be6dd04b325dcbf0d8d2cbd9befd0d42b>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-06T16:45:37.149646" ;
@@ -9426,6 +10099,18 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/ea0a028e430d16a38f687299f892d1575cfc11dd> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/2149db9ce3c5a962565e194760d01d21dfac5731> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/9ba9d667f844174634b8e3611a14fed3ba5fdcc4>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:01.053031" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/f57aa3cce70e45e4a2d9fccc0aee0feee68c88a8> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/20a462311b33ce272b089166766a966cf04978ee> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/ceaa4407a4e354be2778fba56999b83a21dc439a> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -10396,6 +11081,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/ae0619093924718cca955c8f4578b351810ac77f>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:01.541908" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/f039d70fda558ce82a72bcd830be1442872ed457> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/04d6fb48d963869991d1b73bc353b2c393466c6b> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/2e3672f21ce48b141649ecd4a74627fd174e3ae0> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/ae066a17be3ae625898c903d6f6aa03594c060fb>
 	<http://purl.org/dc/terms/creator> <https://github.com/NSavage> ;
 	<http://purl.org/dc/terms/date> "2014-11-06T13:24:51.173260" ;
@@ -10521,6 +11218,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/b122fd56da7d15081a41f5e098e8596fe9678b80>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:38.466619" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/3ca887aff66e3d7c73beb82acec889d80a16659a> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/057561b3bccfaf079959181840da76f18ccf8a43> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/0c746033a909d8318377661493594a658ee4b859> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/b13e17ea7e0af3cb8ffcdc28f28c833771b4ac8b>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-06T16:47:11.755372" ;
@@ -10632,6 +11340,18 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/d5a4d03fb54a2efc5496a2c356174339a10f82b3> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/523e348c36b0493e885b7f9ed208f251999ee1fc> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/b43125e035873e90e1e5ec48a37e34bf1f498d61>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:00.329726" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/dacda11e460d56e57c81c5938d76b8dcea125d8b> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/094b06d882bc455ac0cfd53c17eb55d1af50c293> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/a288230d1e315c6ab563a99324c28c961c28fa64> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -10798,6 +11518,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/b7457fefaec586a0cdb91aa2000c1bf850a23613>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:39.606650" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/26272f75bb506c703a9a0f0696da4b402355e5bb> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/3f474412b15ef9a4b71704c0ee5b151f444fa112> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/d8f7efc85fa31ec527a086daf47bef0522bfa16c> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/b79f109dd121d915c0c6b64dca8bf6ae128caf66>
 	<http://purl.org/dc/terms/contributor> <https://github.com/NSavage> ;
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
@@ -10806,6 +11537,18 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/77c4d9aa99cb7ad53bafa27f0ce1cde3f104c6b0> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/c8fb794cbca8373345af8988c8676127e52c9059> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/b7a8fcffe40b50a19a37c831bdc2d5cce8c19455>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:02.225769" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/e52a1e9381016b541eb32bf17d624982de5d0586> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/37ba2641f9ce15f22a6761483ee52b0f2549f575> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/6f5b90b04a76192f7789aa461a3ce963aa85a0f0> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -11415,6 +12158,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/c212f4063a1d813b3c2f03d045621b0fa3bf78de>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:00.444645" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/0e1e0e8e6288e3ebb1af692375d3c9ddf08aee30> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/0fa0bf5d1adba47f57e12eeda7f2776305854aa3> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/d34f69fe8471e77f61cf2e52db4785606c95ef69> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/c254fa6ce86ed2d63cf06c9ad6a38476e76450c2>
 	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/creator> <https://github.com/scwhitehouse> ;
@@ -11473,6 +12228,18 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/d623acf8ee254a17f8ecda338b4762ffa0525c66> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/ef2f72aa1cc68a5a34bd4e7659cd5b5eded73290> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/c312d81ebf54d431ef2f81b739a3e73792211769>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:00.642469" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/72f540465980a70fce2ff6faf1d180d89c60fde6> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/f5d092c1e51f7f2397f4d7a40d0b487d6ca1509b> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/ad6b1f9719b2c53c86a4dec5e3a1eb0b3751635d> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -11651,6 +12418,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/c592e23b8efe1319dd928893cd04bd4b182274e7>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:38.051246" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/db59ee714e7acf2d922ce1677dc86a7b3f4a42fb> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/b662e3fa89eb0d334b350816adca1fc1095e192b> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/c461dbd1c80e43915bf717c905af628620287a0f> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/c5deed78d5e82d6fe0a3c1d6401aefdbe2eaeb95>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:19:30.726243" ;
@@ -11724,6 +12502,29 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/89ad3af0f0e5d9f821d537c1a368e05027854f2e> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/3f595d5ea74f3b9d9f3db7c624cd640205168c91> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/c7e4d484a26902cb8fd513c5d71a952db3faa475>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:38.404758" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/5d1749d40496d32393ee3b151c022eae3ff6c803> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/097089c3c5a1e436a94f659bf3e6c750684f1349> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/e9f67472b62e68e409e5f5d58be562a49b5b5ba1> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/c7f91e22ee14d3944cabad8791f751348ae6015b>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:48:59.562383" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/620b99dd386e7c9fbba1f5de52ca58a78cfafa59> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/653b7edd5bf47ad02f66121eb5932e0426405be4> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/874967b2289e62476d30b2a24feb668b30792224> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -12037,6 +12838,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/cc8c269497c3b9354ee94ce993f6b0df11fda6a5>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:00.394431" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/c592e23b8efe1319dd928893cd04bd4b182274e7> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/b662e3fa89eb0d334b350816adca1fc1095e192b> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/c461dbd1c80e43915bf717c905af628620287a0f> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/ccd09f865b84427c41b862e25ef0a2a920fca9fd>
 	<http://purl.org/dc/terms/creator> <https://github.com/NSavage> ;
 	<http://purl.org/dc/terms/date> "2014-11-06T13:24:46.861098" ;
@@ -12081,6 +12894,18 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/b1b8d25c0248e2a5f1ae5e1c5da84f25eaf8af53> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/812fde3c8915264529f40f05d567e1ffc17ee9a4> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/cd1d7ad47b322cf17409a809b3ebe0424f140fde>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:48:59.675896" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/fac3827569db7ef6604ad12dd8a3166d181e85eb> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/0da3ec7aad20bb76222f9f78ceda716c968394d7> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/e2a009fe598e2c273660dbae3894ef9b199232f2> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -12305,6 +13130,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/d0002c4cc70641badbd16a65f758c60df89fdce4>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/scwhitehouse> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:39.481548" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/30268439d00ffe9d0ab4ac4436f68a2ff451751f> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/e8a0ab8baf6c9e4cd78f365b2ccd97a632f8af29> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/24f1564a6752e56121ecd8fafee43c38bcdcd02e> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/d01984986e33dfb0908a9039751f1c892798d1f7>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:11:47.657855" ;
@@ -12416,6 +13253,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/d144bcb696a2c48d04fd674dc9c1f8e23ce88b8b>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:38.238139" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/7c9af6c79a67590c6b95457d09e70923a1ee944c> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/6e97fa39958455525eeae4606b5114410ad26930> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/335cfaa5b08c320e933b75233712ea23ccf0ab29> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/d1928d27b4e890399b0ab1d4869ff873fc3223a7>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:13:33.973168" ;
@@ -12522,6 +13370,17 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/0068b57e37bdf547cd65db7c01ab079365b3f50c> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/24ca2b8bce9320dc0dce85c28dc565318005cfc3> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/d2df646cb39cec3e8ac1c763d0c843f6bd8edb2a>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:38.783983" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/e75c0693d3c299a965c4f4cd3fbf9a9a64decc86> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/06aa26b0842c0200ebe0cca5f2e273e16003e059> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/d8f7efc85fa31ec527a086daf47bef0522bfa16c> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -12695,6 +13554,17 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/d92b84f84710cefa579dbf1a780a848821363d25> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/e24074bc1930e7b1dfd58c05795e50469d165ab4> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/d5edc5e7a4763f16093423e302f76ae28b3d1830>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:36.912404" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/bfdf898323ffe71b6b325e8fc11bf53f3da9ca59> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/1dc2fb1b386ec5a6cf71e2738a02e91d0e04f71d> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/856774f403b5dccdf949dc4b1a121774066b12be> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -12994,6 +13864,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/dacda11e460d56e57c81c5938d76b8dcea125d8b>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:37.988039" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/0b06c5bd382a884de9744e3a497085cbf55b4ae6> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/094b06d882bc455ac0cfd53c17eb55d1af50c293> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/a288230d1e315c6ab563a99324c28c961c28fa64> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/daf0260a446739e67fe0c530e446bb6ae01f1d29>
 	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
@@ -13011,6 +13892,18 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/2a379d1685786f841b3760c0c2c5ab278f665c2e> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/df8743c7bf61f35408813feb66ab8274cf880937> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/db20a8d87a6af298be1eab9d2995d4de30d1ff3f>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:01.809926" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/de3fb44864d96e2b674e527dbe2608153f75c892> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/4dc398c30a67c9347a033cf98423721d4ca2c3e0> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/b0d3efe5941a312b41c89fa4c69e84007a1df6b5> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -13247,6 +14140,17 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/81c8e167ff78c617f3599beeecc61de7c0b9abed> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/fbf83e39c969d57bc582aeff85ff7d117c10957e> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/de3fb44864d96e2b674e527dbe2608153f75c892>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:39.348182" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/1c640641ff4cc605ed5c182c64f9f7590aec7d11> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/4dc398c30a67c9347a033cf98423721d4ca2c3e0> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/1a8fbad5edd85863de9a36371126b17e931a1b0e> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -13501,6 +14405,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/e1be0d0212c567d43ae86ce3e49f6a03170d9976>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:00.043155" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/774b731710c73dd7421eb7d706b14887e4d4d062> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/94a7e36be08184b56f59c1d954b0a930143fb45b> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/24f1564a6752e56121ecd8fafee43c38bcdcd02e> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/e1c331b94e5267c94eea8eec7524780d93d6a702>
 	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/creator> <https://github.com/ehogan> ;
@@ -13548,6 +14464,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/e2a0cc33bff06c175b772f2e0ebcfd7c508decc2>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:00.510201" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/97edb5fc6acc598defcf53cd47832e389974e02b> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/e40f7f9c911632aa644c83c0fa6f53e633a405d5> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/0bc3cab57c10fc56cdeef95fde5d36e3b9dd2831> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/e2e5d96a26fc06be65e48d87d4816d353333cc64>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:12:26.932069" ;
@@ -13590,6 +14518,18 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "True" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/335bb8b3dc43441151674c571695f0fee6b7cd71> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/523167ca31f06cb29e00eedb42da4417c8bdba36> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/e3f7809200ebc4938114a53899a5a395733b660d>
+	<http://purl.org/dc/terms/contributor> <https://github.com/ehogan> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:48:59.745433" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/6cf8b18d3dd8051acd40dca50b8bfc1982d4ccb8> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/795906858d641d2ade5d2c2b308da255f355a35e> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/8f6c0f92fa3a3f29c5134233ac193ef71f74a786> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -13653,6 +14593,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/e52a1e9381016b541eb32bf17d624982de5d0586>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:39.741189" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/9128f33b52bb8014b3df145ae2917d64391b2836> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/37ba2641f9ce15f22a6761483ee52b0f2549f575> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/6f5b90b04a76192f7789aa461a3ce963aa85a0f0> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/e5390cba0fc3703a4a423635007ad2ae0f4903b2>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-04T16:13:57.438056" ;
@@ -13710,12 +14661,36 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/e6b95556e7c8bb0479cce3175437e4b83eb45e81>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:01.227180" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/52949c878ce211cb4d2aab6122347b4424727e3e> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/a37819461db17c989cae54839e5cbc81d278a7c0> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/945a5e775f5d33cbf1dc07a12bd31f9cfd1a40ab> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/e6d5b17645b9d17616c3b491f96a1077bc70ca93>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-06T16:46:40.859610" ;
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/665efd392559ea5c2d039806377879ce20529219> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/3ef2e125c5816a25a440d9f55835325023092d64> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/e6d84f89943a0aee42eb9681fa818a3471214bb4>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:00.898234" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/81326833ebf7d2ba6f9bf4a85a69550bf744634d> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/ae5cf5b88ba8afaf59ab38016726160d0b35c185> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/c1b662b684d66ba45d757a43f91016c5c3f3304f> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -14087,6 +15062,18 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/ec54e28590a9482d047f491f6290418866f5ae80>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:00.277308" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/4198b76efe2b7a0ff881f9ab7de7761f5da4362f> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/4f24aa3da4b71bf474fde712489b6f21bfdca51b> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/3d9ffa465054c29653f480389779864e58f9af36> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/ec6350c605fc4cae0f419533b7e5e63fbc828563>
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/date> "2014-11-06T16:45:23.101702" ;
@@ -14347,6 +15334,17 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/90057fada879a230e12ad3e5ce885f3b3ad74631> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/6b58fe0852e6d1b4ef279bfc3bdba4ee8c8392cf> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/f039d70fda558ce82a72bcd830be1442872ed457>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:39.164633" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/0139bd8a2a08689e0999918ead7c66511a0c4432> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/04d6fb48d963869991d1b73bc353b2c393466c6b> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/2e3672f21ce48b141649ecd4a74627fd174e3ae0> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -14677,6 +15675,17 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/f57aa3cce70e45e4a2d9fccc0aee0feee68c88a8>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:38.685135" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/dc46751d0622b3bee5fccf06d9944b9a0d2f18bc> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/20a462311b33ce272b089166766a966cf04978ee> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/ceaa4407a4e354be2778fba56999b83a21dc439a> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/f5879a618a548f16b05705ea99b2a0e1e87fd1b5>
 	<http://purl.org/dc/terms/creator> <https://github.com/malcolmbrooks> ;
 	<http://purl.org/dc/terms/date> "2015-03-18T15:44:57.033856" ;
@@ -14752,6 +15761,31 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/f101fd4b565d084a4b9ee7abc35cd6ded74228b4> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/243336ec6aac3fba95b34a837f539f9c46fac07f> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/f6942daf1f5e5cebd637932ca91f99ed78f9319c>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:48:59.504057" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/0c6a7d737c2630b2f6fc19f2c2876b7b3c7f8ca1> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/205da5489a0fd0c1533f468458806f3d2d28647a> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/59ea9384a8756bd3c5a966a0b2c0fcb5c0d6e1a9> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/f69a60454fe8905ce32d591fbc658960b1866048>
+	<http://purl.org/dc/terms/contributor> <https://github.com/ehogan> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/contributor> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-30T10:49:01.869044" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/66f331cb8920029886dd75a3568faba5a1d55b76> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/c1d87788bca32bd57315866f07eb347dc3b92371> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/24f1564a6752e56121ecd8fafee43c38bcdcd02e> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
@@ -14999,6 +16033,17 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/f63f57a02f305f98f849abadf3d97c2162e0e4bd> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/5e6a76b3db5fd45036f917f0bc6dc2bd70a1c84e> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/fac3827569db7ef6604ad12dd8a3166d181e85eb>
+	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
+	<http://purl.org/dc/terms/creator> <https://github.com/pdearnshaw> ;
+	<http://purl.org/dc/terms/date> "2018-05-03T15:35:36.968101" ;
+	<http://purl.org/dc/terms/replaces> <http://www.metarelate.net/metOcean/mapping/ba0dd0e7864b3b2f8c8f79fa4fbba9c9ef12ae22> ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/0da3ec7aad20bb76222f9f78ceda716c968394d7> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/e2a009fe598e2c273660dbae3894ef9b199232f2> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 

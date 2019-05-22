@@ -1237,6 +1237,12 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/1476d4b4fc0ae734efe99a5bb3d16207f806dd96>
+	<http://codes.wmo.int/def/grib2/parameterId> <http://codes.wmo.int/grib2/codeflag/4.2/0-19-21> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://codes.wmo.int/def/codeform/GRIB-message> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/1481addb5b10cd6293b9e81125a18b44f4fc818e>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s03i307> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
@@ -2261,6 +2267,12 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/27aaf018dfa56da379f7f60ab5c2b0b24f178bb0>
+	<http://codes.wmo.int/def/grib2/parameterId> <http://codes.wmo.int/grib2/codeflag/4.2/0-6-25> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://codes.wmo.int/def/codeform/GRIB-message> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/27b237aaa6dd4f1c8e487917e399719a43d5c113>
 	<http://codes.wmo.int/def/grib2/parameterId> <http://codes.wmo.int/grib2/codeflag/4.2/0-6-4> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://codes.wmo.int/def/codeform/GRIB-message> ;
@@ -2485,6 +2497,12 @@
 	<http://def.scitools.org.uk/cfdatamodel/long_name> "square_of_height" ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "m2" ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/2b71029f8260c72b4fb489d866d663fc3e1cddb2>
+	<http://codes.wmo.int/def/grib2/parameterId> <http://codes.wmo.int/grib2/codeflag/4.2/0-6-27> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://codes.wmo.int/def/codeform/GRIB-message> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
@@ -3419,6 +3437,13 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/3ef0f46daa4196f92d851c2b3c36293b354ddf66>
+	<http://def.scitools.org.uk/cfdatamodel/long_name> "WAFC_icing_potential" ;
+	<http://def.scitools.org.uk/cfdatamodel/units> 1 ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/3ef2e125c5816a25a440d9f55835325023092d64>
 	<http://def.scitools.org.uk/cfdatamodel/long_name> "atmosphere_optical_thickness_due_to_unsoluble_coarse_mode_sulphate_aerosol" ;
 	<http://def.scitools.org.uk/cfdatamodel/units> 1 ;
@@ -4250,6 +4275,12 @@
 	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/mass_fraction_of_unfrozen_water_in_soil_moisture> ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "unknown" ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/4edaa837000a27a7e43287c535b374c95699138f>
+	<http://codes.wmo.int/def/grib2/parameterId> <http://codes.wmo.int/grib2/codeflag/4.2/0-6-26> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://codes.wmo.int/def/codeform/GRIB-message> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
@@ -5195,6 +5226,13 @@
 <http://www.metarelate.net/metOcean/component/60ecc2bfe20fa5b394072e171ffbc98cd2eedad6>
 	<http://def.scitools.org.uk/cfdatamodel/long_name> "Stratocumulus over stable boundary layer indicator" ;
 	<http://def.scitools.org.uk/cfdatamodel/units> 1 ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/613b4d55204f9fd34e1ce194a328ddb0db44fc94>
+	<http://def.scitools.org.uk/cfdatamodel/long_name> "WAFC_ICAO_height_at_cloud_top" ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "m" ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
@@ -6780,6 +6818,12 @@
 	<http://def.scitools.org.uk/cfdatamodel/long_name> "change_over_time_in_specific_humidity_due_to_pc2_checks" ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "kg kg-1" ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/7e3711d1f41f5fb7ccd42547131cd853ce7f104a>
+	<http://codes.wmo.int/def/grib2/parameterId> <http://codes.wmo.int/grib2/codeflag/4.2/0-19-22> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://codes.wmo.int/def/codeform/GRIB-message> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
@@ -10840,6 +10884,12 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/c9d8836ca43c0944635e305b662608873ae27e26>
+	<http://codes.wmo.int/def/grib2/parameterId> <http://codes.wmo.int/grib2/codeflag/4.2/0-19-20> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://codes.wmo.int/def/codeform/GRIB-message> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/ca2afbacae4b0fcee0cbfd87867d1f1d0d560b1f>
 	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/mass_fraction_of_toluene_in_air> ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "kg kg-1" ;
@@ -11090,6 +11140,13 @@
 <http://www.metarelate.net/metOcean/component/ceb3ba552e6b23be25228b368a8f5725af3ce9bd>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s05i209> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/cf32e48a811aca4de13351c1c5a186292fbbae98>
+	<http://def.scitools.org.uk/cfdatamodel/long_name> "WAFC_ICAO_height_at_cloud_base" ;
+	<http://def.scitools.org.uk/cfdatamodel/units> "m" ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
@@ -11659,6 +11716,13 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/d9c8bba58615b03f3a733fb79176f4e74e279a3f>
+	<http://def.scitools.org.uk/cfdatamodel/long_name> "WAFC_CAT_potential" ;
+	<http://def.scitools.org.uk/cfdatamodel/units> 1 ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/d9ced2708366dadb00b531945755e7ec65bc6794>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s12i384> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
@@ -12052,6 +12116,13 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/e1129dae39089b99687d771b37a46c06f8243632>
+	<http://def.scitools.org.uk/cfdatamodel/long_name> "WAFC_in-cloud_turb_potential" ;
+	<http://def.scitools.org.uk/cfdatamodel/units> 1 ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/e15c64c25055411e27b6c2e7734a784863820384>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s30i198> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
@@ -12360,6 +12431,13 @@
 <http://www.metarelate.net/metOcean/component/e63d00a540bfa079f9e9fc817deb7e3cfdffe202>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s05i206> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/e67059d0f6160416ccbad3cd827d70012bc5a948>
+	<http://def.scitools.org.uk/cfdatamodel/long_name> "WAFC_CB_horizontal_extent" ;
+	<http://def.scitools.org.uk/cfdatamodel/units> 1 ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://def.scitools.org.uk/cfdatamodel/Field> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 

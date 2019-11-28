@@ -310,6 +310,15 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 
+<http://www.metarelate.net/metOcean/mapping/0411bd842ed2471ed5fcc827ee45fa6a54376a5e>
+	<http://purl.org/dc/terms/creator> <https://github.com/BHFock> ;
+	<http://purl.org/dc/terms/date> "2019-11-22T15:21:12.969433" ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "True" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/c6561530f44a149f867cecad1fe1bd4819b8f031> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/8ae12d43031afd5cd7f91b68ff2160b6dd747433> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
 <http://www.metarelate.net/metOcean/mapping/041d9b301e2008503493262d15f859be18bab79a>
 	<http://purl.org/dc/terms/contributor> <https://github.com/marqh> ;
 	<http://purl.org/dc/terms/creator> <https://github.com/marqh> ;
@@ -9102,6 +9111,15 @@
 	<http://www.metarelate.net/vocabulary/index.html#invertible> "False" ;
 	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/614c8731598e2b40ed97a3d9823cdc6dde38487d> ;
 	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/e56f2b01eab6359c36752fcc7042a3734faa0735> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
+	.
+
+<http://www.metarelate.net/metOcean/mapping/770a9d2e570bc8095e26af3ce6de4578afce5e86>
+	<http://purl.org/dc/terms/creator> <https://github.com/BHFock> ;
+	<http://purl.org/dc/terms/date> "2019-11-22T15:21:12.890549" ;
+	<http://www.metarelate.net/vocabulary/index.html#invertible> "True" ;
+	<http://www.metarelate.net/vocabulary/index.html#source> <http://www.metarelate.net/metOcean/component/d0a6914564c9655c1bb99ac82a9e40ddd4b1640c> ;
+	<http://www.metarelate.net/vocabulary/index.html#target> <http://www.metarelate.net/metOcean/component/bdd8862c6853b82e8373a6af7734f5975a095e31> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Mapping> ;
 	.
 

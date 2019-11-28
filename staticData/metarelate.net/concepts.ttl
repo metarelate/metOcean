@@ -10699,6 +10699,12 @@
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
+<http://www.metarelate.net/metOcean/component/c6561530f44a149f867cecad1fe1bd4819b8f031>
+	<http://codes.wmo.int/def/grib2/parameterId> <http://codes.wmo.int/grib2/codeflag/4.2/0-1-83> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://codes.wmo.int/def/codeform/GRIB-message> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
 <http://www.metarelate.net/metOcean/component/c65de0da11a2c0806fc43b26829fc95c41d1c8f3>
 	<http://def.scitools.org.uk/cfdatamodel/standard_name> <http://vocab.nerc.ac.uk/standard_name/atmosphere_cloud_liquid_water_content> ;
 	<http://def.scitools.org.uk/cfdatamodel/units> "kg m-2" ;
@@ -11192,6 +11198,12 @@
 <http://www.metarelate.net/metOcean/component/d080107fda159dc1923a0f722d735cc0a1e12a0a>
 	<http://reference.metoffice.gov.uk/um/f3/stash> <http://reference.metoffice.gov.uk/um/stash/m01s00i123> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://reference.metoffice.gov.uk/um/f3/UMField> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
+	.
+
+<http://www.metarelate.net/metOcean/component/d0a6914564c9655c1bb99ac82a9e40ddd4b1640c>
+	<http://codes.wmo.int/def/grib2/parameterId> <http://codes.wmo.int/grib2/codeflag/4.2/0-1-84> ;
+	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://codes.wmo.int/def/codeform/GRIB-message> ;
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.metarelate.net/vocabulary/index.html#Component> ;
 	.
 
